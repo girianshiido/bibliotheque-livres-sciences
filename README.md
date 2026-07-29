@@ -4,14 +4,14 @@ Catalogue privé de la bibliothèque de mathématiques de Philippe.
 
 ## État actuel
 
-- **393 ouvrages ou volumes** enregistrés.
+- **415 ouvrages ou volumes** enregistrés.
 - Inventaire provisoire, construit à partir des photographies et des titres saisis dans la conversation.
 - Les photographies ne sont pas stockées dans ce dépôt.
 - Les informations incertaines sont explicitement signalées.
 
 ## Catalogue
 
-Le catalogue est actuellement réparti en neuf fichiers Markdown :
+Le catalogue est actuellement réparti en dix fichiers Markdown :
 
 - [`catalogue/001-046.md`](catalogue/001-046.md)
 - [`catalogue/047-092.md`](catalogue/047-092.md)
@@ -22,6 +22,7 @@ Le catalogue est actuellement réparti en neuf fichiers Markdown :
 - [`catalogue/277-322.md`](catalogue/277-322.md)
 - [`catalogue/323-368.md`](catalogue/323-368.md)
 - [`catalogue/369-414.md`](catalogue/369-414.md)
+- [`catalogue/415-460.md`](catalogue/415-460.md)
 
 Une version CSV et JSON sera ajoutée après une nouvelle passe de vérification bibliographique.
 
