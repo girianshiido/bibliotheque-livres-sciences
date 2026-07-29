@@ -4,7 +4,7 @@ Catalogue privé de la bibliothèque de mathématiques de Philippe.
 
 ## État actuel
 
-- **460 ouvrages ou volumes** enregistrés.
+- **467 ouvrages ou volumes** enregistrés.
 - Inventaire provisoire, construit à partir des photographies et des titres saisis dans la conversation.
 - Les photographies ne sont pas stockées dans ce dépôt.
 - Les informations incertaines sont explicitement signalées.
