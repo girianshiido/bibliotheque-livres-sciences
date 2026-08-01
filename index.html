@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explorateur interactif de la bibliothèque mathématique de Philippe.">
+  <meta name="color-scheme" content="light dark">
+  <title>Bibliothèque mathématique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#results">Aller aux résultats</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <div>
+        <p class="eyebrow">Catalogue personnel</p>
+        <h1>Bibliothèque mathématique</h1>
+        <p class="hero__subtitle">Rechercher, filtrer et parcourir les ouvrages directement depuis les fichiers du dépôt.</p>
+      </div>
+      <div class="hero__actions">
+        <button id="refreshButton" class="button button--ghost" type="button" title="Relire les fichiers du catalogue">↻ Actualiser</button>
+        <button id="themeButton" class="button button--ghost" type="button" aria-label="Changer de thème" title="Changer de thème">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="stats" aria-label="Statistiques du catalogue">
+      <article class="stat-card"><span id="bookCount" class="stat-card__value">—</span><span class="stat-card__label">ouvrages ou volumes</span></article>
+      <article class="stat-card"><span id="authorCount" class="stat-card__value">—</span><span class="stat-card__label">auteurs et directeurs</span></article>
+      <article class="stat-card"><span id="publisherCount" class="stat-card__value">—</span><span class="stat-card__label">éditeurs</span></article>
+      <article class="stat-card"><span id="uncertainCount" class="stat-card__value">—</span><span class="stat-card__label">références à vérifier</span></article>
+    </section>
+
+    <section class="controls" aria-label="Recherche et filtres">
+      <div class="search-box">
+        <label for="searchInput">Recherche</label>
+        <div class="search-box__field">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Titre, auteur, éditeur, collection…">
+          <kbd>/</kbd>
+        </div>
+      </div>
+
+      <div class="filter-grid">
+        <label>Éditeur
+          <select id="publisherFilter"><option value="">Tous les éditeurs</option></select>
+        </label>
+        <label>Auteur
+          <select id="authorFilter"><option value="">Tous les auteurs</option></select>
+        </label>
+        <label>État
+          <select id="statusFilter">
+            <option value="">Toutes les références</option>
+            <option value="confirmed">Références confirmées</option>
+            <option value="uncertain">À vérifier</option>
+            <option value="favorite">Favoris</option>
+          </select>
+        </label>
+        <label>Trier par
+          <select id="sortSelect">
+            <option value="id-asc">Identifiant croissant</option>
+            <option value="id-desc">Ajouts les plus récents</option>
+            <option value="title">Titre</option>
+            <option value="author">Auteur</option>
+            <option value="publisher">Éditeur</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="control-row">
+        <div class="segmented" aria-label="Mode d’affichage">
+          <button id="gridViewButton" class="segmented__button is-active" type="button" aria-pressed="true">Cartes</button>
+          <button id="tableViewButton" class="segmented__button" type="button" aria-pressed="false">Tableau</button>
+        </div>
+        <div class="control-row__actions">
+          <button id="resetButton" class="button button--quiet" type="button">Effacer les filtres</button>
+          <button id="exportButton" class="button button--quiet" type="button">Exporter la sélection</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="results-heading">
+      <div>
+        <h2 id="resultTitle">Catalogue</h2>
+        <p id="resultSummary" aria-live="polite">Chargement du catalogue…</p>
+      </div>
+      <nav id="alphabetNav" class="alphabet" aria-label="Filtrer par initiale du titre"></nav>
+    </section>
+
+    <section id="loadingState" class="state-panel" aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      <p>Lecture des fichiers du catalogue…</p>
+    </section>
+
+    <section id="errorState" class="state-panel state-panel--error" hidden>
+      <h2>Le catalogue n’a pas pu être chargé</h2>
+      <p id="errorMessage"></p>
+      <button id="retryButton" class="button" type="button">Réessayer</button>
+    </section>
+
+    <section id="results" class="book-grid" aria-label="Livres du catalogue" hidden></section>
+
+    <nav class="pagination" aria-label="Pagination" hidden>
+      <button id="previousPageButton" class="button button--quiet" type="button">← Précédent</button>
+      <span id="pageIndicator"></span>
+      <button id="nextPageButton" class="button button--quiet" type="button">Suivant →</button>
+    </nav>
+  </main>
+
+  <dialog id="bookDialog" class="book-dialog">
+    <form method="dialog" class="book-dialog__close-form"><button class="icon-button" aria-label="Fermer">×</button></form>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <template id="bookCardTemplate">
+    <article class="book-card">
+      <div class="book-card__topline">
+        <span class="book-card__id"></span>
+        <button class="favorite-button" type="button" aria-label="Ajouter aux favoris" title="Ajouter aux favoris">☆</button>
+      </div>
+      <h3 class="book-card__title"></h3>
+      <p class="book-card__authors"></p>
+      <div class="book-card__meta"></div>
+      <button class="book-card__open" type="button">Voir la notice</button>
+    </article>
+  </template>
+
+  <footer class="footer">
+    <p>Les données sont relues depuis les fichiers Markdown à chaque ouverture. Toute correction du catalogue apparaît automatiquement ici.</p>
+  </footer>
+
+  <noscript>Cette interface nécessite JavaScript pour lire et filtrer le catalogue.</noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>
