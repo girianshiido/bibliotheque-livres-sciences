@@ -37,7 +37,9 @@ function normalize(value = '') {
 }
 
 function stripMarkdown(value = '') {
-  return value.replace(/\*\*/g, '').replace(/\*/g, '').replace(/\\\*/g, '*').trim();
+  let cleaned = value.trim();
+  if (cleaned.startsWith('*') && cleaned.endsWith('*')) cleaned = cleaned.slice(1, -1);
+  return cleaned.replace(/\\\*/g, '*').replace(/\*\*/g, '').trim();
 }
 
 function parseBookLine(line, sourceFile) {
