@@ -9,6 +9,22 @@ Catalogue privé de la bibliothèque de mathématiques de Philippe.
 - Les photographies ne sont pas stockées dans ce dépôt.
 - Les informations incertaines sont explicitement signalées.
 
+## Interface web
+
+Le dépôt contient une interface statique dans `index.html`, avec son moteur dans `app.js` et sa mise en forme dans `styles.css`.
+
+L’interface :
+
+- relit `README.md` pour découvrir automatiquement la liste des fichiers du catalogue ;
+- recharge ensuite directement chaque fichier Markdown ;
+- reflète donc automatiquement les corrections et les nouveaux ouvrages ;
+- prend aussi en compte un nouveau fichier de catalogue dès que son lien est ajouté à la liste ci-dessous ;
+- permet la recherche plein texte, les filtres par auteur et éditeur, le tri, les favoris locaux, l’affichage en cartes ou en tableau et l’export CSV de la sélection.
+
+Pour la publier avec GitHub Pages : **Settings → Pages → Deploy from a branch → `main` → `/(root)`**.
+
+> Attention : un site GitHub Pages est publiquement accessible, y compris lorsqu’il est construit depuis un dépôt privé. Ne pas activer Pages si le catalogue doit rester strictement privé.
+
 ## Catalogue
 
 Le catalogue est actuellement réparti en onze fichiers Markdown :
