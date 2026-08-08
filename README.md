@@ -1,12 +1,10 @@
-# Bibliothèque mathématique
+# Bibliothèque scientifique
 
-Catalogue privé de la bibliothèque de mathématiques de Philippe.
+Catalogue de ma bibliothèque de livres scientifiques (principalement des livres de mathématiques).
 
 ## État actuel
 
 - **495 ouvrages ou volumes** enregistrés.
-- Inventaire provisoire, construit à partir des photographies et des titres saisis dans la conversation.
-- Les photographies ne sont pas stockées dans ce dépôt.
 - Les informations incertaines sont explicitement signalées.
 
 ## Interface web
