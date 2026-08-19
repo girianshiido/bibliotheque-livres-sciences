@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explorateur interactif de la bibliothèque mathématique de Philippe.">
+  <meta name="description" content="Explorateur interactif de la bibliothèque scientifique de Philippe.">
   <meta name="color-scheme" content="light dark">
-  <title>Bibliothèque mathématique</title>
+  <title>Bibliothèque scientifique</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <div class="hero__inner">
       <div>
         <p class="eyebrow">Catalogue personnel</p>
-        <h1>Bibliothèque mathématique</h1>
+        <h1>Bibliothèque scientifique</h1>
         <p class="hero__subtitle">Rechercher, filtrer et parcourir les ouvrages directement depuis les fichiers du dépôt.</p>
       </div>
       <div class="hero__actions">
@@ -49,6 +49,9 @@
         </label>
         <label>Auteur
           <select id="authorFilter"><option value="">Tous les auteurs</option></select>
+        </label>
+        <label>Domaine
+          <select id="domainFilter"><option value="">Tous les domaines</option></select>
         </label>
         <label>État
           <select id="statusFilter">
@@ -128,7 +131,7 @@
   </template>
 
   <footer class="footer">
-    <p>Les données sont relues depuis les fichiers Markdown à chaque ouverture. Toute correction du catalogue apparaît automatiquement ici.</p>
+    <p>Les données sont relues depuis les fichiers Markdown à chaque ouverture. Les fichiers liés dans le README sont découverts automatiquement, avec une liste de secours intégrée.</p>
   </footer>
 
   <noscript>Cette interface nécessite JavaScript pour lire et filtrer le catalogue.</noscript>

@@ -17,7 +17,19 @@ L’interface :
 - recharge ensuite directement chaque fichier Markdown ;
 - reflète donc automatiquement les corrections et les nouveaux ouvrages ;
 - prend aussi en compte un nouveau fichier de catalogue dès que son lien est ajouté à la liste ci-dessous ;
-- permet la recherche plein texte, les filtres par auteur et éditeur, le tri, les favoris locaux, l’affichage en cartes ou en tableau et l’export CSV de la sélection.
+- utilise une liste de secours si la lecture du README est temporairement indisponible pendant un déploiement Pages ;
+- continue à afficher les fichiers disponibles si l’un d’eux est momentanément inaccessible, en le signalant dans le résumé ;
+- permet la recherche plein texte, les filtres par auteur, éditeur et domaine, le tri, les favoris locaux, l’affichage en cartes ou en tableau et l’export CSV de la sélection.
+
+### Domaines
+
+Chaque livre reçoit une première classification automatique à partir de son titre et de ses compléments. Pour fixer ou compléter manuellement cette classification, ajouter à la fin d’une notice Markdown :
+
+```md
+— Domaines : Analyse; Probabilités et statistiques
+```
+
+`Domaine :` (au singulier) est également accepté. Plusieurs domaines sont séparés par des points-virgules ; ils apparaissent comme étiquettes et peuvent chacun être filtrés dans l’interface.
 
 Pour la publier avec GitHub Pages : **Settings → Pages → Deploy from a branch → `main` → `/(root)`**.
 

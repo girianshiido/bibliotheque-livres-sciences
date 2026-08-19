@@ -7,11 +7,27 @@ const FALLBACK_FILES = [
   'catalogue/415-460.md', 'catalogue/461-506.md'
 ];
 
+const REPOSITORY_URL = 'https://github.com/girianshiido/bibliotheque-livres-sciences';
+const appScript = document.querySelector('script[src$="app.js"]');
+const SITE_BASE_URL = new URL('.', appScript ? appScript.src : location.href);
+const DOMAIN_RULES = [
+  ['Théorie des nombres', /\b(number|nombre|prime|arithmetic|diophant|valuation|galois|elliptic|cryptograph)/],
+  ['Algèbre', /\b(algeb|ring|module|field|group|representation|hopf|category|categor)/],
+  ['Analyse', /\b(analys|fourier|measure|integration|integral|differential equation|functional|hilbert|distribution|wavelet|calculus)/],
+  ['Géométrie et topologie', /\b(geometr|topolog|manifold|surface|curve|homotop|fibre|bundle|riemann)/],
+  ['Probabilités et statistiques', /\b(probabil|aleatoir|stochastic|random|markov|statistic)/],
+  ['Combinatoire et informatique', /\b(combinator|graph|algorithm|computer|informatique|discrete|complexity|programming|coding)/],
+  ['Logique et fondements', /\b(logic|set theory|ensemble|axiom|proof|foundations|constructive)/],
+  ['Mathématiques appliquées et physique', /\b(physics|physique|mechanics|mecanique|dynamical|numerical|applied|modelling|modeling)/],
+  ['Histoire et pédagogie', /\b(history|histoi|development|biograph|olympiad|education|teaching|coloring book)/]
+];
+const DEFAULT_DOMAIN = 'Autres mathématiques';
+
 const PAGE_SIZE = 48;
 const state = {
-  books: [], filtered: [], query: '', publisher: '', author: '', status: '',
+  books: [], filtered: [], query: '', publisher: '', author: '', domain: '', status: '',
   sort: 'id-asc', initial: '', page: 1, view: 'grid', favorites: new Set(),
-  sourceFiles: []
+  sourceFiles: [], loadNotice: ''
 };
 
 const elements = {
@@ -20,7 +36,7 @@ const elements = {
   pagination: document.querySelector('.pagination'), previous: document.querySelector('#previousPageButton'),
   next: document.querySelector('#nextPageButton'), pageIndicator: document.querySelector('#pageIndicator'),
   search: document.querySelector('#searchInput'), publisher: document.querySelector('#publisherFilter'),
-  author: document.querySelector('#authorFilter'), status: document.querySelector('#statusFilter'),
+  author: document.querySelector('#authorFilter'), domain: document.querySelector('#domainFilter'), status: document.querySelector('#statusFilter'),
   sort: document.querySelector('#sortSelect'), summary: document.querySelector('#resultSummary'),
   title: document.querySelector('#resultTitle'), alphabet: document.querySelector('#alphabetNav'),
   gridButton: document.querySelector('#gridViewButton'), tableButton: document.querySelector('#tableViewButton'),
@@ -42,6 +58,19 @@ function stripMarkdown(value = '') {
   return cleaned.replace(/\\\*/g, '*').replace(/\*\*/g, '').trim();
 }
 
+function inferDomains(value = '') {
+  const normalized = normalize(value);
+  const domains = DOMAIN_RULES
+    .filter(([, pattern]) => pattern.test(normalized))
+    .map(([domain]) => domain);
+  return domains.length ? domains : [DEFAULT_DOMAIN];
+}
+
+function parseDomains(value = '') {
+  const domains = value.split(/[;,]/).map(domain => stripMarkdown(domain)).filter(Boolean);
+  return domains.length ? [...new Set(domains)] : [];
+}
+
 function parseBookLine(line, sourceFile) {
   const idMatch = line.match(/^- \*\*(B\d{4})\*\* — /);
   if (!idMatch) return null;
@@ -53,7 +82,7 @@ function parseBookLine(line, sourceFile) {
 
   const authors = stripMarkdown(body.slice(0, authorSeparator));
   const titleAndRest = body.slice(authorSeparator + 3);
-  const titleSeparator = titleAndRest.lastIndexOf('* — ');
+  const titleSeparator = Math.max(titleAndRest.lastIndexOf('* — '), titleAndRest.lastIndexOf('* - '));
   if (titleSeparator < 0) return null;
 
   const title = stripMarkdown(titleAndRest.slice(0, titleSeparator + 1));
@@ -61,15 +90,18 @@ function parseBookLine(line, sourceFile) {
   const status = /\[(?:à confirmer|à compléter)\]/i.test(rawRest) ? 'uncertain' : 'confirmed';
   const cleanedRest = rawRest.replace(/\s*\[(?:à confirmer|à compléter)\]/gi, '').trim();
   const noteIndex = cleanedRest.indexOf(' — Note :');
-  const bibliographic = noteIndex >= 0 ? cleanedRest.slice(0, noteIndex) : cleanedRest;
+  const bibliographicAndDomains = noteIndex >= 0 ? cleanedRest.slice(0, noteIndex) : cleanedRest;
   const note = noteIndex >= 0 ? cleanedRest.slice(noteIndex + 9).trim() : '';
+  const domainMatch = bibliographicAndDomains.match(/^(.*?)\s+—\s+Domaines?\s*:\s*(.+)$/i);
+  const bibliographic = domainMatch ? domainMatch[1].trim() : bibliographicAndDomains;
   const parts = bibliographic.split(' — ').map(part => part.trim()).filter(Boolean);
   const publisher = parts.shift() || 'Éditeur non indiqué';
   const details = parts.join(' — ');
   const authorList = authors.split(';').map(author => author.trim()).filter(Boolean);
+  const domains = domainMatch ? parseDomains(domainMatch[2]) : inferDomains(`${title} ${details}`);
 
   return {
-    id, authors, authorList, title, publisher, details, note, status, sourceFile,
+    id, authors, authorList, title, publisher, details, note, domains, status, sourceFile,
     number: Number(id.slice(1)),
     searchText: normalize([id, authors, title, publisher, details, note].join(' '))
   };
@@ -80,28 +112,61 @@ function parseCatalogue(markdown, sourceFile) {
 }
 
 async function fetchText(path) {
-  const response = await fetch(`${path}?v=${Date.now()}`, { cache: 'no-store' });
+  const url = new URL(path, SITE_BASE_URL);
+  url.searchParams.set('v', String(Date.now()));
+  const response = await fetch(url, { cache: 'no-store' });
   if (!response.ok) throw new Error(`${path} : erreur HTTP ${response.status}`);
   return response.text();
+}
+
+function catalogueFilesFromReadme(readme) {
+  const files = [...readme.matchAll(/(?:\]\(|\b)(catalogue\/[^)\s?#]+\.md)\b/g)]
+    .map(match => match[1])
+    .filter(file => !file.split('/').includes('..'));
+  return [...new Set(files)];
 }
 
 async function discoverCatalogueFiles() {
   try {
     const readme = await fetchText('README.md');
-    const files = [...readme.matchAll(/\((catalogue\/[^)]+\.md)\)/g)].map(match => match[1]);
-    return [...new Set(files.length ? files : FALLBACK_FILES)];
+    const files = catalogueFilesFromReadme(readme);
+    if (files.length) return { files, usedFallback: false };
   } catch {
-    return FALLBACK_FILES;
+    // GitHub Pages peut momentanément servir une version incomplète pendant un déploiement.
   }
+  return { files: FALLBACK_FILES, usedFallback: true };
+}
+
+async function fetchCatalogueFiles(files) {
+  const settled = await Promise.allSettled(files.map(async file => ({ file, text: await fetchText(file) })));
+  const loaded = settled.filter(result => result.status === 'fulfilled').map(result => result.value);
+  const failed = settled
+    .map((result, index) => result.status === 'rejected' ? `${files[index]} (${result.reason?.message || 'indisponible'})` : null)
+    .filter(Boolean);
+  return { loaded, failed };
 }
 
 async function loadCatalogue() {
   showLoading();
   try {
-    state.sourceFiles = await discoverCatalogueFiles();
-    const contents = await Promise.all(state.sourceFiles.map(async file => ({ file, text: await fetchText(file) })));
-    state.books = contents.flatMap(({ file, text }) => parseCatalogue(text, file)).sort((a, b) => a.number - b.number);
+    const discovery = await discoverCatalogueFiles();
+    let { loaded, failed } = await fetchCatalogueFiles(discovery.files);
+
+    // Si la découverte dynamique tombe sur une version de README en avance sur Pages,
+    // la liste intégrée permet encore de servir le catalogue connu.
+    if (!loaded.length && !discovery.usedFallback) {
+      const fallback = await fetchCatalogueFiles(FALLBACK_FILES);
+      loaded = fallback.loaded;
+      failed = fallback.failed;
+    }
+
+    state.sourceFiles = loaded.map(({ file }) => file);
+    state.books = [...new Map(loaded
+      .flatMap(({ file, text }) => parseCatalogue(text, file))
+      .map(book => [book.id, book])).values()]
+      .sort((a, b) => a.number - b.number);
     if (!state.books.length) throw new Error('Aucune entrée bibliographique reconnue dans les fichiers Markdown.');
+    state.loadNotice = failed.length ? `${failed.length} fichier${failed.length > 1 ? 's' : ''} indisponible${failed.length > 1 ? 's' : ''} : affichage partiel.` : '';
     loadFavorites();
     hydrateStateFromUrl();
     populateFilters();
@@ -119,6 +184,7 @@ function showLoading() {
   elements.error.hidden = true;
   elements.results.hidden = true;
   elements.pagination.hidden = true;
+  state.loadNotice = '';
 }
 
 function showResults() {
@@ -162,8 +228,10 @@ function populateSelect(select, values, firstLabel) {
 function populateFilters() {
   populateSelect(elements.publisher, uniqueSorted(state.books.map(book => book.publisher)), 'Tous les éditeurs');
   populateSelect(elements.author, uniqueSorted(state.books.flatMap(book => book.authorList)), 'Tous les auteurs');
+  populateSelect(elements.domain, uniqueSorted(state.books.flatMap(book => book.domains)), 'Tous les domaines');
   elements.publisher.value = state.publisher;
   elements.author.value = state.author;
+  elements.domain.value = state.domain;
   elements.status.value = state.status;
   elements.sort.value = state.sort;
   elements.search.value = state.query;
@@ -206,6 +274,7 @@ function applyFilters(updateUrl = true) {
     if (query && !book.searchText.includes(query)) return false;
     if (state.publisher && book.publisher !== state.publisher) return false;
     if (state.author && !book.authorList.includes(state.author)) return false;
+    if (state.domain && !book.domains.includes(state.domain)) return false;
     if (state.status === 'confirmed' && book.status !== 'confirmed') return false;
     if (state.status === 'uncertain' && book.status !== 'uncertain') return false;
     if (state.status === 'favorite' && !state.favorites.has(book.id)) return false;
@@ -238,7 +307,7 @@ function updateAlphabetButtons() {
 
 function updateSummary() {
   const total = state.filtered.length;
-  elements.summary.textContent = `${total.toLocaleString('fr-FR')} ${total > 1 ? 'références affichées' : 'référence affichée'} sur ${state.books.length.toLocaleString('fr-FR')}.`;
+  elements.summary.textContent = `${total.toLocaleString('fr-FR')} ${total > 1 ? 'références affichées' : 'référence affichée'} sur ${state.books.length.toLocaleString('fr-FR')}.${state.loadNotice ? ` ${state.loadNotice}` : ''}`;
   elements.title.textContent = state.status === 'favorite' ? 'Mes favoris' : 'Catalogue';
 }
 
@@ -269,6 +338,7 @@ function createBookCard(book) {
   card.querySelector('.book-card__authors').textContent = book.authors;
   const meta = card.querySelector('.book-card__meta');
   meta.append(createBadge(book.publisher));
+  book.domains.forEach(domain => meta.append(createBadge(domain)));
   if (book.details) meta.append(createBadge(book.details));
   if (book.status === 'uncertain') meta.append(createBadge('À vérifier', true));
 
@@ -336,6 +406,7 @@ function openBookDialog(book) {
       <p class="dialog-authors">${escapeHtml(book.authors)}</p>
       <dl class="dialog-grid">
         <dt>Éditeur</dt><dd>${escapeHtml(book.publisher)}</dd>
+        <dt>Domaine${book.domains.length > 1 ? 's' : ''}</dt><dd>${escapeHtml(book.domains.join(' · '))}</dd>
         <dt>Collection / édition</dt><dd>${escapeHtml(book.details || 'Non précisée')}</dd>
         <dt>État</dt><dd>${book.status === 'uncertain' ? 'Référence à vérifier' : 'Référence confirmée'}</dd>
         ${book.note ? `<dt>Note</dt><dd>${escapeHtml(book.note)}</dd>` : ''}
@@ -343,7 +414,7 @@ function openBookDialog(book) {
       </dl>
       <div class="dialog-actions">
         <button id="dialogFavoriteButton" class="button" type="button">${favorite ? '★ Retirer des favoris' : '☆ Ajouter aux favoris'}</button>
-        <a class="button button--quiet" href="https://github.com/girianshiido/bibliotheque-mathematique/blob/main/${encodeURI(book.sourceFile)}" target="_blank" rel="noopener">Voir la source GitHub</a>
+        <a class="button button--quiet" href="${REPOSITORY_URL}/blob/main/${encodeURI(book.sourceFile)}" target="_blank" rel="noopener">Voir la source GitHub</a>
       </div>
     </div>`;
   elements.dialogContent.querySelector('#dialogFavoriteButton').addEventListener('click', () => {
@@ -367,11 +438,12 @@ function setView(view) {
 }
 
 function resetFilters() {
-  state.query = state.publisher = state.author = state.status = state.initial = '';
+  state.query = state.publisher = state.author = state.domain = state.status = state.initial = '';
   state.sort = 'id-asc'; state.page = 1;
   elements.search.value = '';
   elements.publisher.value = '';
   elements.author.value = '';
+  elements.domain.value = '';
   elements.status.value = '';
   elements.sort.value = 'id-asc';
   applyFilters();
@@ -382,6 +454,7 @@ function updateUrlState() {
   if (state.query) params.set('q', state.query);
   if (state.publisher) params.set('publisher', state.publisher);
   if (state.author) params.set('author', state.author);
+  if (state.domain) params.set('domain', state.domain);
   if (state.status) params.set('status', state.status);
   if (state.sort !== 'id-asc') params.set('sort', state.sort);
   if (state.initial) params.set('initial', state.initial);
@@ -395,6 +468,7 @@ function hydrateStateFromUrl() {
   state.query = params.get('q') || '';
   state.publisher = params.get('publisher') || '';
   state.author = params.get('author') || '';
+  state.domain = params.get('domain') || '';
   state.status = params.get('status') || '';
   state.sort = params.get('sort') || 'id-asc';
   state.initial = params.get('initial') || '';
@@ -434,6 +508,7 @@ elements.search.addEventListener('input', event => {
 });
 elements.publisher.addEventListener('change', event => { state.publisher = event.target.value; state.page = 1; applyFilters(); });
 elements.author.addEventListener('change', event => { state.author = event.target.value; state.page = 1; applyFilters(); });
+elements.domain.addEventListener('change', event => { state.domain = event.target.value; state.page = 1; applyFilters(); });
 elements.status.addEventListener('change', event => { state.status = event.target.value; state.page = 1; applyFilters(); });
 elements.sort.addEventListener('change', event => { state.sort = event.target.value; state.page = 1; applyFilters(); });
 elements.gridButton.addEventListener('click', () => { setView('grid'); localStorage.setItem('bibliotheque-view', 'grid'); renderBooks(); updateUrlState(); });

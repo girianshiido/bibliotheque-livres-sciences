@@ -130,7 +130,7 @@ a { color: var(--accent-strong); }
   color: var(--text);
 }
 kbd { padding: .1rem .45rem; border: 1px solid var(--line); border-radius: 6px; background: var(--surface-muted); color: var(--muted); }
-.filter-grid { display: grid; grid-template-columns: 1.25fr 1.25fr 1fr 1fr; gap: .8rem; margin-top: 1rem; }
+.filter-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .8rem; margin-top: 1rem; }
 select {
   min-width: 0;
   height: 44px;
