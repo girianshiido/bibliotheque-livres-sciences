@@ -8,20 +8,160 @@ const FALLBACK_FILES = [
 ];
 
 const REPOSITORY_URL = 'https://github.com/girianshiido/bibliotheque-livres-sciences';
-const appScript = document.querySelector('script[src$="app.js"]');
+const appScript = document.querySelector('script[data-app]');
 const SITE_BASE_URL = new URL('.', appScript ? appScript.src : location.href);
-const DOMAIN_RULES = [
-  ['Théorie des nombres', /\b(number|nombre|prime|arithmetic|diophant|valuation|galois|elliptic|cryptograph)/],
-  ['Algèbre', /\b(algeb|ring|module|field|group|representation|hopf|category|categor)/],
-  ['Analyse', /\b(analys|fourier|measure|integration|integral|differential equation|functional|hilbert|distribution|wavelet|calculus)/],
-  ['Géométrie et topologie', /\b(geometr|topolog|manifold|surface|curve|homotop|fibre|bundle|riemann)/],
-  ['Probabilités et statistiques', /\b(probabil|aleatoir|stochastic|random|markov|statistic)/],
-  ['Combinatoire et informatique', /\b(combinator|graph|algorithm|computer|informatique|discrete|complexity|programming|coding)/],
-  ['Logique et fondements', /\b(logic|set theory|ensemble|axiom|proof|foundations|constructive)/],
-  ['Mathématiques appliquées et physique', /\b(physics|physique|mechanics|mecanique|dynamical|numerical|applied|modelling|modeling)/],
-  ['Histoire et pédagogie', /\b(history|histoi|development|biograph|olympiad|education|teaching|coloring book)/]
+const MSC_DOMAINS = {
+  '00': 'Généralités et collections',
+  '01': 'Histoire et biographies',
+  '03': 'Logique mathématique et fondements',
+  '05': 'Combinatoire',
+  '06': 'Ordres, treillis et structures ordonnées',
+  '08': 'Systèmes algébriques généraux',
+  '11': 'Théorie des nombres',
+  '12': 'Théorie des corps et polynômes',
+  '13': 'Algèbre commutative',
+  '14': 'Géométrie algébrique',
+  '15': 'Algèbre linéaire et théorie des matrices',
+  '16': 'Anneaux et algèbres associatives',
+  '18': 'Théorie des catégories et algèbre homologique',
+  '19': 'K-théorie',
+  '20': 'Théorie des groupes',
+  '22': 'Groupes topologiques et groupes de Lie',
+  '26': 'Fonctions réelles',
+  '28': 'Mesure et intégration',
+  '30': 'Fonctions d’une variable complexe',
+  '31': 'Théorie du potentiel',
+  '32': 'Plusieurs variables complexes et espaces analytiques',
+  '33': 'Fonctions spéciales',
+  '34': 'Équations différentielles ordinaires',
+  '35': 'Équations aux dérivées partielles',
+  '37': 'Systèmes dynamiques et théorie ergodique',
+  '39': 'Équations aux différences et fonctionnelles',
+  '40': 'Suites, séries et sommabilité',
+  '41': 'Approximation et développements',
+  '42': 'Analyse harmonique sur les espaces euclidiens',
+  '43': 'Analyse harmonique abstraite',
+  '44': 'Transformées intégrales et calcul opérationnel',
+  '45': 'Équations intégrales',
+  '46': 'Analyse fonctionnelle',
+  '47': 'Théorie des opérateurs',
+  '49': 'Calcul des variations et optimisation',
+  '51': 'Géométrie',
+  '52': 'Géométrie convexe et discrète',
+  '53': 'Géométrie différentielle',
+  '54': 'Topologie générale',
+  '55': 'Topologie algébrique',
+  '57': 'Variétés et complexes cellulaires',
+  '58': 'Analyse globale et analyse sur les variétés',
+  '60': 'Probabilités et processus stochastiques',
+  '62': 'Statistique',
+  '65': 'Analyse numérique',
+  '68': 'Informatique',
+  '70': 'Mécanique des particules et systèmes',
+  '74': 'Mécanique des solides déformables',
+  '76': 'Mécanique des fluides',
+  '78': 'Optique et théorie électromagnétique',
+  '80': 'Thermodynamique classique et transferts de chaleur',
+  '81': 'Théorie quantique',
+  '82': 'Mécanique statistique et structure de la matière',
+  '83': 'Relativité et gravitation',
+  '85': 'Astronomie et astrophysique',
+  '86': 'Géophysique',
+  '90': 'Recherche opérationnelle et programmation mathématique',
+  '91': 'Théorie des jeux, économie et sciences sociales',
+  '93': 'Théorie des systèmes et contrôle',
+  '94': 'Information, communication et circuits',
+  '92': 'Biologie et autres sciences naturelles',
+  '97': 'Enseignement des mathématiques'
+};
+
+// Les règles sont ordonnées : une discipline spécifique prime toujours sur un mot
+// plus général. Par exemple « topologie algébrique » relève de MSC 55, pas de l’algèbre.
+const MSC_RULES = [
+  ['01', /\b(history|histoi|histor|biograph|development of|genesis|origins?|heritage|correspondance|collected works|oeuvres|leben und werk)/],
+  ['97', /\b(education|teaching|pedagog|didact|olympiad|problem solving|problems? for mathematicians|capes|agregation|school mathematics)/],
+  ['55', /\b(algebraic topology|topologie algebrique|homotop|homology|homologie|cohomolog|fibre bundles?|fiber bundles?|characteristic classes?|classes caracteristiques|cobord)/],
+  ['19', /\b(k-theor|k theor)/],
+  ['14', /\b(algebraic geometr|geometrie algebrique|schemes?|varieties|varietes|hodge|intersection theory|moduli|algebraic curves?|courbes algebriques)/],
+  ['32', /\b(several complex variables|plusieurs variables complexes|complex manifolds?|varietes complexes|complex surfaces?|surfaces complexes|stein spaces?|analytic spaces?|espaces analytiques|holomorphic)/],
+  ['57', /\b(differential topology|topologie differentielle|topology from the differentiable viewpoint|three-dimensional geometry and topology|smooth manifolds?|differential manifolds?|varietes differentiables|knots?|noeuds|singularities|morse theory)/],
+  ['54', /\b(general topology|topologie generale|continuum theory|topological spaces?|espaces topologiques)/],
+  ['58', /\b(global analysis|analysis on manifolds|analyse sur les varietes|geometric analysis|analysis, manifolds|stokes|topological stability of smooth mappings)/],
+  ['53', /\b(differential geometr|geometrie differentielle|riemannian|riemannienne|symplectic|contact geometr)/],
+  ['52', /\b(convex geometr|geometrie convexe|discrete geometr|geometrie discrete|polytopes?|convex bodies)/],
+  ['51', /\b(projective geometr|euclidean geometr|geometrie elementaire|elementary geometry|foundations of geometry|geometry of|geometrie de)/],
+  ['18', /\b(category theor|categories?|categorical|categoriel|categorique|homological algebra|algebre homologique|sheaf theory|faisceaux|topos|topoi|operads?)/],
+  ['22', /\b(lie groups?|groupes? de lie|topological groups?|groupes? topologiques|lie algebras?)/],
+  ['20', /\b(group theory|theorie des groupes|finite groups?|groupes finis|representation theory|representations? of groups?)/],
+  ['13', /\b(commutative algebra|algebre commutative|local algebra|algebre locale|commutative rings?|anneaux commutatifs|ideals?)/],
+  ['12', /\b(field theory|theorie des corps|galois theory|theorie de galois|polynomials?|polynomes?)/],
+  ['47', /\b(operator theory|theorie des operateurs|operators? and classical function|composition operators?|distribution operators?|operator algebras?|c\*[- ]?algebras?|spectral theory|fixed point theory|fixed points?|semigroups? of operators?)/],
+  ['46', /\b(functional analysis|analyse fonctionnelle|distributions?|banach|hilbert spaces?|espaces de hilbert|topological vector spaces?|espaces vectoriels topologiques|locally convex)/],
+  ['15', /\b(linear algebra|algebre lineaire|multilinear|matrix theory|matrices|vector spaces?|espaces vectoriels)/],
+  ['16', /\b(noncommutative|rings? and modules?|anneaux|associative algebras?|algebras? and modules?)/],
+  ['06', /\b(lattices?|treillis|ordered algebraic|continuous geometry)/],
+  ['08', /\b(abstract algebra|algebre generale|universal algebra|algebraic structures?)/],
+  ['43', /\b(abstract harmonic analysis|harmonic analysis on groups|analyse harmonique abstraite)/],
+  ['42', /\b(fourier|wavelets?|ondelettes|harmonic analysis|analyse harmonique)/],
+  ['35', /\b(partial differential equations?|equations? aux derivees partielles|elliptic equations?|hyperbolic equations?|parabolic equations?)/],
+  ['34', /\b(ordinary differential equations?|equations? differentielles ordinaires|differential equations?)/],
+  ['37', /\b(dynamical systems?|systemes? dynamiques|complex dynamics|dynamique holomorphe|ergodic|chaos|bifurcation|catastrophe theory)/],
+  ['39', /\b(functional equations?|equations? fonctionnelles|difference equations?)/],
+  ['49', /\b(calculus of variations|calcul des variations|optimal control|controle optimal|optimization|optimisation)/],
+  ['31', /\b(potential theory|theorie du potentiel)/],
+  ['30', /\b(complex analysis|analyse complexe|complex plane|complex variable|variable complexe|riemann surfaces?|surfaces de riemann|conformal maps?|analytic functions?|meromorphic|univalent functions?|normal families?)/],
+  ['28', /\b(measure theory|theorie de la mesure|measure and integration|geometric integration|integration theory|theorie de l integration|integrale de|lebesgue)/],
+  ['44', /\b(laplace transform|z transform|radon transform|transformation de radon|integral transforms?)/],
+  ['26', /\b(real analysis|analyse reelle|real functions?|fonctions reelles|real analytic functions?|calcul infinitesimal|calcul differentiel|differential calculus|calculus|inequalities|inegalites|lipschitz functions?|trigonometry|integrals?, sums?, and series)/],
+  ['41', /\b(approximation theory|theorie de l approximation|orthogonal polynomials?|splines?)/],
+  ['33', /\b(special functions?|fonctions speciales|hypergeometric|elliptic integrals? and elliptic functions?|lambert w)/],
+  ['40', /\b(sequences? and series|suites? et series|divergent series|series divergentes|summability)/],
+  ['11', /\b(number theory|theory of numbers|theorie des nombres|prime numbers?|nombres premiers|pell equation|elliptic curves?|modular forms?|zeta|p-adic|number fields?|nombres p-adiques|diophant|arithmetic|arithmetique|valuations?|transcendental numbers?|continued fractions?|fermat|catalan s conjecture|book of numbers|surreal numbers)/],
+  ['05', /\b(combinator|graph theory|theorie des graphes|digraphs?|coloring|enumeration|generatingfunctionology|eulerian numbers|shuffling cards|matroids?)/],
+  ['03', /\b(mathematical logic|logique mathematique|set theory|theorie des ensembles|descriptive set|model theory|proof theory|calculabilit|computability|nonstandard analysis|axiom|foundations of mathematics)/],
+  ['94', /\b(cryptograph|coding theory|information theory|theorie de l information|error-correcting)/],
+  ['68', /\b(algorithms?|algorithmique|computer science|informatique|programming|complexity theory|automata)/],
+  ['65', /\b(numerical analysis|analyse numerique|numerical methods?|methodes numeriques|scientific computing)/],
+  ['60', /\b(probabil|stochastic|stochastique|random|aleatoir|markov|martingal|brownian)/],
+  ['62', /\b(statistics?|statistique|statistical inference|data analysis)/],
+  ['82', /\b(statistical mechanics|physique statistique|structure of matter|many-body problem)/],
+  ['81', /\b(quantum|quantique)/],
+  ['83', /\b(relativit|gravitation)/],
+  ['78', /\b(electromagnet|optics|optique)/],
+  ['80', /\b(thermodynamic|thermodynamique|heat transfer)/],
+  ['76', /\b(fluid mechanics|mecanique des fluides|hydrodynamic)/],
+  ['74', /\b(elasticity|elasticite|deformable solids?|solides deformables)/],
+  ['70', /\b(classical mechanics|mecanique classique|celestial mechanics|mecanique analytique|mathematical mechanic|physique theorique : mecanique)/],
+  ['93', /\b(control theory|theorie du controle|systems theory|theorie des systemes)/],
+  ['90', /\b(operations research|recherche operationnelle|linear programming|programmation lineaire)/],
+  ['91', /\b(game theory|theory of games|theorie des jeux|prisoner s dilemma|dilemme du prisonnier|mathematical economics|economie mathematique)/],
+  ['92', /\b(mathematical biology|biologie mathematique)/],
+  ['97', /\b(exercices?|problems? and solutions|problem book|problemes? choisis|oraux|math sup|putnam|berkeley problems|solutions d expert|master class|young mathematicians|recreations?|casse-tetes)/],
+  ['20', /\b(theory of groups|groupes?|symmetric group|groupe symetrique|braids?|tresses)/],
+  ['15', /\b(endomorph|quadratic forms?|formes quadratiques|algebre et geometrie lineaires?)/],
+  ['08', /\b(algebra|algebre)/],
+  ['54', /\b(topology|topologie|topological)/],
+  ['51', /\b(geometry|geometrie|conics?|coniques?|quadrics?|quadriques?|geometric transformations?)/],
+  ['26', /\b(mathematical analysis|analyse mathematique|analysis now|cours d analyse|analyse i+|analysis i+)/]
 ];
-const DEFAULT_DOMAIN = 'Autres mathématiques';
+
+// Corrections éditoriales pour les titres ambigus ou trop généraux pour une
+// classification fiable par vocabulaire seul.
+const MSC_OVERRIDES = {
+  B0015: '08', B0018: '01', B0024: '49', B0025: '05', B0029: '30', B0030: '03',
+  B0041: '20', B0044: '28', B0048: '11', B0058: '01', B0060: '01', B0069: '51',
+  B0071: '01', B0078: '54', B0095: '11', B0117: '30', B0118: '81', B0128: '05',
+  B0130: '05', B0133: '52', B0134: '15', B0138: '58', B0150: '51', B0157: '41',
+  B0162: '26', B0166: '54', B0168: '01', B0176: '26', B0179: '54', B0186: '05',
+  B0192: '97', B0198: '11', B0207: '51', B0233: '26', B0250: '01', B0272: '97',
+  B0273: '97', B0279: '39', B0288: '11', B0294: '97', B0306: '97', B0308: '34',
+  B0311: '97', B0312: '97', B0316: '35', B0323: '54', B0341: '11', B0347: '11',
+  B0354: '05', B0358: '01', B0359: '01', B0360: '01', B0361: '01', B0362: '01',
+  B0373: '92', B0374: '01', B0378: '97', B0379: '51', B0393: '03', B0394: '01',
+  B0404: '97', B0407: '81', B0421: '01', B0433: '94', B0454: '97', B0457: '81',
+  B0460: '28', B0475: '68', B0476: '68', B0477: '68', B0478: '68', B0480: '68',
+  B0481: '81', B0482: '81', B0483: '81', B0493: '01'
+};
 
 const PAGE_SIZE = 48;
 const state = {
@@ -58,12 +198,15 @@ function stripMarkdown(value = '') {
   return cleaned.replace(/\\\*/g, '*').replace(/\*\*/g, '').trim();
 }
 
-function inferDomains(value = '') {
+function mscDomain(code) {
+  return `${code} — ${MSC_DOMAINS[code] || MSC_DOMAINS['00']}`;
+}
+
+function inferDomains(value = '', id = '') {
+  if (MSC_OVERRIDES[id]) return [mscDomain(MSC_OVERRIDES[id])];
   const normalized = normalize(value);
-  const domains = DOMAIN_RULES
-    .filter(([, pattern]) => pattern.test(normalized))
-    .map(([domain]) => domain);
-  return domains.length ? domains : [DEFAULT_DOMAIN];
+  const rule = MSC_RULES.find(([, pattern]) => pattern.test(normalized));
+  return [mscDomain(rule ? rule[0] : '00')];
 }
 
 function parseDomains(value = '') {
@@ -92,18 +235,20 @@ function parseBookLine(line, sourceFile) {
   const noteIndex = cleanedRest.indexOf(' — Note :');
   const bibliographicAndDomains = noteIndex >= 0 ? cleanedRest.slice(0, noteIndex) : cleanedRest;
   const note = noteIndex >= 0 ? cleanedRest.slice(noteIndex + 9).trim() : '';
-  const domainMatch = bibliographicAndDomains.match(/^(.*?)\s+—\s+Domaines?\s*:\s*(.+)$/i);
-  const bibliographic = domainMatch ? domainMatch[1].trim() : bibliographicAndDomains;
+  const mscMatch = bibliographicAndDomains.match(/^(.*?)\s+—\s+MSC\s*:\s*([0-9]{2})(?:[A-Z][0-9]{2}|-XX)?$/i);
+  const domainMatch = !mscMatch && bibliographicAndDomains.match(/^(.*?)\s+—\s+Domaines?\s*:\s*(.+)$/i);
+  const bibliographic = mscMatch ? mscMatch[1].trim() : domainMatch ? domainMatch[1].trim() : bibliographicAndDomains;
   const parts = bibliographic.split(' — ').map(part => part.trim()).filter(Boolean);
   const publisher = parts.shift() || 'Éditeur non indiqué';
   const details = parts.join(' — ');
   const authorList = authors.split(';').map(author => author.trim()).filter(Boolean);
-  const domains = domainMatch ? parseDomains(domainMatch[2]) : inferDomains(`${title} ${details}`);
+  const mscCode = mscMatch && MSC_DOMAINS[mscMatch[2]] ? mscMatch[2] : null;
+  const domains = mscCode ? [mscDomain(mscCode)] : domainMatch ? parseDomains(domainMatch[2]) : inferDomains(title, id);
 
   return {
-    id, authors, authorList, title, publisher, details, note, domains, status, sourceFile,
+    id, authors, authorList, title, publisher, details, note, domains, mscCode: mscCode || domains[0].slice(0, 2), status, sourceFile,
     number: Number(id.slice(1)),
-    searchText: normalize([id, authors, title, publisher, details, note].join(' '))
+    searchText: normalize([id, authors, title, publisher, details, note, ...domains].join(' '))
   };
 }
 
@@ -120,7 +265,7 @@ async function fetchText(path) {
 }
 
 function catalogueFilesFromReadme(readme) {
-  const files = [...readme.matchAll(/(?:\]\(|\b)(catalogue\/[^)\s?#]+\.md)\b/g)]
+  const files = [...readme.matchAll(/(?:\]\(|\b)(catalogue\/[A-Za-z0-9._-]+\.md)\b/g)]
     .map(match => match[1])
     .filter(file => !file.split('/').includes('..'));
   return [...new Set(files)];
@@ -477,8 +622,8 @@ function hydrateStateFromUrl() {
 }
 
 function exportSelection() {
-  const rows = [['Identifiant', 'Auteur(s)', 'Titre', 'Éditeur', 'Collection / édition', 'État']];
-  for (const book of state.filtered) rows.push([book.id, book.authors, book.title, book.publisher, book.details, book.status === 'uncertain' ? 'À vérifier' : 'Confirmé']);
+  const rows = [['Identifiant', 'Auteur(s)', 'Titre', 'Éditeur', 'Collection / édition', 'Domaine MSC 2020', 'État']];
+  for (const book of state.filtered) rows.push([book.id, book.authors, book.title, book.publisher, book.details, book.domains.join(' ; '), book.status === 'uncertain' ? 'À vérifier' : 'Confirmé']);
   const csv = rows.map(row => row.map(cell => `"${String(cell ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
   const blob = new Blob([`\ufeff${csv}`], { type: 'text/csv;charset=utf-8' });
   const url = URL.createObjectURL(blob);

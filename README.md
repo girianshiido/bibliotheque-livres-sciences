@@ -21,15 +21,17 @@ L’interface :
 - continue à afficher les fichiers disponibles si l’un d’eux est momentanément inaccessible, en le signalant dans le résumé ;
 - permet la recherche plein texte, les filtres par auteur, éditeur et domaine, le tri, les favoris locaux, l’affichage en cartes ou en tableau et l’export CSV de la sélection.
 
-### Domaines
+### Domaines scientifiques — MSC 2020
 
-Chaque livre reçoit une première classification automatique à partir de son titre et de ses compléments. Pour fixer ou compléter manuellement cette classification, ajouter à la fin d’une notice Markdown :
+La taxonomie suit la **Mathematics Subject Classification 2020**, maintenue conjointement par Mathematical Reviews et zbMATH. Chaque livre reçoit un domaine principal à deux chiffres ; les disciplines spécifiques ont priorité sur les mots généraux. Ainsi, la topologie algébrique relève de `55`, et non de l’algèbre.
+
+Pour fixer manuellement la classification d’une notice, ajouter à sa fin :
 
 ```md
-— Domaines : Analyse; Probabilités et statistiques
+— MSC : 55
 ```
 
-`Domaine :` (au singulier) est également accepté. Plusieurs domaines sont séparés par des points-virgules ; ils apparaissent comme étiquettes et peuvent chacun être filtrés dans l’interface.
+Le site accepte les codes MSC à deux ou cinq caractères et affiche leur domaine principal. L’ancienne syntaxe `Domaine :` reste comprise pour compatibilité, mais les codes MSC sont recommandés.
 
 Pour la publier avec GitHub Pages : **Settings → Pages → Deploy from a branch → `main` → `/(root)`**.
 
