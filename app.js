@@ -122,9 +122,9 @@ const MSC_RULES = [
   ['94', /\b(cryptograph|coding theory|information theory|theorie de l information|error-correcting)/],
   ['68', /\b(algorithms?|algorithmique|computer science|informatique|programming|complexity theory|automata)/],
   ['65', /\b(numerical analysis|analyse numerique|numerical methods?|methodes numeriques|scientific computing)/],
+  ['82', /\b(statistical mechanics|physique statistique|structure of matter|many-body problem)/],
   ['60', /\b(probabil|stochastic|stochastique|random|aleatoir|markov|martingal|brownian)/],
   ['62', /\b(statistics?|statistique|statistical inference|data analysis)/],
-  ['82', /\b(statistical mechanics|physique statistique|structure of matter|many-body problem)/],
   ['81', /\b(quantum|quantique)/],
   ['83', /\b(relativit|gravitation)/],
   ['78', /\b(electromagnet|optics|optique)/],
@@ -150,7 +150,7 @@ const MSC_RULES = [
 const MSC_OVERRIDES = {
   B0015: '08', B0018: '01', B0024: '49', B0025: '05', B0029: '30', B0030: '03',
   B0041: '20', B0044: '28', B0048: '11', B0058: '01', B0060: '01', B0069: '51',
-  B0071: '01', B0078: '54', B0095: '11', B0117: '30', B0118: '81', B0128: '05',
+  B0071: '01', B0078: '54', B0084: '20', B0085: '20', B0095: '11', B0117: '30', B0118: '81', B0128: '05',
   B0130: '05', B0133: '52', B0134: '15', B0138: '58', B0150: '51', B0157: '41',
   B0162: '26', B0166: '54', B0168: '01', B0176: '26', B0179: '54', B0186: '05',
   B0192: '97', B0198: '11', B0207: '51', B0233: '26', B0250: '01', B0272: '97',
@@ -163,11 +163,27 @@ const MSC_OVERRIDES = {
   B0481: '81', B0482: '81', B0483: '81', B0493: '01'
 };
 
+const PUBLISHER_ALIASES = {
+  'Academic Press / Elsevier': 'Academic Press',
+  'Addison-Wesley Professional': 'Addison-Wesley',
+  'AMS Chelsea': 'American Mathematical Society',
+  'AMS / London Mathematical Society': 'American Mathematical Society / London Mathematical Society',
+  'Calvage et Mounet.': 'Calvage & Mounet',
+  'Copernicus / Springer': 'Copernicus',
+  'CRC Press / Chapman & Hall': 'CRC Press',
+  'North-Holland / Elsevier': 'North-Holland',
+  'Oxford Science Publications': 'Oxford University Press',
+  'PUF': 'Presses universitaires de France',
+  'Seuil': 'Éditions du Seuil',
+  'Springer Dordrecht': 'Springer',
+  'Springer-Verlag': 'Springer'
+};
+
 const PAGE_SIZE = 48;
 const state = {
   books: [], filtered: [], query: '', publisher: '', author: '', domain: '', status: '',
   sort: 'id-asc', initial: '', page: 1, view: 'grid', favorites: new Set(),
-  sourceFiles: [], loadNotice: ''
+  sourceFiles: [], loadNotice: '', covers: {}
 };
 
 const elements = {
@@ -214,6 +230,11 @@ function parseDomains(value = '') {
   return domains.length ? [...new Set(domains)] : [];
 }
 
+function canonicalPublisher(value = '') {
+  const cleaned = value.trim();
+  return PUBLISHER_ALIASES[cleaned] || cleaned;
+}
+
 function parseBookLine(line, sourceFile) {
   const idMatch = line.match(/^- \*\*(B\d{4})\*\* — /);
   if (!idMatch) return null;
@@ -239,7 +260,7 @@ function parseBookLine(line, sourceFile) {
   const domainMatch = !mscMatch && bibliographicAndDomains.match(/^(.*?)\s+—\s+Domaines?\s*:\s*(.+)$/i);
   const bibliographic = mscMatch ? mscMatch[1].trim() : domainMatch ? domainMatch[1].trim() : bibliographicAndDomains;
   const parts = bibliographic.split(' — ').map(part => part.trim()).filter(Boolean);
-  const publisher = parts.shift() || 'Éditeur non indiqué';
+  const publisher = canonicalPublisher(parts.shift() || 'Éditeur non indiqué');
   const details = parts.join(' — ');
   const authorList = authors.split(';').map(author => author.trim()).filter(Boolean);
   const mscCode = mscMatch && MSC_DOMAINS[mscMatch[2]] ? mscMatch[2] : null;
@@ -282,6 +303,16 @@ async function discoverCatalogueFiles() {
   return { files: FALLBACK_FILES, usedFallback: true };
 }
 
+async function fetchCoverIndex() {
+  try {
+    const value = JSON.parse(await fetchText('covers/index.json'));
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  } catch {
+    // Les notices restent entièrement utilisables si l’index des couvertures manque.
+    return {};
+  }
+}
+
 async function fetchCatalogueFiles(files) {
   const settled = await Promise.allSettled(files.map(async file => ({ file, text: await fetchText(file) })));
   const loaded = settled.filter(result => result.status === 'fulfilled').map(result => result.value);
@@ -294,7 +325,8 @@ async function fetchCatalogueFiles(files) {
 async function loadCatalogue() {
   showLoading();
   try {
-    const discovery = await discoverCatalogueFiles();
+    const [discovery, covers] = await Promise.all([discoverCatalogueFiles(), fetchCoverIndex()]);
+    state.covers = covers;
     let { loaded, failed } = await fetchCatalogueFiles(discovery.files);
 
     // Si la découverte dynamique tombe sur une version de README en avance sur Pages,
@@ -478,13 +510,14 @@ function renderBooks() {
 
 function createBookCard(book) {
   const card = elements.cardTemplate.content.firstElementChild.cloneNode(true);
+  card.style.setProperty('--book-hue', String((Number(book.mscCode) * 7 + book.number) % 360));
+  setupBookCover(card, book, 'M');
   card.querySelector('.book-card__id').textContent = book.id;
+  card.querySelector('.book-card__domain').textContent = `MSC ${book.mscCode}`;
   card.querySelector('.book-card__title').textContent = book.title;
   card.querySelector('.book-card__authors').textContent = book.authors;
   const meta = card.querySelector('.book-card__meta');
   meta.append(createBadge(book.publisher));
-  book.domains.forEach(domain => meta.append(createBadge(domain)));
-  if (book.details) meta.append(createBadge(book.details));
   if (book.status === 'uncertain') meta.append(createBadge('À vérifier', true));
 
   const favorite = card.querySelector('.favorite-button');
@@ -498,6 +531,34 @@ function createBookCard(book) {
   card.querySelector('.book-card__open').addEventListener('click', () => openBookDialog(book));
   card.addEventListener('dblclick', () => openBookDialog(book));
   return card;
+}
+
+function coverUrl(cover, size = 'M') {
+  return `https://covers.openlibrary.org/b/id/${encodeURIComponent(cover.coverId)}-${size}.jpg?default=false`;
+}
+
+function setupBookCover(root, book, size = 'M') {
+  const frame = root.querySelector('.book-cover');
+  if (!frame) return;
+  const image = frame.querySelector('.book-cover__image');
+  const placeholder = frame.querySelector('.book-cover__placeholder');
+  frame.querySelector('.book-cover__code').textContent = `MSC ${book.mscCode}`;
+  frame.querySelector('.book-cover__placeholder-title').textContent = book.title;
+  const cover = state.covers[book.id];
+  if (!cover?.coverId) return;
+
+  const showImage = () => {
+    image.hidden = false;
+    placeholder.hidden = true;
+  };
+  image.alt = `Première de couverture de « ${book.title} »`;
+  image.addEventListener('load', showImage, { once: true });
+  image.addEventListener('error', () => {
+    image.hidden = true;
+    placeholder.hidden = false;
+  }, { once: true });
+  image.src = coverUrl(cover, size);
+  if (image.complete && image.naturalWidth) showImage();
 }
 
 function createBadge(text, warning = false) {
@@ -544,24 +605,43 @@ function renderPagination() {
 
 function openBookDialog(book) {
   const favorite = state.favorites.has(book.id);
+  const cover = state.covers[book.id];
+  const openLibraryLink = cover?.workKey
+    ? `<a class="button button--quiet" href="https://openlibrary.org${escapeHtml(cover.workKey)}" target="_blank" rel="noopener">Notice Open Library</a>`
+    : '';
   elements.dialogContent.innerHTML = `
-    <div class="dialog-body">
-      <div class="dialog-id">${escapeHtml(book.id)}</div>
-      <h2 class="dialog-title">${escapeHtml(book.title)}</h2>
-      <p class="dialog-authors">${escapeHtml(book.authors)}</p>
-      <dl class="dialog-grid">
-        <dt>Éditeur</dt><dd>${escapeHtml(book.publisher)}</dd>
-        <dt>Domaine${book.domains.length > 1 ? 's' : ''}</dt><dd>${escapeHtml(book.domains.join(' · '))}</dd>
-        <dt>Collection / édition</dt><dd>${escapeHtml(book.details || 'Non précisée')}</dd>
-        <dt>État</dt><dd>${book.status === 'uncertain' ? 'Référence à vérifier' : 'Référence confirmée'}</dd>
-        ${book.note ? `<dt>Note</dt><dd>${escapeHtml(book.note)}</dd>` : ''}
-        <dt>Fichier source</dt><dd><code>${escapeHtml(book.sourceFile)}</code></dd>
-      </dl>
-      <div class="dialog-actions">
-        <button id="dialogFavoriteButton" class="button" type="button">${favorite ? '★ Retirer des favoris' : '☆ Ajouter aux favoris'}</button>
-        <a class="button button--quiet" href="${REPOSITORY_URL}/blob/main/${encodeURI(book.sourceFile)}" target="_blank" rel="noopener">Voir la source GitHub</a>
+    <div class="dialog-layout" style="--book-hue: ${(Number(book.mscCode) * 7 + book.number) % 360}">
+      <div class="dialog-cover-column">
+        <div class="book-cover book-cover--dialog">
+          <img class="book-cover__image" alt="" decoding="async" hidden>
+          <div class="book-cover__placeholder" aria-hidden="true">
+            <span class="book-cover__code"></span>
+            <strong class="book-cover__placeholder-title"></strong>
+            <span class="book-cover__monogram">BS</span>
+          </div>
+        </div>
+        ${cover ? '<p class="cover-credit">Couverture : Open Library</p>' : '<p class="cover-credit">Visuel typographique du catalogue</p>'}
+      </div>
+      <div class="dialog-body">
+        <div class="dialog-id">${escapeHtml(book.id)} · MSC ${escapeHtml(book.mscCode)}</div>
+        <h2 class="dialog-title">${escapeHtml(book.title)}</h2>
+        <p class="dialog-authors">${escapeHtml(book.authors)}</p>
+        <dl class="dialog-grid">
+          <dt>Éditeur</dt><dd>${escapeHtml(book.publisher)}</dd>
+          <dt>Domaine${book.domains.length > 1 ? 's' : ''}</dt><dd>${escapeHtml(book.domains.join(' · '))}</dd>
+          <dt>Collection / édition</dt><dd>${escapeHtml(book.details || 'Non précisée')}</dd>
+          <dt>État</dt><dd>${book.status === 'uncertain' ? 'Référence à vérifier' : 'Référence confirmée'}</dd>
+          ${book.note ? `<dt>Note</dt><dd>${escapeHtml(book.note)}</dd>` : ''}
+          <dt>Fichier source</dt><dd><code>${escapeHtml(book.sourceFile)}</code></dd>
+        </dl>
+        <div class="dialog-actions">
+          <button id="dialogFavoriteButton" class="button" type="button">${favorite ? '★ Retirer des favoris' : '☆ Ajouter aux favoris'}</button>
+          ${openLibraryLink}
+          <a class="button button--quiet" href="${REPOSITORY_URL}/blob/main/${encodeURI(book.sourceFile)}" target="_blank" rel="noopener">Voir la source GitHub</a>
+        </div>
       </div>
     </div>`;
+  setupBookCover(elements.dialogContent, book, 'L');
   elements.dialogContent.querySelector('#dialogFavoriteButton').addEventListener('click', () => {
     toggleFavorite(book.id);
     elements.dialog.close();

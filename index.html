@@ -6,17 +6,17 @@
   <meta name="description" content="Explorateur interactif de la bibliothèque scientifique de Philippe.">
   <meta name="color-scheme" content="light dark">
   <title>Bibliothèque scientifique</title>
-  <link rel="stylesheet" href="styles.css?v=20260820-3">
+  <link rel="stylesheet" href="styles.css?v=20260820-4">
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux résultats</a>
 
   <header class="hero">
     <div class="hero__inner">
-      <div>
+      <div class="hero__copy">
         <p class="eyebrow">Catalogue personnel</p>
         <h1>Bibliothèque scientifique</h1>
-        <p class="hero__subtitle">Rechercher, filtrer et parcourir les ouvrages directement depuis les fichiers du dépôt.</p>
+        <p class="hero__subtitle">Une collection de mathématiques et de sciences, classée avec précision et conçue pour être explorée.</p>
       </div>
       <div class="hero__actions">
         <button id="refreshButton" class="button button--ghost" type="button" title="Relire les fichiers du catalogue">↻ Actualiser</button>
@@ -119,22 +119,36 @@
 
   <template id="bookCardTemplate">
     <article class="book-card">
-      <div class="book-card__topline">
-        <span class="book-card__id"></span>
+      <div class="book-card__visual">
+        <div class="book-cover">
+          <img class="book-cover__image" alt="" loading="lazy" decoding="async" hidden>
+          <div class="book-cover__placeholder" aria-hidden="true">
+            <span class="book-cover__code"></span>
+            <strong class="book-cover__placeholder-title"></strong>
+            <span class="book-cover__monogram">BS</span>
+          </div>
+        </div>
         <button class="favorite-button" type="button" aria-label="Ajouter aux favoris" title="Ajouter aux favoris">☆</button>
       </div>
-      <h3 class="book-card__title"></h3>
-      <p class="book-card__authors"></p>
-      <div class="book-card__meta"></div>
-      <button class="book-card__open" type="button">Voir la notice</button>
+      <div class="book-card__content">
+        <div class="book-card__topline">
+          <span class="book-card__id"></span>
+          <span class="book-card__domain"></span>
+        </div>
+        <h3 class="book-card__title"></h3>
+        <p class="book-card__authors"></p>
+        <div class="book-card__meta"></div>
+        <button class="book-card__open" type="button">Ouvrir la notice <span aria-hidden="true">→</span></button>
+      </div>
     </article>
   </template>
 
   <footer class="footer">
     <p>Les données sont relues depuis les fichiers Markdown à chaque ouverture. Les fichiers liés dans le README sont découverts automatiquement, avec une liste de secours intégrée.</p>
+    <p>Couvertures bibliographiques fournies avec l’aimable concours d’<a href="https://openlibrary.org/" target="_blank" rel="noopener">Open Library</a>.</p>
   </footer>
 
   <noscript>Cette interface nécessite JavaScript pour lire et filtrer le catalogue.</noscript>
-  <script src="app.js?v=20260820-3" data-app defer></script>
+  <script src="app.js?v=20260820-4" data-app defer></script>
 </body>
 </html>

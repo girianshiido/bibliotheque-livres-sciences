@@ -1,0 +1,1688 @@
+{
+  "B0001": {
+    "coverId": 12404735,
+    "workKey": "/works/OL25348113W",
+    "matchedTitle": "Classical Analysis in the Complex Plane",
+    "source": "Open Library"
+  },
+  "B0002": {
+    "coverId": 4292042,
+    "workKey": "/works/OL3266115W",
+    "matchedTitle": "Lie groups beyond an introduction",
+    "source": "Open Library"
+  },
+  "B0004": {
+    "coverId": 2651644,
+    "workKey": "/works/OL3266114W",
+    "matchedTitle": "Advanced Algebra",
+    "source": "Open Library"
+  },
+  "B0005": {
+    "coverId": 8727252,
+    "workKey": "/works/OL6914091W",
+    "matchedTitle": "The theory of error correcting codes",
+    "source": "Open Library"
+  },
+  "B0006": {
+    "coverId": 245335,
+    "workKey": "/works/OL78145W",
+    "matchedTitle": "An introduction to the theory of groups",
+    "source": "Open Library"
+  },
+  "B0007": {
+    "coverId": 164089,
+    "workKey": "/works/OL2908636W",
+    "matchedTitle": "Principles of quantum mechanics",
+    "source": "Open Library"
+  },
+  "B0016": {
+    "coverId": 9345388,
+    "workKey": "/works/OL20675380W",
+    "matchedTitle": "Solving the Pell Equation",
+    "source": "Open Library"
+  },
+  "B0017": {
+    "coverId": 7613437,
+    "workKey": "/works/OL17455603W",
+    "matchedTitle": "Equations And Inequalities Elementary Problems And Theorems In Algebra And Number Theory",
+    "source": "Open Library"
+  },
+  "B0019": {
+    "coverId": 6674648,
+    "workKey": "/works/OL2906835W",
+    "matchedTitle": "Variational calculus with elementary convexity",
+    "source": "Open Library"
+  },
+  "B0021": {
+    "coverId": 1193072,
+    "workKey": "/works/OL8055355W",
+    "matchedTitle": "Introduction to cryptography",
+    "source": "Open Library"
+  },
+  "B0022": {
+    "coverId": 9350821,
+    "workKey": "/works/OL20679705W",
+    "matchedTitle": "Heights of Polynomials and Entropy in Algebraic Dynamics",
+    "source": "Open Library"
+  },
+  "B0024": {
+    "coverId": 245013,
+    "workKey": "/works/OL4786847W",
+    "matchedTitle": "Techniques of variational analysis",
+    "source": "Open Library"
+  },
+  "B0030": {
+    "coverId": 8801498,
+    "workKey": "/works/OL20156419W",
+    "matchedTitle": "99 Variations on a Proof",
+    "source": "Open Library"
+  },
+  "B0031": {
+    "coverId": 8626015,
+    "workKey": "/works/OL3169378W",
+    "matchedTitle": "Calculus",
+    "source": "Open Library"
+  },
+  "B0033": {
+    "coverId": 2158519,
+    "workKey": "/works/OL686495W",
+    "matchedTitle": "Calcul infinitésimal ..",
+    "source": "Open Library"
+  },
+  "B0035": {
+    "coverId": 3116879,
+    "workKey": "/works/OL745198W",
+    "matchedTitle": "Cours d'algèbre",
+    "source": "Open Library"
+  },
+  "B0036": {
+    "coverId": 8616383,
+    "workKey": "/works/OL6514952W",
+    "matchedTitle": "Algèbre commutative",
+    "source": "Open Library"
+  },
+  "B0037": {
+    "coverId": 2158495,
+    "workKey": "/works/OL6514954W",
+    "matchedTitle": "Les formalismes fondamentaux de l'algèbre commutative",
+    "source": "Open Library"
+  },
+  "B0039": {
+    "coverId": 315212,
+    "workKey": "/works/OL1234995W",
+    "matchedTitle": "Théorie élémentaire des fonctions analytiques d'une ou plusieurs variables complexes",
+    "source": "Open Library"
+  },
+  "B0041": {
+    "coverId": 8729578,
+    "workKey": "/works/OL1399314W",
+    "matchedTitle": "Arbres, amalgames, SL₂",
+    "source": "Open Library"
+  },
+  "B0042": {
+    "coverId": 2158469,
+    "workKey": "/works/OL745200W",
+    "matchedTitle": "Topologie algébrique et théorie des faisceaux",
+    "source": "Open Library"
+  },
+  "B0043": {
+    "coverId": 10736836,
+    "workKey": "/works/OL24252744W",
+    "matchedTitle": "Calcul différentiel",
+    "source": "Open Library"
+  },
+  "B0046": {
+    "coverId": 4892859,
+    "workKey": "/works/OL1931706W",
+    "matchedTitle": "A primer of real analytic functions",
+    "source": "Open Library"
+  },
+  "B0047": {
+    "coverId": 3116859,
+    "workKey": "/works/OL9967284W",
+    "matchedTitle": "La géométrie du triangle. Exercices résolus",
+    "source": "Open Library"
+  },
+  "B0055": {
+    "coverId": 8505868,
+    "workKey": "/works/OL2739894W",
+    "matchedTitle": "Algebra",
+    "source": "Open Library"
+  },
+  "B0056": {
+    "coverId": 13149949,
+    "workKey": "/works/OL25464362W",
+    "matchedTitle": "Visual Differential Geometry and Forms",
+    "source": "Open Library"
+  },
+  "B0057": {
+    "coverId": 10033520,
+    "workKey": "/works/OL1204967W",
+    "matchedTitle": "Mathematical foundations of quantum mechanics",
+    "source": "Open Library"
+  },
+  "B0059": {
+    "coverId": 443660,
+    "workKey": "/works/OL5679875W",
+    "matchedTitle": "Nonlinear optimization",
+    "source": "Open Library"
+  },
+  "B0061": {
+    "coverId": 2282076,
+    "workKey": "/works/OL5273715W",
+    "matchedTitle": "Z transform theory and applications",
+    "source": "Open Library"
+  },
+  "B0062": {
+    "coverId": 5312603,
+    "workKey": "/works/OL6857978W",
+    "matchedTitle": "Algebraic Topology",
+    "source": "Open Library"
+  },
+  "B0065": {
+    "coverId": 2223253,
+    "workKey": "/works/OL9074609W",
+    "matchedTitle": "Discourses on Algebra",
+    "source": "Open Library"
+  },
+  "B0066": {
+    "coverId": 1193158,
+    "workKey": "/works/OL1876761W",
+    "matchedTitle": "A first course in noncommutative rings",
+    "source": "Open Library"
+  },
+  "B0068": {
+    "coverId": 3695060,
+    "workKey": "/works/OL112090W",
+    "matchedTitle": "Linear differential equations and group theory from Riemann to Poincaré",
+    "source": "Open Library"
+  },
+  "B0069": {
+    "coverId": 14396158,
+    "workKey": "/works/OL16215176W",
+    "matchedTitle": "Circles disturbed",
+    "source": "Open Library"
+  },
+  "B0074": {
+    "coverId": 8653646,
+    "workKey": "/works/OL19852579W",
+    "matchedTitle": "Géométrie analytique classique",
+    "source": "Open Library"
+  },
+  "B0079": {
+    "coverId": 8714164,
+    "workKey": "/works/OL19899151W",
+    "matchedTitle": "Réduction des endomorphismes",
+    "source": "Open Library"
+  },
+  "B0081": {
+    "coverId": 8687319,
+    "workKey": "/works/OL19883432W",
+    "matchedTitle": "Le jardin d'Eiden",
+    "source": "Open Library"
+  },
+  "B0090": {
+    "coverId": 8633327,
+    "workKey": "/works/OL19838117W",
+    "matchedTitle": "Corps commutatifs et théorie de Galois",
+    "source": "Open Library"
+  },
+  "B0099": {
+    "coverId": 8640287,
+    "workKey": "/works/OL15408567W",
+    "matchedTitle": "Distributions and operators",
+    "source": "Open Library"
+  },
+  "B0101": {
+    "coverId": 10355087,
+    "workKey": "/works/OL21233808W",
+    "matchedTitle": "Spaces of Holomorphic Functions in the Unit Ball",
+    "source": "Open Library"
+  },
+  "B0102": {
+    "coverId": 1193702,
+    "workKey": "/works/OL2666006W",
+    "matchedTitle": "Several complex variables and Banach algebras",
+    "source": "Open Library"
+  },
+  "B0103": {
+    "coverId": 8664826,
+    "workKey": "/works/OL3505070W",
+    "matchedTitle": "An introduction to complex analysis in several variables",
+    "source": "Open Library"
+  },
+  "B0106": {
+    "coverId": 8503272,
+    "workKey": "/works/OL19505025W",
+    "matchedTitle": "Geometric Function Theory: Explorations in Complex Analysis (Cornerstones)",
+    "source": "Open Library"
+  },
+  "B0107": {
+    "coverId": 3995432,
+    "workKey": "/works/OL4282982W",
+    "matchedTitle": "Boundary behaviour of conformal maps",
+    "source": "Open Library"
+  },
+  "B0109": {
+    "coverId": 4363620,
+    "workKey": "/works/OL4960840W",
+    "matchedTitle": "Bounded analytic functions",
+    "source": "Open Library"
+  },
+  "B0111": {
+    "coverId": 8630653,
+    "workKey": "/works/OL1704850W",
+    "matchedTitle": "Complex analysis and special topics in harmonic analysis",
+    "source": "Open Library"
+  },
+  "B0113": {
+    "coverId": 1192768,
+    "workKey": "/works/OL2972904W",
+    "matchedTitle": "Entire and meromorphic functions",
+    "source": "Open Library"
+  },
+  "B0114": {
+    "coverId": 2216036,
+    "workKey": "/works/OL8328207W",
+    "matchedTitle": "Dynamics in One Complex Variable",
+    "source": "Open Library"
+  },
+  "B0116": {
+    "coverId": 246020,
+    "workKey": "/works/OL4304385W",
+    "matchedTitle": "Complex dynamics",
+    "source": "Open Library"
+  },
+  "B0118": {
+    "coverId": 8422370,
+    "workKey": "/works/OL19131963W",
+    "matchedTitle": "Explorations in Mathematical Physics: The Concepts Behind an Elegant Language",
+    "source": "Open Library"
+  },
+  "B0120": {
+    "coverId": 8616386,
+    "workKey": "/works/OL19825492W",
+    "matchedTitle": "Algèbre et théories galoisiennes",
+    "source": "Open Library"
+  },
+  "B0125": {
+    "coverId": 8423922,
+    "workKey": "/works/OL2739881W",
+    "matchedTitle": "Mathematics, form and function",
+    "source": "Open Library"
+  },
+  "B0126": {
+    "coverId": 3070290,
+    "workKey": "/works/OL3574473W",
+    "matchedTitle": "Dictionnaire des mathématiques élémentaires",
+    "source": "Open Library"
+  },
+  "B0127": {
+    "coverId": 4375002,
+    "workKey": "/works/OL14856220W",
+    "matchedTitle": "An introduction to the theory of numbers",
+    "source": "Open Library"
+  },
+  "B0128": {
+    "coverId": 5366957,
+    "workKey": "/works/OL1915639W",
+    "matchedTitle": "Selected Papers on Discrete Mathematics",
+    "source": "Open Library"
+  },
+  "B0129": {
+    "coverId": 927862,
+    "workKey": "/works/OL14941587W",
+    "matchedTitle": "Selected Papers on Computer Science",
+    "source": "Open Library"
+  },
+  "B0130": {
+    "coverId": 6679390,
+    "workKey": "/works/OL15444239W",
+    "matchedTitle": "Selected papers on fun and games",
+    "source": "Open Library"
+  },
+  "B0131": {
+    "coverId": 10236346,
+    "workKey": "/works/OL20899545W",
+    "matchedTitle": "Algebraic Combinatorics",
+    "source": "Open Library"
+  },
+  "B0132": {
+    "coverId": 300496,
+    "workKey": "/works/OL21369112W",
+    "matchedTitle": "Principles of Algebraic Geometry",
+    "source": "Open Library"
+  },
+  "B0134": {
+    "coverId": 7292607,
+    "workKey": "/works/OL5960976W",
+    "matchedTitle": "Generalized inverses: theory and applications",
+    "source": "Open Library"
+  },
+  "B0136": {
+    "coverId": 8788709,
+    "workKey": "/works/OL20140537W",
+    "matchedTitle": "An introduction to Clifford algebras and spinors",
+    "source": "Open Library"
+  },
+  "B0137": {
+    "coverId": 442294,
+    "workKey": "/works/OL3346925W",
+    "matchedTitle": "Three-dimensional geometry and topology",
+    "source": "Open Library"
+  },
+  "B0139": {
+    "coverId": 7564007,
+    "workKey": "/works/OL17430836W",
+    "matchedTitle": "The Development Of Prime Number Theory From Euclid To Hardy And Littlewood",
+    "source": "Open Library"
+  },
+  "B0140": {
+    "coverId": 8651891,
+    "workKey": "/works/OL16936427W",
+    "matchedTitle": "Functional Equations and Inequalities with Applications",
+    "source": "Open Library"
+  },
+  "B0141": {
+    "coverId": 9286114,
+    "workKey": "/works/OL20649903W",
+    "matchedTitle": "Real And Functional Analysis",
+    "source": "Open Library"
+  },
+  "B0142": {
+    "coverId": 1190364,
+    "workKey": "/works/OL18773107W",
+    "matchedTitle": "Fixed point theory",
+    "source": "Open Library"
+  },
+  "B0143": {
+    "coverId": 245223,
+    "workKey": "/works/OL3100391W",
+    "matchedTitle": "Differential forms in algebraic topology",
+    "source": "Open Library"
+  },
+  "B0144": {
+    "coverId": 246213,
+    "workKey": "/works/OL473817W",
+    "matchedTitle": "The geometry of schemes",
+    "source": "Open Library"
+  },
+  "B0145": {
+    "coverId": 9406986,
+    "workKey": "/works/OL20723343W",
+    "matchedTitle": "Basic Notions of Algebra",
+    "source": "Open Library"
+  },
+  "B0146": {
+    "coverId": 9601400,
+    "workKey": "/works/OL7945288W",
+    "matchedTitle": "Classical Fourier analysis",
+    "source": "Open Library"
+  },
+  "B0147": {
+    "coverId": 9347755,
+    "workKey": "/works/OL7945289W",
+    "matchedTitle": "Modern Fourier analysis",
+    "source": "Open Library"
+  },
+  "B0148": {
+    "coverId": 9619943,
+    "workKey": "/works/OL20760052W",
+    "matchedTitle": "Homotopical Topology",
+    "source": "Open Library"
+  },
+  "B0150": {
+    "coverId": 717478,
+    "workKey": "/works/OL3546328W",
+    "matchedTitle": "How Does One Cut a Triangle?",
+    "source": "Open Library"
+  },
+  "B0153": {
+    "coverId": 717477,
+    "workKey": "/works/OL3546329W",
+    "matchedTitle": "Mathematics as problem solving",
+    "source": "Open Library"
+  },
+  "B0154": {
+    "coverId": 8653582,
+    "workKey": "/works/OL16974818W",
+    "matchedTitle": "Geometric Etudes in Combinatorial Mathematics",
+    "source": "Open Library"
+  },
+  "B0161": {
+    "coverId": 364064,
+    "workKey": "/works/OL15209593W",
+    "matchedTitle": "Probability: Theory and Examples (Probability: Theory & Examples)",
+    "source": "Open Library"
+  },
+  "B0163": {
+    "coverId": 14403477,
+    "workKey": "/works/OL1694305W",
+    "matchedTitle": "Differential equations, dynamical systems, and an introduction to chaos",
+    "source": "Open Library"
+  },
+  "B0164": {
+    "coverId": 9349887,
+    "workKey": "/works/OL20678961W",
+    "matchedTitle": "A History of Chinese Mathematics",
+    "source": "Open Library"
+  },
+  "B0165": {
+    "coverId": 1018860,
+    "workKey": "/works/OL18569789W",
+    "matchedTitle": "Galois theory of linear differential equations",
+    "source": "Open Library"
+  },
+  "B0166": {
+    "coverId": 8723971,
+    "workKey": "/works/OL16983341W",
+    "matchedTitle": "The Structure of the Real Line",
+    "source": "Open Library"
+  },
+  "B0167": {
+    "coverId": 8658728,
+    "workKey": "/works/OL16769006W",
+    "matchedTitle": "Higher order Fourier analysis",
+    "source": "Open Library"
+  },
+  "B0168": {
+    "coverId": 7863751,
+    "workKey": "/works/OL17581521W",
+    "matchedTitle": "The Mathematics Of Frobenius In Context A Journey Through 18th To 20th Century Mathematics",
+    "source": "Open Library"
+  },
+  "B0170": {
+    "coverId": 7548713,
+    "workKey": "/works/OL17423149W",
+    "matchedTitle": "Digraphs Theory Algorithms And Applications",
+    "source": "Open Library"
+  },
+  "B0171": {
+    "coverId": 9443876,
+    "workKey": "/works/OL16560114W",
+    "matchedTitle": "Mathematical analysis I",
+    "source": "Open Library"
+  },
+  "B0172": {
+    "coverId": 10128244,
+    "workKey": "/works/OL20824631W",
+    "matchedTitle": "Mathematical Analysis II",
+    "source": "Open Library"
+  },
+  "B0173": {
+    "coverId": 8665180,
+    "workKey": "/works/OL13764896W",
+    "matchedTitle": "An introduction to mathematical cryptography",
+    "source": "Open Library"
+  },
+  "B0174": {
+    "coverId": 10202135,
+    "workKey": "/works/OL20878811W",
+    "matchedTitle": "Rational Points on Elliptic Curves",
+    "source": "Open Library"
+  },
+  "B0175": {
+    "coverId": 441837,
+    "workKey": "/works/OL8327773W",
+    "matchedTitle": "Continuous Geometry",
+    "source": "Open Library"
+  },
+  "B0178": {
+    "coverId": 8650912,
+    "workKey": "/works/OL19851107W",
+    "matchedTitle": "Fourier and Wavelet Analysis",
+    "source": "Open Library"
+  },
+  "B0179": {
+    "coverId": 8715751,
+    "workKey": "/works/OL19900034W",
+    "matchedTitle": "Rings of continuous functions",
+    "source": "Open Library"
+  },
+  "B0180": {
+    "coverId": 80202,
+    "workKey": "/works/OL4438098W",
+    "matchedTitle": "C*-algebras and operator theory",
+    "source": "Open Library"
+  },
+  "B0182": {
+    "coverId": 621450,
+    "workKey": "/works/OL1982861W",
+    "matchedTitle": "Partial Differential Equations",
+    "source": "Open Library"
+  },
+  "B0183": {
+    "coverId": 10131235,
+    "workKey": "/works/OL20827070W",
+    "matchedTitle": "Topological Vector Spaces and Their Applications",
+    "source": "Open Library"
+  },
+  "B0187": {
+    "coverId": 245105,
+    "workKey": "/works/OL5277373W",
+    "matchedTitle": "A topological picturebook",
+    "source": "Open Library"
+  },
+  "B0188": {
+    "coverId": 245169,
+    "workKey": "/works/OL2776836W",
+    "matchedTitle": "Naive Set Theory",
+    "source": "Open Library"
+  },
+  "B0189": {
+    "coverId": 617099,
+    "workKey": "/works/OL1213675W",
+    "matchedTitle": "Notes on introductory combinatorics",
+    "source": "Open Library"
+  },
+  "B0190": {
+    "coverId": 245932,
+    "workKey": "/works/OL3490855W",
+    "matchedTitle": "Theorems and counterexamples in mathematics",
+    "source": "Open Library"
+  },
+  "B0191": {
+    "coverId": 5297229,
+    "workKey": "/works/OL1204974W",
+    "matchedTitle": "Theory of Games and Economic Behavior",
+    "source": "Open Library"
+  },
+  "B0192": {
+    "coverId": 245813,
+    "workKey": "/works/OL5910261W",
+    "matchedTitle": "Problem Solving Through Problems",
+    "source": "Open Library"
+  },
+  "B0196": {
+    "coverId": 1193267,
+    "workKey": "/works/OL8058978W",
+    "matchedTitle": "Lectures on Discrete Geometry",
+    "source": "Open Library"
+  },
+  "B0199": {
+    "coverId": 8666418,
+    "workKey": "/works/OL4462590W",
+    "matchedTitle": "The prehistory of the theory of distributions",
+    "source": "Open Library"
+  },
+  "B0201": {
+    "coverId": 5287984,
+    "workKey": "/works/OL10360387W",
+    "matchedTitle": "Iterative approximation of fixed points",
+    "source": "Open Library"
+  },
+  "B0206": {
+    "coverId": 7820002,
+    "workKey": "/works/OL17559211W",
+    "matchedTitle": "New Horizons In Geometry",
+    "source": "Open Library"
+  },
+  "B0207": {
+    "coverId": 6312840,
+    "workKey": "/works/OL16747834W",
+    "matchedTitle": "Euclid's Elements",
+    "source": "Open Library"
+  },
+  "B0219": {
+    "coverId": 8711010,
+    "workKey": "/works/OL15235424W",
+    "matchedTitle": "Projective Geometry",
+    "source": "Open Library"
+  },
+  "B0220": {
+    "coverId": 8653683,
+    "workKey": "/works/OL16728888W",
+    "matchedTitle": "Geometry by its history",
+    "source": "Open Library"
+  },
+  "B0221": {
+    "coverId": 972425,
+    "workKey": "/works/OL5489322W",
+    "matchedTitle": "Formes quadratiques et groupes classiques",
+    "source": "Open Library"
+  },
+  "B0228": {
+    "coverId": 8707968,
+    "workKey": "/works/OL3005586W",
+    "matchedTitle": "Polynomials",
+    "source": "Open Library"
+  },
+  "B0229": {
+    "coverId": 9416392,
+    "workKey": "/works/OL20730757W",
+    "matchedTitle": "Polynomials and Polynomial Inequalities",
+    "source": "Open Library"
+  },
+  "B0230": {
+    "coverId": 10471389,
+    "workKey": "/works/OL20770880W",
+    "matchedTitle": "The Geometry of Domains in Space",
+    "source": "Open Library"
+  },
+  "B0231": {
+    "coverId": 4277389,
+    "workKey": "/works/OL13482181W",
+    "matchedTitle": "Mathematics for the analysis of algorithms",
+    "source": "Open Library"
+  },
+  "B0232": {
+    "coverId": 2303059,
+    "workKey": "/works/OL9147855W",
+    "matchedTitle": "Several Complex Variables and Integral Formulas",
+    "source": "Open Library"
+  },
+  "B0233": {
+    "coverId": 246222,
+    "workKey": "/works/OL8059550W",
+    "matchedTitle": "Vector Analysis",
+    "source": "Open Library"
+  },
+  "B0234": {
+    "coverId": 10169160,
+    "workKey": "/works/OL20855673W",
+    "matchedTitle": "Differential Geometry of Curves and Surfaces",
+    "source": "Open Library"
+  },
+  "B0235": {
+    "coverId": 1193366,
+    "workKey": "/works/OL8059067W",
+    "matchedTitle": "Smooth Manifolds and Observables",
+    "source": "Open Library"
+  },
+  "B0237": {
+    "coverId": 10102515,
+    "workKey": "/works/OL20804312W",
+    "matchedTitle": "Compact Complex Surfaces",
+    "source": "Open Library"
+  },
+  "B0238": {
+    "coverId": 1193276,
+    "workKey": "/works/OL16979901W",
+    "matchedTitle": "From holomorphic functions to complex manifolds",
+    "source": "Open Library"
+  },
+  "B0241": {
+    "coverId": 13203591,
+    "workKey": "/works/OL16135291W",
+    "matchedTitle": "Riemann surfaces",
+    "source": "Open Library"
+  },
+  "B0242": {
+    "coverId": 621429,
+    "workKey": "/works/OL3740782W",
+    "matchedTitle": "Algebraic curves and Riemann surfaces",
+    "source": "Open Library"
+  },
+  "B0244": {
+    "coverId": 9353915,
+    "workKey": "/works/OL20682211W",
+    "matchedTitle": "Introduction to Smooth Manifolds",
+    "source": "Open Library"
+  },
+  "B0245": {
+    "coverId": 2235382,
+    "workKey": "/works/OL3488350W",
+    "matchedTitle": "Riemannian geometry",
+    "source": "Open Library"
+  },
+  "B0246": {
+    "coverId": 7508224,
+    "workKey": "/works/OL17402685W",
+    "matchedTitle": "Topological Stability Of Smooth Mappings",
+    "source": "Open Library"
+  },
+  "B0247": {
+    "coverId": 8722300,
+    "workKey": "/works/OL1978894W",
+    "matchedTitle": "Stable mappings and their singularities",
+    "source": "Open Library"
+  },
+  "B0248": {
+    "coverId": 245522,
+    "workKey": "/works/OL3262607W",
+    "matchedTitle": "A first course in discrete dynamical systems",
+    "source": "Open Library"
+  },
+  "B0252": {
+    "coverId": 245179,
+    "workKey": "/works/OL1694309W",
+    "matchedTitle": "Differential topology",
+    "source": "Open Library"
+  },
+  "B0253": {
+    "coverId": 332282,
+    "workKey": "/works/OL3185765W",
+    "matchedTitle": "Introduction to differential topology",
+    "source": "Open Library"
+  },
+  "B0255": {
+    "coverId": 285095,
+    "workKey": "/works/OL4564951W",
+    "matchedTitle": "Analysis, manifolds, and physics",
+    "source": "Open Library"
+  },
+  "B0257": {
+    "coverId": 8727063,
+    "workKey": "/works/OL19906560W",
+    "matchedTitle": "Théorie de Hodge et géométrie algébrique complexe",
+    "source": "Open Library"
+  },
+  "B0258": {
+    "coverId": 1192606,
+    "workKey": "/works/OL3905427W",
+    "matchedTitle": "Fibre bundles",
+    "source": "Open Library"
+  },
+  "B0259": {
+    "coverId": 245575,
+    "workKey": "/works/OL2050987W",
+    "matchedTitle": "Sheaf theory",
+    "source": "Open Library"
+  },
+  "B0260": {
+    "coverId": 7657260,
+    "workKey": "/works/OL17477536W",
+    "matchedTitle": "Categories And Sheaves",
+    "source": "Open Library"
+  },
+  "B0261": {
+    "coverId": 8155137,
+    "workKey": "/works/OL17854085W",
+    "matchedTitle": "Categories for the Working Mathematician",
+    "source": "Open Library"
+  },
+  "B0263": {
+    "coverId": 8400083,
+    "workKey": "/works/OL19083190W",
+    "matchedTitle": "Basic Algebraic Geometry 1: Varieties in Projective Space",
+    "source": "Open Library"
+  },
+  "B0266": {
+    "coverId": 246026,
+    "workKey": "/works/OL2440904W",
+    "matchedTitle": "Introduction to elliptic curves and modular forms",
+    "source": "Open Library"
+  },
+  "B0268": {
+    "coverId": 8724304,
+    "workKey": "/works/OL19904843W",
+    "matchedTitle": "Substitutions in Dynamics, Arithmetics and Combinatorics",
+    "source": "Open Library"
+  },
+  "B0269": {
+    "coverId": 13936647,
+    "workKey": "/works/OL3290652W",
+    "matchedTitle": "Optimisation et analyse convexe",
+    "source": "Open Library"
+  },
+  "B0274": {
+    "coverId": 14495028,
+    "workKey": "/works/OL26730614W",
+    "matchedTitle": "Mathematical Bridges",
+    "source": "Open Library"
+  },
+  "B0277": {
+    "coverId": 245987,
+    "workKey": "/works/OL4099888W",
+    "matchedTitle": "Abstract algebra and famous impossibilities",
+    "source": "Open Library"
+  },
+  "B0280": {
+    "coverId": 13337498,
+    "workKey": "/works/OL25800387W",
+    "matchedTitle": "Sharpening Mathematical Analysis Skills",
+    "source": "Open Library"
+  },
+  "B0289": {
+    "coverId": 2299271,
+    "workKey": "/works/OL1893150W",
+    "matchedTitle": "Problems and solutions in mathematics",
+    "source": "Open Library"
+  },
+  "B0290": {
+    "coverId": 8711967,
+    "workKey": "/works/OL12553447W",
+    "matchedTitle": "Putnam and beyond",
+    "source": "Open Library"
+  },
+  "B0292": {
+    "coverId": 1190482,
+    "workKey": "/works/OL2712258W",
+    "matchedTitle": "Berkeley problems in mathematics",
+    "source": "Open Library"
+  },
+  "B0294": {
+    "coverId": 2236521,
+    "workKey": "/works/OL6262748W",
+    "matchedTitle": "Exploring, Investigating and Discovering in Mathematics",
+    "source": "Open Library"
+  },
+  "B0308": {
+    "coverId": 11527670,
+    "workKey": "/works/OL24773282W",
+    "matchedTitle": "Équations Différentielles",
+    "source": "Open Library"
+  },
+  "B0313": {
+    "coverId": 8381023,
+    "workKey": "/works/OL19067067W",
+    "matchedTitle": "La formule de Stokes, roman",
+    "source": "Open Library"
+  },
+  "B0317": {
+    "coverId": 2223145,
+    "workKey": "/works/OL745188W",
+    "matchedTitle": "Analyse mathématique I",
+    "source": "Open Library"
+  },
+  "B0318": {
+    "coverId": 3227225,
+    "workKey": "/works/OL745189W",
+    "matchedTitle": "Analyse mathématique II",
+    "source": "Open Library"
+  },
+  "B0319": {
+    "coverId": 2229015,
+    "workKey": "/works/OL745190W",
+    "matchedTitle": "Analyse mathématique III",
+    "source": "Open Library"
+  },
+  "B0320": {
+    "coverId": 2224277,
+    "workKey": "/works/OL745191W",
+    "matchedTitle": "Analyse mathématique IV",
+    "source": "Open Library"
+  },
+  "B0321": {
+    "coverId": 11412479,
+    "workKey": "/works/OL24697463W",
+    "matchedTitle": "Problèmes de distributions et d'équations aux dérivées partielles",
+    "source": "Open Library"
+  },
+  "B0323": {
+    "coverId": 1192662,
+    "workKey": "/works/OL3452162W",
+    "matchedTitle": "Space-filling curves",
+    "source": "Open Library"
+  },
+  "B0324": {
+    "coverId": 8647476,
+    "workKey": "/works/OL19848968W",
+    "matchedTitle": "Exercices d'algèbre",
+    "source": "Open Library"
+  },
+  "B0325": {
+    "coverId": 10110398,
+    "workKey": "/works/OL20810344W",
+    "matchedTitle": "Lipschitz Functions",
+    "source": "Open Library"
+  },
+  "B0327": {
+    "coverId": 8713464,
+    "workKey": "/works/OL19898743W",
+    "matchedTitle": "Real Algebraic Geometry",
+    "source": "Open Library"
+  },
+  "B0328": {
+    "coverId": 14680136,
+    "workKey": "/works/OL26523135W",
+    "matchedTitle": "Differential Geometry",
+    "source": "Open Library"
+  },
+  "B0332": {
+    "coverId": 245950,
+    "workKey": "/works/OL1675995W",
+    "matchedTitle": "A basic course in algebraic topology",
+    "source": "Open Library"
+  },
+  "B0333": {
+    "coverId": 8655214,
+    "workKey": "/works/OL19853394W",
+    "matchedTitle": "Graph theory",
+    "source": "Open Library"
+  },
+  "B0334": {
+    "coverId": 10064239,
+    "workKey": "/works/OL20785088W",
+    "matchedTitle": "A Course in Enumeration",
+    "source": "Open Library"
+  },
+  "B0335": {
+    "coverId": 80608,
+    "workKey": "/works/OL3414328W",
+    "matchedTitle": "Generatingfunctionology",
+    "source": "Open Library"
+  },
+  "B0336": {
+    "coverId": 9364469,
+    "workKey": "/works/OL20690485W",
+    "matchedTitle": "Eulerian Numbers",
+    "source": "Open Library"
+  },
+  "B0337": {
+    "coverId": 7534043,
+    "workKey": "/works/OL17415711W",
+    "matchedTitle": "Counting And Configurations Problems In Combinatorics Arithmetic And Geometry",
+    "source": "Open Library"
+  },
+  "B0339": {
+    "coverId": 245181,
+    "workKey": "/works/OL2180421W",
+    "matchedTitle": "Introduction to analytic number theory",
+    "source": "Open Library"
+  },
+  "B0340": {
+    "coverId": 9356722,
+    "workKey": "/works/OL20684450W",
+    "matchedTitle": "Number Theory for Beginners",
+    "source": "Open Library"
+  },
+  "B0342": {
+    "coverId": 246245,
+    "workKey": "/works/OL18504406W",
+    "matchedTitle": "Combinatorics and graph theory",
+    "source": "Open Library"
+  },
+  "B0343": {
+    "coverId": 8728504,
+    "workKey": "/works/OL12066547W",
+    "matchedTitle": "Topics in the theory of numbers",
+    "source": "Open Library"
+  },
+  "B0344": {
+    "coverId": 8404780,
+    "workKey": "/works/OL19088231W",
+    "matchedTitle": "Number Theory: An approach through history from Hammurapi to Legendre",
+    "source": "Open Library"
+  },
+  "B0345": {
+    "coverId": 14808552,
+    "workKey": "/works/OL28357292W",
+    "matchedTitle": "Excursions in Number Theory, Algebra, and Analysis",
+    "source": "Open Library"
+  },
+  "B0347": {
+    "coverId": 8626869,
+    "workKey": "/works/OL13804746W",
+    "matchedTitle": "Catalan's conjecture",
+    "source": "Open Library"
+  },
+  "B0348": {
+    "coverId": 5349071,
+    "workKey": "/works/OL2722372W",
+    "matchedTitle": "Problems in analytic number theory",
+    "source": "Open Library"
+  },
+  "B0351": {
+    "coverId": 246034,
+    "workKey": "/works/OL1914185W",
+    "matchedTitle": "The book of numbers",
+    "source": "Open Library"
+  },
+  "B0356": {
+    "coverId": 10127809,
+    "workKey": "/works/OL12532525W",
+    "matchedTitle": "Number fields",
+    "source": "Open Library"
+  },
+  "B0357": {
+    "coverId": 972290,
+    "workKey": "/works/OL8983439W",
+    "matchedTitle": "Invitation aux mathématiques de fermat-wiles",
+    "source": "Open Library"
+  },
+  "B0361": {
+    "coverId": 681980,
+    "workKey": "/works/OL1931686W",
+    "matchedTitle": "Mathematical Apocrypha",
+    "source": "Open Library"
+  },
+  "B0362": {
+    "coverId": 8691856,
+    "workKey": "/works/OL1931687W",
+    "matchedTitle": "Mathematical apocrypha redux",
+    "source": "Open Library"
+  },
+  "B0370": {
+    "coverId": 6388085,
+    "workKey": "/works/OL31807W",
+    "matchedTitle": "Regular polytopes",
+    "source": "Open Library"
+  },
+  "B0371": {
+    "coverId": 3971606,
+    "workKey": "/works/OL13308071W",
+    "matchedTitle": "Differential manifolds",
+    "source": "Open Library"
+  },
+  "B0373": {
+    "coverId": 10434491,
+    "workKey": "/works/OL22069786W",
+    "matchedTitle": "Forme et Croissance",
+    "source": "Open Library"
+  },
+  "B0376": {
+    "coverId": 3154578,
+    "workKey": "/works/OL2393869W",
+    "matchedTitle": "Recherches arithmétiques",
+    "source": "Open Library"
+  },
+  "B0380": {
+    "coverId": 351436,
+    "workKey": "/works/OL16921242W",
+    "matchedTitle": "Calculus of variations",
+    "source": "Open Library"
+  },
+  "B0382": {
+    "coverId": 3084729,
+    "workKey": "/works/OL9362701W",
+    "matchedTitle": "Analyse réelle et complexe",
+    "source": "Open Library"
+  },
+  "B0383": {
+    "coverId": 972282,
+    "workKey": "/works/OL6276005W",
+    "matchedTitle": "Cours de topologie",
+    "source": "Open Library"
+  },
+  "B0387": {
+    "coverId": 315048,
+    "workKey": "/works/OL4106806W",
+    "matchedTitle": "Lectures on classical differential geometry",
+    "source": "Open Library"
+  },
+  "B0388": {
+    "coverId": 10548575,
+    "workKey": "/works/OL24149809W",
+    "matchedTitle": "Analyse fonctionnelle - Théorie et applications",
+    "source": "Open Library"
+  },
+  "B0391": {
+    "coverId": 8687620,
+    "workKey": "/works/OL19883658W",
+    "matchedTitle": "Les contre-exemples en mathématiques",
+    "source": "Open Library"
+  },
+  "B0397": {
+    "coverId": 4505950,
+    "workKey": "/works/OL2434709W",
+    "matchedTitle": "Riemann's zeta function",
+    "source": "Open Library"
+  },
+  "B0399": {
+    "coverId": 314929,
+    "workKey": "/works/OL8263190W",
+    "matchedTitle": "Fourier Series",
+    "source": "Open Library"
+  },
+  "B0400": {
+    "coverId": 1019481,
+    "workKey": "/works/OL8057233W",
+    "matchedTitle": "Cours d'arithmetique",
+    "source": "Open Library"
+  },
+  "B0401": {
+    "coverId": 315143,
+    "workKey": "/works/OL4277169W",
+    "matchedTitle": "A guide to Feynman diagrams in the many-body problem",
+    "source": "Open Library"
+  },
+  "B0404": {
+    "coverId": 2651646,
+    "workKey": "/works/OL16923714W",
+    "matchedTitle": "The math problems notebook",
+    "source": "Open Library"
+  },
+  "B0405": {
+    "coverId": 245879,
+    "workKey": "/works/OL2379802W",
+    "matchedTitle": "Analysis now",
+    "source": "Open Library"
+  },
+  "B0413": {
+    "coverId": 617230,
+    "workKey": "/works/OL17945939W",
+    "matchedTitle": "Mathematical Olympiad challenges",
+    "source": "Open Library"
+  },
+  "B0416": {
+    "coverId": 442227,
+    "workKey": "/works/OL5601793W",
+    "matchedTitle": "Normal two-dimensional singularities",
+    "source": "Open Library"
+  },
+  "B0419": {
+    "coverId": 245226,
+    "workKey": "/works/OL6269412W",
+    "matchedTitle": "Lectures on Riemann surfaces",
+    "source": "Open Library"
+  },
+  "B0423": {
+    "coverId": 8712508,
+    "workKey": "/works/OL10477081W",
+    "matchedTitle": "Quantum mechanics and path integrals",
+    "source": "Open Library"
+  },
+  "B0425": {
+    "coverId": 8696990,
+    "workKey": "/works/OL2704005W",
+    "matchedTitle": "Morse theory",
+    "source": "Open Library"
+  },
+  "B0426": {
+    "coverId": 441464,
+    "workKey": "/works/OL2704006W",
+    "matchedTitle": "Topology from the differentiable viewpoint",
+    "source": "Open Library"
+  },
+  "B0427": {
+    "coverId": 442235,
+    "workKey": "/works/OL2704000W",
+    "matchedTitle": "Characteristic classes",
+    "source": "Open Library"
+  },
+  "B0430": {
+    "coverId": 3085279,
+    "workKey": "/works/OL8059623W",
+    "matchedTitle": "Théorie de Galois",
+    "source": "Open Library"
+  },
+  "B0431": {
+    "coverId": 4442939,
+    "workKey": "/works/OL4461077W",
+    "matchedTitle": "Gravitation",
+    "source": "Open Library"
+  },
+  "B0432": {
+    "coverId": 9776628,
+    "workKey": "/works/OL4909205W",
+    "matchedTitle": "Analyse numérique et équations différentielles",
+    "source": "Open Library"
+  },
+  "B0441": {
+    "coverId": 3139257,
+    "workKey": "/works/OL9999653W",
+    "matchedTitle": "Histoires de mathématiciens et de physiciens",
+    "source": "Open Library"
+  },
+  "B0446": {
+    "coverId": 8381022,
+    "workKey": "/works/OL19067066W",
+    "matchedTitle": "Histoires de mathématiques et de populations",
+    "source": "Open Library"
+  },
+  "B0447": {
+    "coverId": 10496595,
+    "workKey": "/works/OL22786098W",
+    "matchedTitle": "Leçons de mathématiques d'aujourd'hui",
+    "source": "Open Library"
+  },
+  "B0448": {
+    "coverId": 10496595,
+    "workKey": "/works/OL22786098W",
+    "matchedTitle": "Leçons de mathématiques d'aujourd'hui",
+    "source": "Open Library"
+  },
+  "B0449": {
+    "coverId": 10496595,
+    "workKey": "/works/OL22786098W",
+    "matchedTitle": "Leçons de mathématiques d'aujourd'hui",
+    "source": "Open Library"
+  },
+  "B0450": {
+    "coverId": 10496595,
+    "workKey": "/works/OL22786098W",
+    "matchedTitle": "Leçons de mathématiques d'aujourd'hui",
+    "source": "Open Library"
+  },
+  "B0451": {
+    "coverId": 10496595,
+    "workKey": "/works/OL22786098W",
+    "matchedTitle": "Leçons de mathématiques d'aujourd'hui",
+    "source": "Open Library"
+  },
+  "B0454": {
+    "coverId": 3139254,
+    "workKey": "/works/OL9999652W",
+    "matchedTitle": "Problèmes pour mathématiciens petits et grands",
+    "source": "Open Library"
+  },
+  "B0463": {
+    "coverId": 315224,
+    "workKey": "/works/OL2906478W",
+    "matchedTitle": "Counterexamples in topology",
+    "source": "Open Library"
+  },
+  "B0465": {
+    "coverId": 2045366,
+    "workKey": "/works/OL2926405W",
+    "matchedTitle": "Further algebra and applications",
+    "source": "Open Library"
+  },
+  "B0466": {
+    "coverId": 7773133,
+    "workKey": "/works/OL17535747W",
+    "matchedTitle": "Problems And Theorems In Classical Set Theory",
+    "source": "Open Library"
+  },
+  "B0467": {
+    "coverId": 8709636,
+    "workKey": "/works/OL1255103W",
+    "matchedTitle": "The Principles of Quantum Mechanics",
+    "source": "Open Library"
+  },
+  "B0468": {
+    "coverId": 9935099,
+    "workKey": "/works/OL12727489W",
+    "matchedTitle": "Decoherence and the quantum-to-classical transition",
+    "source": "Open Library"
+  },
+  "B0469": {
+    "coverId": 10304035,
+    "workKey": "/works/OL2725783W",
+    "matchedTitle": "Quantum mechanics of one- and two-electron atoms",
+    "source": "Open Library"
+  },
+  "B0470": {
+    "coverId": 314926,
+    "workKey": "/works/OL63375W",
+    "matchedTitle": "Methods of quantum field theory in statistical physics",
+    "source": "Open Library"
+  },
+  "B0471": {
+    "coverId": 246099,
+    "workKey": "/works/OL2715267W",
+    "matchedTitle": "The physics of musical instruments",
+    "source": "Open Library"
+  },
+  "B0474": {
+    "coverId": 8709348,
+    "workKey": "/works/OL16120889W",
+    "matchedTitle": "A primer on scientific programming with Python",
+    "source": "Open Library"
+  },
+  "B0475": {
+    "coverId": 7363706,
+    "workKey": "/works/OL17192267W",
+    "matchedTitle": "Effective Python",
+    "source": "Open Library"
+  },
+  "B0476": {
+    "coverId": 8656313,
+    "workKey": "/works/OL16992638W",
+    "matchedTitle": "Guide to HTML, JavaScript and PHP",
+    "source": "Open Library"
+  },
+  "B0480": {
+    "coverId": 957603,
+    "workKey": "/works/OL8954100W",
+    "matchedTitle": "Hacker Disassembling Uncovered",
+    "source": "Open Library"
+  },
+  "B0481": {
+    "coverId": 582109,
+    "workKey": "/works/OL514630W",
+    "matchedTitle": "The Feynman Lectures on Physics",
+    "source": "Open Library"
+  },
+  "B0482": {
+    "coverId": 582109,
+    "workKey": "/works/OL514630W",
+    "matchedTitle": "The Feynman Lectures on Physics",
+    "source": "Open Library"
+  },
+  "B0483": {
+    "coverId": 582109,
+    "workKey": "/works/OL514630W",
+    "matchedTitle": "The Feynman Lectures on Physics",
+    "source": "Open Library"
+  },
+  "B0485": {
+    "coverId": 12627266,
+    "workKey": "/works/OL8018589W",
+    "matchedTitle": "THE ART OF COMPUTER PROGRAMMING VOLUME 2 SEMINUMERICAL ALGORITHMS",
+    "source": "Open Library"
+  },
+  "B0491": {
+    "coverId": 1192259,
+    "workKey": "/works/OL1915628W",
+    "matchedTitle": "Axioms and hulls",
+    "source": "Open Library"
+  },
+  "B0492": {
+    "coverId": 245364,
+    "workKey": "/works/OL3501933W",
+    "matchedTitle": "Classical descriptive set theory",
+    "source": "Open Library"
+  },
+  "B0493": {
+    "coverId": 9621196,
+    "workKey": "/works/OL4462588W",
+    "matchedTitle": "Joseph Liouville, 1809-1882, master of pure and applied mathematics",
+    "source": "Open Library"
+  },
+  "B0494": {
+    "coverId": 8653591,
+    "workKey": "/works/OL1931682W",
+    "matchedTitle": "Geometric integration theory",
+    "source": "Open Library"
+  },
+  "B0495": {
+    "coverId": 1193886,
+    "workKey": "/works/OL18343640W",
+    "matchedTitle": "The theory of classical valuations",
+    "source": "Open Library"
+  },
+  "B0008": {
+    "coverId": 9394749,
+    "workKey": "/works/OL20714343W",
+    "matchedTitle": "Square Matrices of Order 2",
+    "source": "Open Library"
+  },
+  "B0018": {
+    "coverId": 8730181,
+    "workKey": "/works/OL19908271W",
+    "matchedTitle": "Two Millennia of Mathematics",
+    "source": "Open Library"
+  },
+  "B0020": {
+    "coverId": 1193993,
+    "workKey": "/works/OL4307748W",
+    "matchedTitle": "The Laplace Transform",
+    "source": "Open Library"
+  },
+  "B0023": {
+    "coverId": 10106344,
+    "workKey": "/works/OL20807082W",
+    "matchedTitle": "Real Analysis",
+    "source": "Open Library"
+  },
+  "B0027": {
+    "coverId": 10073702,
+    "workKey": "/works/OL10413910W",
+    "matchedTitle": "Inequalities",
+    "source": "Open Library"
+  },
+  "B0029": {
+    "coverId": 334497,
+    "workKey": "/works/OL2717242W",
+    "matchedTitle": "Indra's pearls",
+    "source": "Open Library"
+  },
+  "B0032": {
+    "coverId": 3116888,
+    "workKey": "/works/OL4093304W",
+    "matchedTitle": "Eléments de topologie algébrique. Deuxième cycle",
+    "source": "Open Library"
+  },
+  "B0034": {
+    "coverId": 2158570,
+    "workKey": "/works/OL5004668W",
+    "matchedTitle": "Introduction à la théorie des groupes de Lie classiques",
+    "source": "Open Library"
+  },
+  "B0038": {
+    "coverId": 3116883,
+    "workKey": "/works/OL1292927W",
+    "matchedTitle": "Théorie des distributions. Troisième cycle et recherche",
+    "source": "Open Library"
+  },
+  "B0044": {
+    "coverId": 10518547,
+    "workKey": "/works/OL23631957W",
+    "matchedTitle": "Analyse théorie de l'intégration",
+    "source": "Open Library"
+  },
+  "B0049": {
+    "coverId": 621505,
+    "workKey": "/works/OL1931710W",
+    "matchedTitle": "Function theory of several complex variables",
+    "source": "Open Library"
+  },
+  "B0051": {
+    "coverId": 89347,
+    "workKey": "/works/OL15100044W",
+    "matchedTitle": "Differential topology",
+    "source": "Open Library"
+  },
+  "B0058": {
+    "coverId": 3963058,
+    "workKey": "/works/OL15693952W",
+    "matchedTitle": "Selected letters, 1932-1981",
+    "source": "Open Library"
+  },
+  "B0067": {
+    "coverId": 8354790,
+    "workKey": "/works/OL18204183W",
+    "matchedTitle": "Computing the Continuous Discretely: Integer-point Enumeration in Polyhedra (Undergraduate Texts in Mathematics)",
+    "source": "Open Library"
+  },
+  "B0071": {
+    "coverId": 6282632,
+    "workKey": "/works/OL9093362W",
+    "matchedTitle": "Souvenirs sur Sofia Kovalevskaya",
+    "source": "Open Library"
+  },
+  "B0072": {
+    "coverId": 1558164,
+    "workKey": "/works/OL2178730W",
+    "matchedTitle": "Elements of Homology Theory (Graduate Studies in Mathematics)",
+    "source": "Open Library"
+  },
+  "B0088": {
+    "coverId": 8617277,
+    "workKey": "/works/OL19826180W",
+    "matchedTitle": "Analyse sur les groupes de Lie et théorie des représentations",
+    "source": "Open Library"
+  },
+  "B0110": {
+    "coverId": 245936,
+    "workKey": "/works/OL1704851W",
+    "matchedTitle": "Complex variables",
+    "source": "Open Library"
+  },
+  "B0124": {
+    "coverId": 8688945,
+    "workKey": "/works/OL19884421W",
+    "matchedTitle": "Eléments de géométrie",
+    "source": "Open Library"
+  },
+  "B0135": {
+    "coverId": 245957,
+    "workKey": "/works/OL1894159W",
+    "matchedTitle": "Representation theory",
+    "source": "Open Library"
+  },
+  "B0176": {
+    "coverId": 9355848,
+    "workKey": "/works/OL20671287W",
+    "matchedTitle": "Continuous Nowhere Differentiable Functions",
+    "source": "Open Library"
+  },
+  "B0177": {
+    "coverId": 1019143,
+    "workKey": "/works/OL2440900W",
+    "matchedTitle": "Algebraic aspects of cryptography",
+    "source": "Open Library"
+  },
+  "B0184": {
+    "coverId": 8503308,
+    "workKey": "/works/OL19505474W",
+    "matchedTitle": "Distributions: Theory and Applications (Cornerstones)",
+    "source": "Open Library"
+  },
+  "B0194": {
+    "coverId": 12773375,
+    "workKey": "/works/OL4790356W",
+    "matchedTitle": "Augustin-Louis Cauchy",
+    "source": "Open Library"
+  },
+  "B0197": {
+    "coverId": 1193839,
+    "workKey": "/works/OL1876745W",
+    "matchedTitle": "Lectures on the hyperreals",
+    "source": "Open Library"
+  },
+  "B0205": {
+    "coverId": 2549129,
+    "workKey": "/works/OL12921454W",
+    "matchedTitle": "Sacred mathematics",
+    "source": "Open Library"
+  },
+  "B0223": {
+    "coverId": 2225664,
+    "workKey": "/works/OL8057568W",
+    "matchedTitle": "The Algebraic Theory of Spinors and Clifford Algebras",
+    "source": "Open Library"
+  },
+  "B0239": {
+    "coverId": 2191807,
+    "workKey": "/works/OL5595259W",
+    "matchedTitle": "Holomorphic functions of several variables",
+    "source": "Open Library"
+  },
+  "B0240": {
+    "coverId": 2219162,
+    "workKey": "/works/OL5479255W",
+    "matchedTitle": "Complex Manifolds and Deformation of Complex Structures (Classics in Mathematics)",
+    "source": "Open Library"
+  },
+  "B0264": {
+    "coverId": 2225783,
+    "workKey": "/works/OL9074608W",
+    "matchedTitle": "Basic Algebraic Geometry 2",
+    "source": "Open Library"
+  },
+  "B0265": {
+    "coverId": 3152178,
+    "workKey": "/works/OL7806104W",
+    "matchedTitle": "Géométrie algébrique. Une introduction",
+    "source": "Open Library"
+  },
+  "B0281": {
+    "coverId": 10327523,
+    "workKey": "/works/OL21107045W",
+    "matchedTitle": "Limits, Series, and Fractional Part Integrals",
+    "source": "Open Library"
+  },
+  "B0285": {
+    "coverId": 8617311,
+    "workKey": "/works/OL19826216W",
+    "matchedTitle": "Analysis and Algebra on Differentiable Manifolds",
+    "source": "Open Library"
+  },
+  "B0291": {
+    "coverId": 8710024,
+    "workKey": "/works/OL15024443W",
+    "matchedTitle": "Problems in real analysis",
+    "source": "Open Library"
+  },
+  "B0315": {
+    "coverId": 1018208,
+    "workKey": "/works/OL8533042W",
+    "matchedTitle": "The Analysis of Linear Partial Differential Operators I",
+    "source": "Open Library"
+  },
+  "B0316": {
+    "coverId": 1018391,
+    "workKey": "/works/OL8533043W",
+    "matchedTitle": "The Analysis of Linear Partial Differential Operators II",
+    "source": "Open Library"
+  },
+  "B0352": {
+    "coverId": 8619268,
+    "workKey": "/works/OL19827828W",
+    "matchedTitle": "Arithmetic Tales",
+    "source": "Open Library"
+  },
+  "B0355": {
+    "coverId": 1019105,
+    "workKey": "/works/OL2660370W",
+    "matchedTitle": "p-adic numbers",
+    "source": "Open Library"
+  },
+  "B0369": {
+    "coverId": 681929,
+    "workKey": "/works/OL4289566W",
+    "matchedTitle": "Proofs that really count",
+    "source": "Open Library"
+  },
+  "B0372": {
+    "coverId": 4632534,
+    "workKey": "/works/OL1876750W",
+    "matchedTitle": "Topoi, the Categorial Analysis of Logic (Studies in Logic and the Foundations of Mathematics)",
+    "source": "Open Library"
+  },
+  "B0378": {
+    "coverId": 13315530,
+    "workKey": "/works/OL4790103W",
+    "matchedTitle": "The Enjoyment of Mathematics",
+    "source": "Open Library"
+  },
+  "B0379": {
+    "coverId": 15138338,
+    "workKey": "/works/OL44326185W",
+    "matchedTitle": "Inversion",
+    "source": "Open Library"
+  },
+  "B0392": {
+    "coverId": 8448629,
+    "workKey": "/works/OL19336866W",
+    "matchedTitle": "Zermelo's Axiom of Choice: Its Origins, Development, and Influence (Dover Books on Mathematics)",
+    "source": "Open Library"
+  },
+  "B0396": {
+    "coverId": 8626921,
+    "workKey": "/works/OL19833469W",
+    "matchedTitle": "Catastrophe Theory",
+    "source": "Open Library"
+  },
+  "B0398": {
+    "coverId": 8722418,
+    "workKey": "/works/OL11245414W",
+    "matchedTitle": "The Stanford mathematics problem book",
+    "source": "Open Library"
+  },
+  "B0403": {
+    "coverId": 441579,
+    "workKey": "/works/OL8057573W",
+    "matchedTitle": "Theory of Lie Groups (PMS-8)",
+    "source": "Open Library"
+  },
+  "B0428": {
+    "coverId": 8628800,
+    "workKey": "/works/OL3519484W",
+    "matchedTitle": "Classical Mechanics",
+    "source": "Open Library"
+  },
+  "B0429": {
+    "coverId": 8691872,
+    "workKey": "/works/OL19886220W",
+    "matchedTitle": "Mathematical Biology",
+    "source": "Open Library"
+  },
+  "B0464": {
+    "coverId": 10452977,
+    "workKey": "/works/OL22316483W",
+    "matchedTitle": "Basic Algebra",
+    "source": "Open Library"
+  },
+  "B0484": {
+    "coverId": 136600,
+    "workKey": "/works/OL257263W",
+    "matchedTitle": "The art of computer programming",
+    "source": "Open Library"
+  },
+  "B0486": {
+    "coverId": 136600,
+    "workKey": "/works/OL257263W",
+    "matchedTitle": "The art of computer programming",
+    "source": "Open Library"
+  },
+  "B0489": {
+    "coverId": 135182,
+    "workKey": "/works/OL3951639W",
+    "matchedTitle": "Concrete mathematics",
+    "source": "Open Library"
+  }
+}
