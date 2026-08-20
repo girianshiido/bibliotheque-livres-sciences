@@ -10847,17 +10847,15 @@
       "identifiers": [],
       "cover": {
         "webPath": "covers/web/B0306.jpg",
-        "provider": "Éditions Cassini",
-        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/39-mathematiques-d-ecole-nombres-mesures-et-geometrie.html",
-        "sourceUrl": "https://store.cassini.fr/121-large_default/mathematiques-d-ecole-nombres-mesures-et-geometrie.jpg",
-        "width": 300,
-        "height": 500,
-        "aspectRatio": 0.6,
+        "provider": "Couverture fournie",
+        "sourceFilename": "51I3WZk2YFS._SL1500_.jpg",
+        "width": 998,
+        "height": 1500,
+        "aspectRatio": 0.66533,
         "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0307": {
@@ -10970,17 +10968,15 @@
       "identifiers": [],
       "cover": {
         "webPath": "covers/web/B0311.jpg",
-        "provider": "Éditions Cassini",
-        "sourcePage": "https://store.cassini.fr/fr/hors-collection/50-solutions-d-expert.html",
-        "sourceUrl": "https://store.cassini.fr/134-large_default/solutions-d-expert.jpg",
-        "width": 300,
+        "provider": "Couverture fournie",
+        "sourceFilename": "31IMH8SkmFL.jpg",
+        "width": 329,
         "height": 500,
-        "aspectRatio": 0.6,
+        "aspectRatio": 0.658,
         "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0312": {
@@ -14371,9 +14367,9 @@
         "provider": "Couverture fournie",
         "sourceFilename": "9782493230355-475x500-1-698458c5aee85339855783.jpg",
         "isbn13": "9782493230355",
-        "width": 395,
-        "height": 500,
-        "aspectRatio": 0.79,
+    "width": 352,
+    "height": 497,
+    "aspectRatio": 0.70825,
         "format": "image/jpeg"
       },
       "review": [
@@ -14692,17 +14688,15 @@
       "identifiers": [],
       "cover": {
         "webPath": "covers/web/B0452.jpg",
-        "provider": "Éditions Cassini",
-        "sourcePage": "https://store.cassini.fr/fr/collection-l/11-processus-aleatoires-pour-les-debutants.html",
-        "sourceUrl": "https://store.cassini.fr/99-large_default/processus-aleatoires-pour-les-debutants.jpg",
-        "width": 300,
-        "height": 500,
-        "aspectRatio": 0.6,
+        "provider": "Couverture fournie",
+        "sourceFilename": "61CRz0dMx8S._SL1500_.jpg",
+        "width": 987,
+        "height": 1500,
+        "aspectRatio": 0.658,
         "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0453": {
@@ -14717,17 +14711,15 @@
       "identifiers": [],
       "cover": {
         "webPath": "covers/web/B0453.jpg",
-        "provider": "Éditions Cassini",
-        "sourcePage": "https://store.cassini.fr/fr/collection-l/10-l-algebre-lineaire-en-problemes.html",
-        "sourceUrl": "https://store.cassini.fr/98-large_default/l-algebre-lineaire-en-problemes.jpg",
-        "width": 300,
-        "height": 500,
-        "aspectRatio": 0.6,
+        "provider": "Couverture fournie",
+        "sourceFilename": "51HZGf59X2S._SL1500_.jpg",
+        "width": 987,
+        "height": 1500,
+        "aspectRatio": 0.658,
         "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0454": {
