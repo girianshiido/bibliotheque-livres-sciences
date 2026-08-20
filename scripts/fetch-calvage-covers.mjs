@@ -9,6 +9,16 @@ const SITE = 'https://www.calvage-et-mounet.fr';
 const USER_AGENT = 'BibliothequeScientifique/1.0 (https://github.com/girianshiido/bibliotheque-livres-sciences; cover catalogue)';
 const PAGE_DELAY_MS = 450;
 const PAGE_COUNT = 9;
+const SITEMAP_PATH = '/plan-du-site';
+// Les anciennes notices conservent parfois une graphie différente de celle du catalogue local.
+// Chaque lien ci-dessous a été vérifié directement sur la couverture officielle.
+const OFFICIAL_PAGE_OVERRIDES = {
+  B0080: '/les-clefs-pour-l-info-ismael-belghiti-roger-mansuy-et-jill-jenn-vie',
+  B0092: '/formes-quadriques-et-geometries',
+  B0225: '/algebre-electique',
+  B0227: '/algebre-commutative-methodes-constructives-henri-lombardi-et-claude-quitte',
+  B0437: '/ouvrages/articles/alain-debreil-rached-mneimne-lr-groupe-symetriques-s4-et-ses-metamorphoses-une-introduction-a-la-symetrie'
+};
 const CATEGORY_PATHS = [
   '/ouvrages/categories/tableau-noir-160mm-x-240mm',
   '/ouvrages/categories/mathematiques-en-devenir-157mm-x-234mm',
@@ -89,6 +99,18 @@ async function fetchText(url) {
   return response.text();
 }
 
+function schemaImageUrl(page) {
+  for (const [, json] of page.matchAll(/<script type="application\/ld\+json">\s*({.*?})\s*<\/script>/gs)) {
+    try {
+      const article = JSON.parse(json);
+      if (article['@type'] === 'Article' && typeof article.image === 'string') return article.image;
+    } catch {
+      // Une donnée structurée mal formée ne doit pas empêcher l'utilisation des autres notices.
+    }
+  }
+  return null;
+}
+
 async function catalogueArticles() {
   const articles = new Map();
   const paths = [
@@ -109,11 +131,22 @@ async function catalogueArticles() {
     }
     await new Promise(resolve => setTimeout(resolve, PAGE_DELAY_MS));
   }
+  const sitemap = await fetchText(`${SITE}${SITEMAP_PATH}`);
+  for (const [, href, title] of sitemap.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)) {
+    if (!href.startsWith('/')) continue;
+    const cleanTitle = title.replace(/<[^>]*>/g, ' ').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+    if (cleanTitle) {
+      const url = new URL(href, SITE).href;
+      if (!articles.has(url)) articles.set(url, { title: cleanTitle, url });
+    }
+  }
   if (!articles.size) throw new Error('Le catalogue Calvage & Mounet n’a renvoyé aucune notice exploitable.');
   return [...articles.values()];
 }
 
 function matchBook(book, articles) {
+  const override = OFFICIAL_PAGE_OVERRIDES[book.id];
+  if (override) return { article: { title: book.title, url: new URL(override, SITE).href }, score: 1, verifiedOverride: true };
   const expectedVolume = volume(book.details);
   return articles
     .map(article => {
@@ -147,12 +180,18 @@ async function main() {
       }
       const page = await fetchText(candidate.article.url);
       const authorConfirmed = pageMatchesAuthors(`${candidate.article.title}\n${page}`, book);
-      if (!authorConfirmed && candidate.score < .95) {
+      if (!authorConfirmed && candidate.score < .95 && !candidate.verifiedOverride) {
         process.stderr.write(`${book.id} : titre voisin, mais auteurs non confirmés sur la notice officielle.\n`);
         unmatched.push(book.id);
         continue;
       }
-      const response = await fetch(candidate.article.imageUrl, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30000) });
+      const imageUrl = candidate.article.imageUrl || schemaImageUrl(page);
+      if (!imageUrl) {
+        process.stderr.write(`${book.id} : la notice officielle ne fournit pas d’image exploitable.\n`);
+        unmatched.push(book.id);
+        continue;
+      }
+      const response = await fetch(imageUrl, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30000) });
       const bytes = new Uint8Array(await response.arrayBuffer());
       const image = response.ok ? imageInfo(bytes) : null;
       if (!image?.width || !image.height) {
@@ -162,7 +201,7 @@ async function main() {
       }
       const webPath = `covers/web/${book.id}.${image.extension}`;
       await writeFile(path.join(ROOT, webPath), bytes);
-      book.cover = { webPath, provider: 'Calvage & Mounet', sourcePage: candidate.article.url, sourceUrl: candidate.article.imageUrl, width: image.width, height: image.height, aspectRatio: Number((image.width / image.height).toFixed(5)), format: image.format };
+      book.cover = { webPath, provider: 'Calvage & Mounet', sourcePage: candidate.article.url, sourceUrl: imageUrl, width: image.width, height: image.height, aspectRatio: Number((image.width / image.height).toFixed(5)), format: image.format };
       book.review = ['cover-downloaded', 'publisher-title-and-author-matched'];
       downloaded += 1;
       await new Promise(resolve => setTimeout(resolve, PAGE_DELAY_MS));

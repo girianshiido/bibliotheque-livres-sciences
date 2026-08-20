@@ -1986,9 +1986,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0071.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/souvenirs-sur-sofia-kovalevskaya-9782916352053/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2053/9782916352053_internet_b400x400.jpg",
+        "width": 313,
+        "height": 400,
+        "aspectRatio": 0.7825,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0072": {
@@ -2118,9 +2128,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0075.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/analyse-mathematique-grands-theoremes-du-vingtieme-siecle--9782916352107/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2107/9782916352107_internet_b400x400.jpg",
+        "width": 261,
+        "height": 400,
+        "aspectRatio": 0.6525,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0076": {
@@ -2159,9 +2179,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0077.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/calculabilite-9782916352961/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2961/9782916352961_internet_h1400.jpg",
+        "width": 899,
+        "height": 1400,
+        "aspectRatio": 0.64214,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0078": {
@@ -2174,9 +2204,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0078.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/introduction-aux-methodes-de-baire-9782916352985/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2985/9782916352985_internet_b400x400.jpg",
+        "width": 286,
+        "height": 400,
+        "aspectRatio": 0.715,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0079": {
@@ -2189,9 +2229,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0079.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/reduction-des-endomorphismes-9782916352015/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2015/9782916352015_internet_b400x400.jpg",
+        "width": 264,
+        "height": 400,
+        "aspectRatio": 0.66,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0080": {
@@ -2206,9 +2256,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0080.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/les-clefs-pour-l-info-ismael-belghiti-roger-mansuy-et-jill-jenn-vie",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740670303/5708043/600/arton56.png",
+        "width": 200,
+        "height": 287,
+        "aspectRatio": 0.69686,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0081": {
@@ -2272,9 +2332,19 @@
       "details": "Nouvelle impression corrigée",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0083.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/analyse-complexe-et-applications-9782493230201/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0201/9782493230201_internet_b400x400.jpg",
+        "width": 276,
+        "height": 400,
+        "aspectRatio": 0.69,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0084": {
@@ -2339,9 +2409,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0086.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/algebre-lineaire-9782493230058/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0058/9782493230058_internet_b400x400.jpg",
+        "width": 268,
+        "height": 400,
+        "aspectRatio": 0.67,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0087": {
@@ -2482,9 +2562,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0092.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/formes-quadriques-et-geometries",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740648845/5703238/600/formesquadratiques.jpeg",
+        "width": 482,
+        "height": 708,
+        "aspectRatio": 0.68079,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0093": {
@@ -2522,9 +2612,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0094.png",
+        "provider": "Calvage & Mounet (dossier de presse)",
+        "sourcePage": "https://webusers.imj-prg.fr/~rached.mneimne/CM/IMG/pdf/candelpergher-2012-10-press.pdf",
+        "sourceUrl": "https://webusers.imj-prg.fr/~rached.mneimne/CM/IMG/pdf/candelpergher-2012-10-press.pdf",
+        "width": 336,
+        "height": 506,
+        "aspectRatio": 0.66403,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-extracted-from-publisher-press-sheet",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0095": {
@@ -2587,9 +2687,19 @@
       "details": "Tome 1",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0097.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/chemins-d-analyse-tome-1-9782916352886/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2886/9782916352886_internet_b400x400.jpg",
+        "width": 268,
+        "height": 400,
+        "aspectRatio": 0.67,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0098": {
@@ -2602,9 +2712,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0098.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/les-cent-vingt-mythes-mathematiques-9782493230409/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0409/9782493230409_internet_b400x400.jpg",
+        "width": 256,
+        "height": 400,
+        "aspectRatio": 0.64,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0099": {
@@ -3203,9 +3323,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0117.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/les-familles-normales-9782916352954/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2954/9782916352954_internet_b400x400.jpg",
+        "width": 283,
+        "height": 400,
+        "aspectRatio": 0.7075,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0118": {
@@ -6615,9 +6745,19 @@
       "details": "Mathématiques en devenir 104",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0222.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/invitation-aux-formes-quadratiques-9782916352190/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2190/9782916352190_internet_b400x400.jpg",
+        "width": 266,
+        "height": 400,
+        "aspectRatio": 0.665,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0223": {
@@ -6672,9 +6812,19 @@
       "details": "",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0225.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/algebre-electique",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740651550/5703828/600/electique.png",
+        "width": 455,
+        "height": 679,
+        "aspectRatio": 0.6701,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0226": {
@@ -6715,9 +6865,19 @@
       "details": "Nouvelle édition revue et augmentée",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0227.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/algebre-commutative-methodes-constructives-henri-lombardi-et-claude-quitte",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740585382/5702480/600/capture_d_ecran_2025-02-26_a_16-56-00.png",
+        "width": 306,
+        "height": 464,
+        "aspectRatio": 0.65948,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0228": {
@@ -7730,9 +7890,19 @@
       "details": "La perle et le harnais",
       "sourceFile": "catalogue/231-276.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0249.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/les-decompilateurs-9782493230232/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0232/9782493230232_internet_b400x400.jpg",
+        "width": 279,
+        "height": 400,
+        "aspectRatio": 0.6975,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0250": {
@@ -8140,9 +8310,19 @@
       "details": "",
       "sourceFile": "catalogue/231-276.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0262.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/introduction-au-langage-categorique-9782916352978/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2978/9782916352978_internet_b400x400.jpg",
+        "width": 269,
+        "height": 400,
+        "aspectRatio": 0.6725,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0263": {
@@ -10949,9 +11129,19 @@
       "details": "Tome I",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0358.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/mathematiques-a-travers-les-siecles-tome-1--9782916352916/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2916/9782916352916_internet_b400x400.jpg",
+        "width": 267,
+        "height": 400,
+        "aspectRatio": 0.6675,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0359": {
@@ -10964,9 +11154,19 @@
       "details": "Tome II",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0359.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/mathematiques-a-travers-les-siecles-tome-ii--9782916352923/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2923/9782916352923_internet_b400x400.jpg",
+        "width": 277,
+        "height": 400,
+        "aspectRatio": 0.6925,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0360": {
@@ -10979,9 +11179,19 @@
       "details": "Tome III",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0360.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/mathematiques-a-travers-les-siecles-tome-3--9782493230171/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0171/9782493230171_internet_b400x400.jpg",
+        "width": 269,
+        "height": 400,
+        "aspectRatio": 0.6725,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0361": {
@@ -12664,9 +12874,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0433.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/theorie-de-l-information-9782493230003/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0003/9782493230003_internet_b400x400.jpg",
+        "width": 280,
+        "height": 400,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0434": {
@@ -12679,9 +12899,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0434.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/transformations-de-radon-9782493230072/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0072/9782493230072_internet_b400x400.jpg",
+        "width": 280,
+        "height": 400,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0435": {
@@ -12694,9 +12924,19 @@
       "details": "Nano",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0435.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Entreprise/Livre/le-calcul-des-tresses-9782916352794/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/2794/9782916352794_internet_b400x400.jpg",
+        "width": 279,
+        "height": 400,
+        "aspectRatio": 0.6975,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0436": {
@@ -12735,9 +12975,17 @@
       "details": "Nano — 1re éd.",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0437.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "none_d6a46d76ea8414820d293db576e97c2a_d6a46d7.JPEG",
+        "width": 512,
+        "height": 768,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0438": {
@@ -12750,9 +12998,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0438.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/outils-de-theorie-du-potentiel-9782493230157/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0157/9782493230157_internet_b400x400.jpg",
+        "width": 282,
+        "height": 400,
+        "aspectRatio": 0.705,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0439": {
@@ -12791,9 +13049,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0440.jpg",
+        "provider": "Eyrolles (diffuseur Calvage & Mounet)",
+        "sourcePage": "https://www.eyrolles.com/Sciences/Livre/les-series-divergentes-d-euler-a-ramanujan-9782493230089/",
+        "sourceUrl": "https://servimg.eyrolles.com/static/media/0089/9782493230089_internet_b400x400.jpg",
+        "width": 277,
+        "height": 400,
+        "aspectRatio": 0.6925,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0441": {
