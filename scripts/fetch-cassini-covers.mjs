@@ -27,7 +27,22 @@ function titleScore(left, right) {
 }
 
 function volume(value = '') {
-  return normalize(value).match(/(?:vol|volume|tome)\s*(\d+)/)?.[1] || null;
+  const decoded = decode(value);
+  return decoded.match(/(?:vol(?:ume)?|tome)\s*\.?\s*(\d+)/i)?.[1]
+    || decoded.match(/\(\s*(\d+)\s*[.)]/)?.[1]
+    || null;
+}
+
+function authorLastNames(book) {
+  return (book.authors || [])
+    .map(author => normalize(author.replace(/\([^)]*\)/g, '')).split(' ').filter(Boolean).at(-1))
+    .filter(name => name && name !== 'collectif');
+}
+
+function pageMatchesAuthors(page, book) {
+  const text = normalize(decode(page.replace(/<[^>]*>/g, ' ')));
+  const names = authorLastNames(book);
+  return names.length > 0 && names.every(name => text.includes(name));
 }
 
 function jpegDimensions(bytes) {
@@ -45,6 +60,23 @@ function jpegDimensions(bytes) {
     }
     offset += length;
   }
+  return null;
+}
+
+function pngDimensions(bytes) {
+  const signature = [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a];
+  if (signature.some((value, index) => bytes[index] !== value) || bytes.length < 24) return null;
+  return {
+    width: (bytes[16] << 24) | (bytes[17] << 16) | (bytes[18] << 8) | bytes[19],
+    height: (bytes[20] << 24) | (bytes[21] << 16) | (bytes[22] << 8) | bytes[23]
+  };
+}
+
+function imageInfo(bytes) {
+  const jpeg = jpegDimensions(bytes);
+  if (jpeg) return { ...jpeg, extension: 'jpg', format: 'image/jpeg' };
+  const png = pngDimensions(bytes);
+  if (png) return { ...png, extension: 'png', format: 'image/png' };
   return null;
 }
 
@@ -76,8 +108,16 @@ function matchBook(book, products) {
   const expectedVolume = volume(book.details);
   return products
     .map(product => ({ product, score: titleScore(book.title, product.title), productVolume: volume(product.title) }))
-    .filter(candidate => candidate.score >= .80)
+    // Les fiches Cassini abrègent parfois le titre (ou conservent une coquille),
+    // mais un écart plus important doit ensuite être confirmé par les auteurs.
+    .filter(candidate => candidate.score >= .50)
     .filter(candidate => !expectedVolume || candidate.productVolume === expectedVolume)
+    .sort((a, b) => b.score - a.score)[0];
+}
+
+function closestProduct(book, products) {
+  return products
+    .map(product => ({ product, score: titleScore(book.title, product.title), productVolume: volume(product.title) }))
     .sort((a, b) => b.score - a.score)[0];
 }
 
@@ -98,10 +138,17 @@ async function main() {
     for (const book of books) {
       const candidate = matchBook(book, products);
       if (!candidate) {
+        const closest = closestProduct(book, products);
+        if (closest) process.stderr.write(`${book.id} : aucune correspondance sûre ; meilleure piste « ${closest.product.title} » (${closest.score.toFixed(2)}) — ${closest.product.url}\n`);
         unmatched.push(book.id);
         continue;
       }
       const page = await fetchText(candidate.product.url);
+      if (!pageMatchesAuthors(page, book)) {
+        process.stderr.write(`${book.id} : titre voisin, mais auteurs non confirmés sur la fiche Cassini.\n`);
+        unmatched.push(book.id);
+        continue;
+      }
       const sourceUrl = page.match(/<meta property="og:image" content="([^"]+)"/)?.[1];
       if (!sourceUrl) {
         process.stderr.write(`${book.id} : image absente de la page produit.\n`);
@@ -110,15 +157,17 @@ async function main() {
       }
       const response = await fetch(sourceUrl, { headers: { 'User-Agent': USER_AGENT }, signal: AbortSignal.timeout(30000) });
       const bytes = new Uint8Array(await response.arrayBuffer());
-      const dimensions = response.ok && response.headers.get('content-type')?.startsWith('image/jpeg') ? jpegDimensions(bytes) : null;
-      if (!dimensions?.width || !dimensions.height) {
+      // Le CDN Cassini déclare parfois image/jpeg pour un fichier PNG : on se fie
+      // donc à la signature du fichier, et non à son en-tête HTTP.
+      const image = response.ok ? imageInfo(bytes) : null;
+      if (!image?.width || !image.height) {
         process.stderr.write(`${book.id} : image Cassini invalide (${response.status}, ${response.headers.get('content-type') || 'sans type'}).\n`);
         unmatched.push(book.id);
         continue;
       }
-      const webPath = `covers/web/${book.id}.jpg`;
+      const webPath = `covers/web/${book.id}.${image.extension}`;
       await writeFile(path.join(ROOT, webPath), bytes);
-      book.cover = { webPath, provider: 'Éditions Cassini', sourcePage: candidate.product.url, sourceUrl, width: dimensions.width, height: dimensions.height, aspectRatio: Number((dimensions.width / dimensions.height).toFixed(5)), format: 'image/jpeg' };
+      book.cover = { webPath, provider: 'Éditions Cassini', sourcePage: candidate.product.url, sourceUrl, width: image.width, height: image.height, aspectRatio: Number((image.width / image.height).toFixed(5)), format: image.format };
       book.review = ['cover-downloaded', 'publisher-title-matched'];
       downloaded += 1;
       await new Promise(resolve => setTimeout(resolve, PAGE_DELAY_MS));

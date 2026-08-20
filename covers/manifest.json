@@ -454,9 +454,19 @@
       "details": "",
       "sourceFile": "catalogue/001-046.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0015.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/carnet-de-voyage-en-algebrie-agregation-master-capes-philippe-caldero-et-marie-peronnier",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740671938/5708158/600/2019-caldero-peronnier-geodif1.jpeg",
+        "width": 492,
+        "height": 716,
+        "aspectRatio": 0.68715,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0016": {
@@ -1713,9 +1723,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0064.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/documents-essais-culture-scientifique/3-qu-est-ce-que-les-mathematiques-une-introduction-elementaire-aux-idees-et-aux-methodes.html",
+        "sourceUrl": "https://store.cassini.fr/207-large_default/qu-est-ce-que-les-mathematiques-une-introduction-elementaire-aux-idees-et-aux-methodes.jpg",
+        "width": 323,
+        "height": 500,
+        "aspectRatio": 0.646,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0065": {
@@ -1941,9 +1961,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0070.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/et-l-atmosphere-ne-brula-pas-damien-gayet",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754494007/6400635/600/capture_d_ecran_2025-08-06_a_17-26-32.png",
+        "width": 410,
+        "height": 596,
+        "aspectRatio": 0.68792,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0071": {
@@ -2037,9 +2067,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0073.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/algebre-et-geometries-pascal-boyer",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1739974767/5638307/600/arton7.jpeg",
+        "width": 408,
+        "height": 600,
+        "aspectRatio": 0.68,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0074": {
@@ -2052,9 +2092,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0074.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/geometrie-analytique-classique-jean-denis-eiden",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1739974258/5638249/600/arton5.jpeg",
+        "width": 445,
+        "height": 681,
+        "aspectRatio": 0.65345,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0075": {
@@ -2083,9 +2133,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0076.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/la-theorie-des-ensembles-patrick-dehornoy",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1739975134/5638321/600/arton52.jpeg",
+        "width": 168,
+        "height": 254,
+        "aspectRatio": 0.66142,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0077": {
@@ -2161,9 +2221,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0081.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/ouvrages/articles/le-jardin-d-eiden-une-annee-de-colles-en-math-spe-mp-jean-denis-eiden",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740669396/5707962/600/capture_d_ecran_2025-02-27_a_16-13-30.jpeg",
+        "width": 200,
+        "height": 298,
+        "aspectRatio": 0.67114,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0082": {
@@ -2176,9 +2246,19 @@
       "details": "2e éd.",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0082.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/une-annee-de-colles-en-math-sup-mpsi-deuxieme-edition-eric-kouris",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740671644/5708136/600/colles-couv.jpeg",
+        "width": 600,
+        "height": 906,
+        "aspectRatio": 0.66225,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0083": {
@@ -2208,9 +2288,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0084.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/histoires-hedonistes-de-groupes-et-geometries-philippe-caldero-et-jerome-germoni",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740586759/5702668/600/capture_d_ecran_2025-02-26_a_17-18-55.png",
+        "width": 304,
+        "height": 436,
+        "aspectRatio": 0.69725,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0085": {
@@ -2224,9 +2314,19 @@
       "details": "Tome second",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0085.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/histoires-hedonistes-de-groupes-et-geometries-philippe-caldero-et-jerome-germoni",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740586759/5702668/600/capture_d_ecran_2025-02-26_a_17-18-55.png",
+        "width": 304,
+        "height": 436,
+        "aspectRatio": 0.69725,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0086": {
@@ -2254,9 +2354,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0087.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/matrices-et-operateurs-de-toeplitz-nikolai-nikolski",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740586578/5702656/600/capture_d_ecran_2025-02-26_a_17-14-01.png",
+        "width": 302,
+        "height": 454,
+        "aspectRatio": 0.6652,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0088": {
@@ -2269,9 +2379,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0088.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/analyse-sur-les-groupes-de-lie",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740649839/5703292/600/couv-faraud.jpeg",
+        "width": 458,
+        "height": 686,
+        "aspectRatio": 0.66764,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0089": {
@@ -2284,9 +2404,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0089.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/topologie-algebrique-une-introduction-et-au-dela",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740649151/5703244/600/couv-leruste.jpeg",
+        "width": 600,
+        "height": 868,
+        "aspectRatio": 0.69124,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0090": {
@@ -2299,9 +2429,19 @@
       "details": "3e éd. revue et bonifiée",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0090.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/corps-commutatifs-et-theorie-de-galois-paul-tauvel",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1739975880/5638496/600/arton14.jpeg",
+        "width": 600,
+        "height": 894,
+        "aspectRatio": 0.67114,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0091": {
@@ -2314,9 +2454,19 @@
       "details": "",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0091.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/groupes-finis-et-treillis-de-leurs-sous-groupes-alain-debreil",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754492916/6400601/600/capture_d_ecran_2025-08-06_a_17-08-21.png",
+        "width": 364,
+        "height": 576,
+        "aspectRatio": 0.63194,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0092": {
@@ -2347,9 +2497,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0093.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/geometrie-symplectique-et-geometrie-de-poisson",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740649973/5703299/600/marle.jpeg",
+        "width": 215,
+        "height": 320,
+        "aspectRatio": 0.67188,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0094": {
@@ -2377,9 +2537,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0095.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/petit-compagnon-des-nombres-et-de-leurs-applications",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740650641/5703348/600/2019-boyer-cover.jpeg",
+        "width": 565,
+        "height": 827,
+        "aspectRatio": 0.68319,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0096": {
@@ -2392,9 +2562,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0096.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/ouvrages/articles/calcul-differentiel-topologique-elementaire-wolgang-bertram",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740585327/5702469/600/capture_d_ecran_2025-02-19_a_16-00-21.png",
+        "width": 320,
+        "height": 476,
+        "aspectRatio": 0.67227,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0097": {
@@ -2452,9 +2632,19 @@
       "details": "",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0100.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/documents-essais-culture-scientifique/148-une-singuliere-promenade-mathematique.html",
+        "sourceUrl": "https://store.cassini.fr/310-large_default/une-singuliere-promenade-mathematique.jpg",
+        "width": 475,
+        "height": 675,
+        "aspectRatio": 0.7037,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0101": {
@@ -3096,9 +3286,19 @@
       "details": "Nouvelle Bibliothèque Mathématique",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0121.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/135-anthologie-de-la-caculabilite.html",
+        "sourceUrl": "https://store.cassini.fr/293-large_default/anthologie-de-la-caculabilite.jpg",
+        "width": 453,
+        "height": 675,
+        "aspectRatio": 0.67111,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0122": {
@@ -3136,9 +3336,19 @@
       "details": "Nouvelle Bibliothèque Mathématique",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0123.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/133-histoire-du-calcul-graphique.html",
+        "sourceUrl": "https://store.cassini.fr/291-large_default/histoire-du-calcul-graphique.jpg",
+        "width": 446,
+        "height": 675,
+        "aspectRatio": 0.66074,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0124": {
@@ -3151,9 +3361,19 @@
       "details": "Nouvelle Bibliothèque Mathématique",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0124.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/13-elements-de-geometrie.html",
+        "sourceUrl": "https://store.cassini.fr/170-large_default/elements-de-geometrie.jpg",
+        "width": 331,
+        "height": 500,
+        "aspectRatio": 0.662,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0125": {
@@ -4262,9 +4482,19 @@
       "details": "",
       "sourceFile": "catalogue/139-184.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0158.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/la-geometrie-elementaire-d-euclide-a-aujourd-hui",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754495003/6400701/600/capture_d_ecran_2025-08-06_a_17-43-07.png",
+        "width": 600,
+        "height": 423,
+        "aspectRatio": 1.41844,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0159": {
@@ -5033,9 +5263,19 @@
       "details": "Mathématiques en devenir",
       "sourceFile": "catalogue/139-184.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0181.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/introduction-aux-espaces-de-hilbert",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1756390051/6429688/600/capture_d_ecran_2025-08-06_a_17-49-42.png",
+        "width": 600,
+        "height": 903,
+        "aspectRatio": 0.66445,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0182": {
@@ -6223,9 +6463,19 @@
       "details": "Mathématiques en devenir 105",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0217.jpg",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/coniques-projectives-affines-et-metriques-bruno-ingrao",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1739977002/5639481/600/arton17.jpeg",
+        "width": 445,
+        "height": 663,
+        "aspectRatio": 0.67119,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0218": {
@@ -6395,9 +6645,19 @@
       "details": "2e éd.",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0224.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/algebre-le-grand-combat",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740649521/5703253/600/couv-combat.png",
+        "width": 469,
+        "height": 620,
+        "aspectRatio": 0.75645,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0225": {
@@ -6429,9 +6689,19 @@
       "details": "",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0226.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/modules-sur-les-anneaux-commutatifs-cours-et-exercices-gema-maria-diaz-toca-henri-lompardi-et-claude-quitte",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740586014/5702532/600/capture_d_ecran_2025-02-26_a_17-05-49.png",
+        "width": 304,
+        "height": 460,
+        "aspectRatio": 0.66087,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0227": {
@@ -7181,9 +7451,19 @@
       "details": "1re éd.",
       "sourceFile": "catalogue/231-276.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0243.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/initiation-a-la-geometrie-de-riemann-francois-rouviere",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740586402/5702641/600/capture_d_ecran_2025-02-26_a_17-11-51.png",
+        "width": 304,
+        "height": 468,
+        "aspectRatio": 0.64957,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0244": {
@@ -8835,9 +9115,19 @@
       "details": "Nouvelle série — Volume 2",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0296.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/111-oraux-x-ens-mathematiques-nouvelle-serie-vol-2.html",
+        "sourceUrl": "https://store.cassini.fr/258-large_default/oraux-x-ens-mathematiques-nouvelle-serie-vol-2.jpg",
+        "width": 449,
+        "height": 675,
+        "aspectRatio": 0.66519,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0297": {
@@ -8852,9 +9142,17 @@
       "details": "Nouvelle série — Volume 3",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0297.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "51axZbsMI5S._SL1500_.jpg",
+        "width": 998,
+        "height": 1500,
+        "aspectRatio": 0.66533,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0298": {
@@ -8869,9 +9167,19 @@
       "details": "Nouvelle série — Volume 4",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0298.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/157-oraux-x-ens-mathematiques-nouvelle-serie-vol-4.html",
+        "sourceUrl": "https://store.cassini.fr/327-large_default/oraux-x-ens-mathematiques-nouvelle-serie-vol-4.jpg",
+        "width": 450,
+        "height": 675,
+        "aspectRatio": 0.66667,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0299": {
@@ -8886,9 +9194,17 @@
       "details": "Nouvelle série — Volume 5",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0299.png",
+        "provider": "Couverture fournie",
+        "sourceFilename": "oraux-x-ens-mathematiques-nouvelle-serie-vol5.jpg.png",
+        "width": 450,
+        "height": 675,
+        "aspectRatio": 0.66667,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0300": {
@@ -8903,9 +9219,17 @@
       "details": "Nouvelle série — Volume 6",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0300.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "51JpkDowjmL._SL1500_.jpg",
+        "width": 997,
+        "height": 1500,
+        "aspectRatio": 0.66467,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0301": {
@@ -8920,9 +9244,17 @@
       "details": "Nouvelle série — Volume 7",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0301.png",
+        "provider": "Couverture fournie",
+        "sourceFilename": "oraux-x-ens-mathematiques-nouvelle-serie-vol-7.jpg.png",
+        "width": 450,
+        "height": 675,
+        "aspectRatio": 0.66667,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0302": {
@@ -8936,9 +9268,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0302.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/110-algebre-et-geometrie-lineaires.html",
+        "sourceUrl": "https://store.cassini.fr/259-large_default/algebre-et-geometrie-lineaires.jpg",
+        "width": 450,
+        "height": 675,
+        "aspectRatio": 0.66667,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0303": {
@@ -8954,8 +9296,18 @@
       "details": "5e éd.",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": {"webPath": "covers/web/B0303.jpg", "provider": "Couverture fournie", "sourceFilename": "exercices-de-probabilites.jpg.png", "width": 449, "height": 675, "aspectRatio": 0.66519, "format": "image/jpeg"},
-      "review": ["cover-imported-from-user"]
+      "cover": {
+        "webPath": "covers/web/B0303.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "exercices-de-probabilites.jpg.png",
+        "width": 449,
+        "height": 675,
+        "aspectRatio": 0.66519,
+        "format": "image/jpeg"
+      },
+      "review": [
+        "cover-imported-from-user"
+      ]
     },
     "B0304": {
       "id": "B0304",
@@ -8992,9 +9344,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0305.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/121-olympiades-internationales-de-mathematiques-2006-2021.html",
+        "sourceUrl": "https://store.cassini.fr/277-large_default/olympiades-internationales-de-mathematiques-2006-2021.jpg",
+        "width": 450,
+        "height": 675,
+        "aspectRatio": 0.66667,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0306": {
@@ -9007,9 +9369,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0306.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/39-mathematiques-d-ecole-nombres-mesures-et-geometrie.html",
+        "sourceUrl": "https://store.cassini.fr/121-large_default/mathematiques-d-ecole-nombres-mesures-et-geometrie.jpg",
+        "width": 300,
+        "height": 500,
+        "aspectRatio": 0.6,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0307": {
@@ -9072,9 +9444,17 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0309.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "31Bu1GDodvL.jpg",
+        "width": 332,
+        "height": 500,
+        "aspectRatio": 0.664,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0310": {
@@ -9087,9 +9467,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0310.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/35-exercices-de-mathematiques-pour-physiciens-corriges-et-commentes.html",
+        "sourceUrl": "https://store.cassini.fr/117-large_default/exercices-de-mathematiques-pour-physiciens-corriges-et-commentes.jpg",
+        "width": 331,
+        "height": 500,
+        "aspectRatio": 0.662,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0311": {
@@ -9178,9 +9568,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0314.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/documents-essais-culture-scientifique/132-jeux-casse-tetes-et-mathematiques.html",
+        "sourceUrl": "https://store.cassini.fr/290-large_default/jeux-casse-tetes-et-mathematiques.jpg",
+        "width": 439,
+        "height": 675,
+        "aspectRatio": 0.65037,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0315": {
@@ -9311,9 +9711,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0322.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/45-problemes-d-analyse-reelle.html",
+        "sourceUrl": "https://store.cassini.fr/275-large_default/problemes-d-analyse-reelle.jpg",
+        "width": 449,
+        "height": 675,
+        "aspectRatio": 0.66519,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0323": {
@@ -9378,9 +9788,17 @@
       "details": "",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0324.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "exercices-d-algebre.jpg",
+        "width": 333,
+        "height": 500,
+        "aspectRatio": 0.666,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0325": {
@@ -11101,9 +11519,19 @@
       "details": "",
       "sourceFile": "catalogue/369-414.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0394.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/documents-essais-culture-scientifique/125-les-aventures-d-un-mathematicien.html",
+        "sourceUrl": "https://store.cassini.fr/282-large_default/les-aventures-d-un-mathematicien.jpg",
+        "width": 439,
+        "height": 675,
+        "aspectRatio": 0.65037,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0395": {
@@ -12281,9 +12709,19 @@
       "details": "1re éd.",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0436.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/une-introduction-aux-mathematiques-de-la-musique-emmanuel-amiot",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754494166/6400656/600/capture_d_ecran_2025-08-06_a_17-29-12.png",
+        "width": 446,
+        "height": 618,
+        "aspectRatio": 0.72168,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0437": {
@@ -12328,9 +12766,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0439.png",
+        "provider": "Calvage & Mounet",
+        "sourcePage": "https://www.calvage-et-mounet.fr/les-groupes-de-frise-alain-debreil-rached-mneimne-avec-un-cours-intensif-de-geometrie-superieure",
+        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1761034539/6645142/600/capture_d_ecran_2025-10-21_a_10-15-12.png",
+        "width": 600,
+        "height": 731,
+        "aspectRatio": 0.82079,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-and-author-matched"
       ]
     },
     "B0440": {
@@ -12383,9 +12831,19 @@
       "details": "Volume 1",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0442.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/collection-s/96-l-appel-des-maths-1-nombres.html",
+        "sourceUrl": "https://store.cassini.fr/218-large_default/l-appel-des-maths-1-nombres.jpg",
+        "width": 328,
+        "height": 500,
+        "aspectRatio": 0.656,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0443": {
@@ -12398,9 +12856,17 @@
       "details": "Volume 2",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0443.png",
+        "provider": "Couverture fournie",
+        "sourceFilename": "l-appel-des-maths-vol-2-geometrie.jpg.png",
+        "width": 444,
+        "height": 675,
+        "aspectRatio": 0.65778,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0444": {
@@ -12590,9 +13056,19 @@
       "details": "Volume 5",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0451.png",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/99-lecons-de-mathematiques-d-aujourd-hui-vol-5.html",
+        "sourceUrl": "https://store.cassini.fr/309-large_default/lecons-de-mathematiques-d-aujourd-hui-vol-5.jpg",
+        "width": 444,
+        "height": 675,
+        "aspectRatio": 0.65778,
+        "format": "image/png"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0452": {
