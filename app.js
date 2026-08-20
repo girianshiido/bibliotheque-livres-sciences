@@ -183,7 +183,7 @@ const PAGE_SIZE = 48;
 const state = {
   books: [], filtered: [], query: '', publisher: '', author: '', domain: '', status: '',
   sort: 'id-asc', initial: '', page: 1, view: 'grid', favorites: new Set(),
-  sourceFiles: [], loadNotice: '', covers: {}
+  sourceFiles: [], loadNotice: '', covers: {}, coverManifest: {}
 };
 
 const elements = {
@@ -315,6 +315,16 @@ async function fetchCoverIndex() {
   }
 }
 
+async function fetchCoverManifest() {
+  try {
+    const value = JSON.parse(await fetchText('covers/manifest.json'));
+    return value && typeof value.books === 'object' && !Array.isArray(value.books) ? value.books : {};
+  } catch {
+    // Le manifeste local est facultatif tant que les couvertures téléchargées sont en cours de constitution.
+    return {};
+  }
+}
+
 async function fetchCatalogueFiles(files) {
   const settled = await Promise.allSettled(files.map(async file => ({ file, text: await fetchText(file) })));
   const loaded = settled.filter(result => result.status === 'fulfilled').map(result => result.value);
@@ -327,8 +337,9 @@ async function fetchCatalogueFiles(files) {
 async function loadCatalogue() {
   showLoading();
   try {
-    const [discovery, covers] = await Promise.all([discoverCatalogueFiles(), fetchCoverIndex()]);
+    const [discovery, covers, coverManifest] = await Promise.all([discoverCatalogueFiles(), fetchCoverIndex(), fetchCoverManifest()]);
     state.covers = covers;
+    state.coverManifest = coverManifest;
     let { loaded, failed } = await fetchCatalogueFiles(discovery.files);
 
     // Si la découverte dynamique tombe sur une version de README en avance sur Pages,
@@ -599,6 +610,12 @@ function coverUrl(cover, size = 'M') {
   return `https://covers.openlibrary.org/b/id/${encodeURIComponent(cover.coverId)}-${size}.jpg?default=false`;
 }
 
+function localCoverUrl(book) {
+  const localPath = state.coverManifest[book.id]?.cover?.webPath;
+  if (typeof localPath !== 'string' || !localPath.startsWith('covers/web/')) return null;
+  return new URL(localPath, SITE_BASE_URL).href;
+}
+
 function setupBookCover(root, book, size = 'M') {
   const frame = root.querySelector('.book-cover');
   if (!frame) return;
@@ -607,9 +624,15 @@ function setupBookCover(root, book, size = 'M') {
   frame.querySelector('.book-cover__code').textContent = `MSC ${book.mscCode}`;
   frame.querySelector('.book-cover__placeholder-title').textContent = book.title;
   const cover = state.covers[book.id];
-  if (!cover?.coverId) return;
+  const source = localCoverUrl(book) || (cover?.coverId ? coverUrl(cover, size) : null);
+  if (!source) return;
 
   const showImage = () => {
+    const ratio = image.naturalWidth / image.naturalHeight;
+    if (Number.isFinite(ratio) && ratio > 0) {
+      frame.dataset.orientation = ratio > 1.08 ? 'landscape' : ratio < .82 ? 'portrait' : 'standard';
+      frame.style.setProperty('--cover-image-ratio', String(Math.min(3, Math.max(.25, ratio))));
+    }
     image.hidden = false;
     placeholder.hidden = true;
   };
@@ -622,7 +645,7 @@ function setupBookCover(root, book, size = 'M') {
   // L’image doit participer au rendu pour que le chargement différé démarre ;
   // le visuel typographique la masque jusqu’à l’événement load.
   image.hidden = false;
-  image.src = coverUrl(cover, size);
+  image.src = source;
   if (image.complete && image.naturalWidth) showImage();
 }
 

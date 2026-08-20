@@ -36,6 +36,18 @@ node scripts/build-cover-index.mjs
 
 Le script interroge l’API par lots, limite sa fréquence, reprend après une interruption et refuse les rapprochements bibliographiques trop faibles.
 
+Une campagne de conservation locale des couvertures est également préparée dans `covers/manifest.json`. Elle distingue strictement : la notice du livre, l’ISBN de l’édition contrôlée, la provenance et les dimensions réelles de l’image. Une image locale validée (`covers/web/...`) est toujours préférée à Open Library. Les visuels ne sont jamais étirés ni recadrés : les cadres de la bibliothèque sont constants, mais chaque couverture est affichée dans son ratio natif, y compris les formats paysage.
+
+Pour les ouvrages Springer et Birkhäuser, la campagne s’exécute séquentiellement — jamais en parallèle — afin de protéger le manifeste et de ne télécharger une image qu’après contrôle de l’ISBN :
+
+```sh
+node scripts/build-cover-manifest.mjs
+node scripts/resolve-springer-isbns.mjs --limit 3
+node scripts/fetch-springer-covers.mjs --limit 12
+```
+
+Les scripts prennent un verrou temporaire sur le manifeste. Si une étape est déjà en cours, la suivante s’arrête sans modifier les données.
+
 ### Domaines scientifiques — MSC 2020
 
 La taxonomie suit la **Mathematics Subject Classification 2020**, maintenue conjointement par Mathematical Reviews et zbMATH. Chaque livre reçoit un domaine principal à deux chiffres ; les disciplines spécifiques ont priorité sur les mots généraux. Ainsi, la topologie algébrique relève de `55`, et non de l’algèbre.
