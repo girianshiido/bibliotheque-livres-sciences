@@ -183,7 +183,7 @@ const PAGE_SIZE = 48;
 const state = {
   books: [], filtered: [], query: '', publisher: '', author: '', domain: '', status: '',
   sort: 'id-asc', initial: '', page: 1, view: 'grid', favorites: new Set(),
-  sourceFiles: [], loadNotice: '', covers: {}, coverManifest: {}
+  sourceFiles: [], loadNotice: '', coverManifest: {}
 };
 
 const elements = {
@@ -305,16 +305,6 @@ async function discoverCatalogueFiles() {
   return { files: FALLBACK_FILES, usedFallback: true };
 }
 
-async function fetchCoverIndex() {
-  try {
-    const value = JSON.parse(await fetchText('covers/index.json'));
-    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
-  } catch {
-    // Les notices restent entièrement utilisables si l’index des couvertures manque.
-    return {};
-  }
-}
-
 async function fetchCoverManifest() {
   try {
     const value = JSON.parse(await fetchText('covers/manifest.json'));
@@ -337,8 +327,7 @@ async function fetchCatalogueFiles(files) {
 async function loadCatalogue() {
   showLoading();
   try {
-    const [discovery, covers, coverManifest] = await Promise.all([discoverCatalogueFiles(), fetchCoverIndex(), fetchCoverManifest()]);
-    state.covers = covers;
+    const [discovery, coverManifest] = await Promise.all([discoverCatalogueFiles(), fetchCoverManifest()]);
     state.coverManifest = coverManifest;
     let { loaded, failed } = await fetchCatalogueFiles(discovery.files);
 
@@ -440,7 +429,7 @@ function updateStats() {
 }
 
 function renderHeroStack() {
-  const books = state.books.filter(book => state.covers[book.id]?.coverId).slice(0, 3);
+  const books = state.books.filter(book => localCoverUrl(book)).slice(0, 3);
   if (!books.length) return;
   const fragment = document.createDocumentFragment();
   books.forEach(book => {
@@ -575,10 +564,6 @@ function createBookCard(book) {
   return card;
 }
 
-function coverUrl(cover, size = 'M') {
-  return `https://covers.openlibrary.org/b/id/${encodeURIComponent(cover.coverId)}-${size}.jpg?default=false`;
-}
-
 function localCoverUrl(book) {
   const localPath = state.coverManifest[book.id]?.cover?.webPath;
   if (typeof localPath !== 'string' || !localPath.startsWith('covers/web/')) return null;
@@ -592,8 +577,7 @@ function setupBookCover(root, book, size = 'M') {
   const placeholder = frame.querySelector('.book-cover__placeholder');
   frame.querySelector('.book-cover__code').textContent = `MSC ${book.mscCode}`;
   frame.querySelector('.book-cover__placeholder-title').textContent = book.title;
-  const cover = state.covers[book.id];
-  const source = localCoverUrl(book) || (cover?.coverId ? coverUrl(cover, size) : null);
+  const source = localCoverUrl(book);
   if (!source) return;
 
   const showImage = () => {
@@ -662,10 +646,7 @@ function renderPagination() {
 
 function openBookDialog(book) {
   const favorite = state.favorites.has(book.id);
-  const cover = state.covers[book.id];
-  const openLibraryLink = cover?.workKey
-    ? `<a class="button button--quiet" href="https://openlibrary.org${escapeHtml(cover.workKey)}" target="_blank" rel="noopener">Notice Open Library</a>`
-    : '';
+  const localCover = state.coverManifest[book.id]?.cover;
   elements.dialogContent.innerHTML = `
     <div class="dialog-layout" style="--book-hue: ${(Number(book.mscCode) * 7 + book.number) % 360}">
       <div class="dialog-cover-column">
@@ -677,7 +658,7 @@ function openBookDialog(book) {
             <span class="book-cover__monogram">BS</span>
           </div>
         </div>
-        ${cover ? '<p class="cover-credit">Couverture : Open Library</p>' : '<p class="cover-credit">Visuel typographique du catalogue</p>'}
+        ${localCover ? `<p class="cover-credit">Couverture : ${escapeHtml(localCover.provider || 'source vérifiée')}</p>` : '<p class="cover-credit">Visuel typographique du catalogue</p>'}
       </div>
       <div class="dialog-body">
         <div class="dialog-id">${escapeHtml(book.id)} · MSC ${escapeHtml(book.mscCode)}</div>
@@ -693,7 +674,6 @@ function openBookDialog(book) {
         </dl>
         <div class="dialog-actions">
           <button id="dialogFavoriteButton" class="button" type="button">${favorite ? '★ Retirer des favoris' : '☆ Ajouter aux favoris'}</button>
-          ${openLibraryLink}
           <a class="button button--quiet" href="${REPOSITORY_URL}/blob/main/${encodeURI(book.sourceFile)}" target="_blank" rel="noopener">Voir la source GitHub</a>
         </div>
       </div>

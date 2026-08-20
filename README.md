@@ -20,23 +20,13 @@ L’interface :
 - utilise une liste de secours si la lecture du README est temporairement indisponible pendant un déploiement Pages ;
 - continue à afficher les fichiers disponibles si l’un d’eux est momentanément inaccessible, en le signalant dans le résumé ;
 - permet la recherche plein texte, les filtres par auteur, éditeur et domaine, le tri, les favoris locaux, l’affichage en cartes ou en tableau et l’export CSV de la sélection.
-- charge un index local de correspondances bibliographiques pour afficher les couvertures Open Library, sans rendre le catalogue dépendant de cet index.
+- affiche les couvertures locales vérifiées lorsqu’elles sont disponibles, sans rendre le catalogue dépendant d’un service externe.
 
 Les variantes purement typographiques d’un même éditeur sont regroupées sous un nom canonique dans l’interface (`Calvage et Mounet.` devient par exemple `Calvage & Mounet`). Les coéditions réellement distinctes restent séparées.
 
 ### Couvertures
 
-Le fichier `covers/index.json` contient uniquement les identifiants de couvertures dont la correspondance titre-auteur est suffisamment fiable. Les images sont servies par Open Library conformément à son API de couvertures ; elles ne sont pas copiées en masse dans le dépôt. En l’absence de correspondance fiable, le site génère une couverture typographique uniforme afin que toutes les fiches conservent la même dimension.
-
-Après l’ajout ou la correction de livres, l’index peut être reconstruit avec :
-
-```sh
-node scripts/build-cover-index.mjs
-```
-
-Le script interroge l’API par lots, limite sa fréquence, reprend après une interruption et refuse les rapprochements bibliographiques trop faibles.
-
-Une campagne de conservation locale des couvertures est également préparée dans `covers/manifest.json`. Elle distingue strictement : la notice du livre, l’ISBN de l’édition contrôlée, la provenance et les dimensions réelles de l’image. Une image locale validée (`covers/web/...`) est toujours préférée à Open Library. Les visuels ne sont jamais étirés ni recadrés : les cadres de la bibliothèque sont constants, mais chaque couverture est affichée dans son ratio natif, y compris les formats paysage.
+Les couvertures vérifiées sont enregistrées localement dans `covers/web/` et décrites dans `covers/manifest.json`. Le manifeste distingue strictement la notice du livre, l’ISBN de l’édition contrôlée, la provenance et les dimensions réelles de l’image. Lorsqu’aucune couverture locale validée n’est disponible, le site génère un visuel typographique uniforme. Les visuels ne sont jamais étirés ni recadrés : les cadres de la bibliothèque sont constants, mais chaque couverture est affichée dans son ratio natif, y compris les formats paysage.
 
 Pour les ouvrages Springer et Birkhäuser, la campagne s’exécute séquentiellement — jamais en parallèle — afin de protéger le manifeste et de ne télécharger une image qu’après contrôle de l’ISBN :
 
