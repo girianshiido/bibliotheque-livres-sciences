@@ -50,6 +50,9 @@ function publisherMatches(book, candidatePublisher = '') {
   const expected = normalize(book.publisher);
   const actual = normalize(candidatePublisher);
   const aliases = {
+    // Plusieurs collections historiques Springer sont aujourd’hui cataloguées sous Birkhäuser,
+    // marque du même groupe ; titre et auteur restent obligatoires pour accepter l’ISBN.
+    'springer': ['springer', 'birkhauser'],
     'birkhauser': ['birkhauser', 'springer'],
     'american mathematical society': ['american mathematical society', 'maa press'],
     'ams chelsea': ['american mathematical society', 'ams chelsea']
@@ -61,7 +64,14 @@ function publisherMatches(book, candidatePublisher = '') {
 function chooseRecord(book, items) {
   return items
     .filter(item => item.title?.[0] && item.ISBN?.length && publisherMatches(book, item.publisher))
-    .map(item => ({ item, titleScore: similarity(book.title, item.title[0]), authorMatch: authorMatches(book, item) }))
+    .map(item => {
+      const bookTitle = normalize(book.title);
+      const recordTitle = normalize(item.title[0]);
+      // Crossref omet régulièrement le sous-titre après « : ». Un titre principal
+      // d'au moins trois mots qui est un préfixe exact reste une correspondance sûre.
+      const exactMainTitle = recordTitle.split(' ').length >= 3 && bookTitle.startsWith(recordTitle);
+      return { item, titleScore: exactMainTitle ? 1 : similarity(book.title, item.title[0]), authorMatch: authorMatches(book, item) };
+    })
     .filter(candidate => candidate.authorMatch && candidate.titleScore >= .88)
     .sort((left, right) => right.titleScore - left.titleScore)[0];
 }

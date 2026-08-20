@@ -340,10 +340,49 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783319549385",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Square Matrices of Order 2",
+            "authors": [
+              "Vasile Pop",
+              "Ovidiu Furdui"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-54939-2"
+          }
+        },
+        {
+          "value": "9783319549392",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Square Matrices of Order 2",
+            "authors": [
+              "Vasile Pop",
+              "Ovidiu Furdui"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-54939-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0008.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319549385.jpg",
+        "isbn13": "9783319549385",
+        "width": 430,
+        "height": 648,
+        "aspectRatio": 0.66358,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0009": {
@@ -535,10 +574,51 @@
       "publisher": "Springer",
       "details": "CMS Books in Mathematics — Note : Traduit par Karl Dilcher.",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461270713",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Equations and Inequalities",
+            "authors": [
+              "Jiří Herman",
+              "Jaromír Šimša",
+              "Radan Kučera"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-1270-6"
+          }
+        },
+        {
+          "value": "9781461212706",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Equations and Inequalities",
+            "authors": [
+              "Jiří Herman",
+              "Jaromír Šimša",
+              "Radan Kučera"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-1270-6"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0017.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461270713.jpg",
+        "isbn13": "9781461270713",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0018": {
@@ -550,10 +630,47 @@
       "publisher": "Springer",
       "details": "CMS Books in Mathematics",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461270355",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Two Millennia of Mathematics",
+            "authors": [
+              "George M. Phillips"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-1180-8"
+          }
+        },
+        {
+          "value": "9781461211808",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Two Millennia of Mathematics",
+            "authors": [
+              "George M. Phillips"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-1180-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0018.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461270355.jpg",
+        "isbn13": "9781461270355",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0019": {
@@ -617,10 +734,47 @@
       "publisher": "Springer",
       "details": "Undergraduate Texts in Mathematics",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781475772623",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Laplace Transform",
+            "authors": [
+              "Joel L. Schiff"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-0-387-22757-3"
+          }
+        },
+        {
+          "value": "9780387227573",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Laplace Transform",
+            "authors": [
+              "Joel L. Schiff"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-0-387-22757-3"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0020.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781475772623.jpg",
+        "isbn13": "9781475772623",
+        "width": 425,
+        "height": 648,
+        "aspectRatio": 0.65586,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0021": {
@@ -795,10 +949,36 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387242989",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Techniques of Variational Analysis",
+            "authors": [
+              "Jonathan M. Borwein",
+              "Qiji J. Zhu"
+            ],
+            "publisher": "Springer New York",
+            "url": "https://link.springer.com/book/10.1007/0-387-28271-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0024.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/0-387-28271-8",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387242989.jpg",
+        "isbn13": "9780387242989",
+        "width": 416,
+        "height": 648,
+        "aspectRatio": 0.64198,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0025": {
@@ -1679,7 +1859,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-not-found-crossref"
+        "cover-not-available-springerlink"
       ]
     },
     "B0062": {
@@ -1852,10 +2032,49 @@
       "publisher": "Springer",
       "details": "Undergraduate Texts in Mathematics — 2e éd. — Note : Illustrations de David Austin.",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781493929689",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Computing the Continuous Discretely",
+            "authors": [
+              "Matthias Beck",
+              "Sinai Robins"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4939-2969-6"
+          }
+        },
+        {
+          "value": "9781493929696",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Computing the Continuous Discretely",
+            "authors": [
+              "Matthias Beck",
+              "Sinai Robins"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4939-2969-6"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0067.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781493929689.jpg",
+        "isbn13": "9781493929689",
+        "width": 430,
+        "height": 648,
+        "aspectRatio": 0.66358,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0068": {
@@ -2731,10 +2950,35 @@
       "publisher": "Springer",
       "details": "Graduate Texts in Mathematics",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387848945",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Distributions and Operators",
+            "authors": [
+              "Gerd Grubb"
+            ],
+            "publisher": "Springer Nature",
+            "url": "https://link.springer.com/book/10.1007/978-0-387-84895-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0099.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-0-387-84895-2",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387848945.jpg",
+        "isbn13": "9780387848945",
+        "width": 408,
+        "height": 648,
+        "aspectRatio": 0.62963,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0100": {
@@ -2771,10 +3015,35 @@
       "publisher": "Springer",
       "details": "Graduate Texts in Mathematics 226",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387220369",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Spaces of Holomorphic Functions in the Unit Ball",
+            "authors": [
+              "Kehe Zhu"
+            ],
+            "publisher": "Springer New York",
+            "url": "https://link.springer.com/book/10.1007/0-387-27539-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0101.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/0-387-27539-8",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387220369.jpg",
+        "isbn13": "9780387220369",
+        "width": 407,
+        "height": 648,
+        "aspectRatio": 0.62809,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0102": {
@@ -3017,7 +3286,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-not-found-crossref"
+        "cover-not-available-springerlink"
       ]
     },
     "B0110": {
@@ -3033,7 +3302,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-not-found-crossref"
+        "cover-not-available-springerlink"
       ]
     },
     "B0111": {
@@ -3342,10 +3611,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387309439",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Explorations in Mathematical Physics",
+            "authors": [
+              "Don Koks"
+            ],
+            "publisher": "Springer New York",
+            "url": "https://link.springer.com/book/10.1007/978-0-387-32793-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0118.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-0-387-32793-8",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387309439.jpg",
+        "isbn13": "9780387309439",
+        "width": 407,
+        "height": 648,
+        "aspectRatio": 0.62809,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0119": {
@@ -3707,10 +4001,49 @@
       "publisher": "Springer",
       "details": "Volume I",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783030947842",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Convex Analysis and Beyond",
+            "authors": [
+              "Boris S. Mordukhovich",
+              "Nguyen Mau Nam"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-030-94785-9"
+          }
+        },
+        {
+          "value": "9783030947859",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Convex Analysis and Beyond",
+            "authors": [
+              "Boris S. Mordukhovich",
+              "Nguyen Mau Nam"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-030-94785-9"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0133.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783030947842.jpg",
+        "isbn13": "9783030947842",
+        "width": 430,
+        "height": 648,
+        "aspectRatio": 0.66358,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0134": {
@@ -3723,10 +4056,36 @@
       "publisher": "Springer",
       "details": "CMS Books in Mathematics — 2e éd.",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387002934",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Generalized Inverses",
+            "authors": [
+              "Adi Ben-Israel",
+              "Thomas N. E. Greville"
+            ],
+            "publisher": "Springer New York",
+            "url": "https://link.springer.com/book/10.1007/b97366"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0134.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/b97366",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387002934.jpg",
+        "isbn13": "9780387002934",
+        "width": 415,
+        "height": 648,
+        "aspectRatio": 0.64043,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0135": {
@@ -3739,10 +4098,36 @@
       "publisher": "Springer",
       "details": "Graduate Texts in Mathematics",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387975276",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Representation Theory",
+            "authors": [
+              "William Fulton",
+              "Joe Harris"
+            ],
+            "publisher": "Springer New York",
+            "url": "https://link.springer.com/book/10.1007/978-1-4612-0979-9"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0135.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-1-4612-0979-9",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387975276.jpg",
+        "isbn13": "9780387975276",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0136": {
@@ -3864,10 +4249,47 @@
       "publisher": "Springer",
       "details": "Springer Monographs in Mathematics",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783642085574",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Development of Prime Number Theory",
+            "authors": [
+              "Władysław Narkiewicz"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-662-13157-2"
+          }
+        },
+        {
+          "value": "9783662131572",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Development of Prime Number Theory",
+            "authors": [
+              "Władysław Narkiewicz"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-662-13157-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0139.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642085574.jpg",
+        "isbn13": "9783642085574",
+        "width": 425,
+        "height": 648,
+        "aspectRatio": 0.65586,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0140": {
@@ -4097,10 +4519,36 @@
       "publisher": "Springer",
       "details": "Graduate Texts in Mathematics",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387986388",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "The Geometry of Schemes",
+            "authors": [
+              "David Eisenbud",
+              "Joe Harris"
+            ],
+            "publisher": "Springer New York",
+            "url": "https://link.springer.com/book/10.1007/b97680"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0144.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/b97680",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387986388.jpg",
+        "isbn13": "9780387986388",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink-search"
       ]
     },
     "B0145": {
@@ -4323,10 +4771,47 @@
       "publisher": "Springer",
       "details": "2e éd.",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781071635964",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The New Mathematical Coloring Book",
+            "authors": [
+              "Alexander Soifer"
+            ],
+            "publisher": "Springer US",
+            "doi": "10.1007/978-1-0716-3597-1"
+          }
+        },
+        {
+          "value": "9781071635971",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The New Mathematical Coloring Book",
+            "authors": [
+              "Alexander Soifer"
+            ],
+            "publisher": "Springer US",
+            "doi": "10.1007/978-1-0716-3597-1"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0149.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781071635964.jpg",
+        "isbn13": "9781071635964",
+        "width": 456,
+        "height": 648,
+        "aspectRatio": 0.7037,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0150": {
@@ -4390,10 +4875,47 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387754710",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Colorado Mathematical Olympiad and Further Explorations",
+            "authors": [
+              "Alexander Soifer"
+            ],
+            "publisher": "Springer US",
+            "doi": "10.1007/978-0-387-75472-7"
+          }
+        },
+        {
+          "value": "9780387754727",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Colorado Mathematical Olympiad and Further Explorations",
+            "authors": [
+              "Alexander Soifer"
+            ],
+            "publisher": "Springer US",
+            "doi": "10.1007/978-0-387-75472-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0151.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387754710.jpg",
+        "isbn13": "9780387754710",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.65895,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0152": {
@@ -4405,10 +4927,47 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783319528595",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Colorado Mathematical Olympiad: The Third Decade and Further Explorations",
+            "authors": [
+              "Alexander Soifer"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-52861-8"
+          }
+        },
+        {
+          "value": "9783319528618",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Colorado Mathematical Olympiad: The Third Decade and Further Explorations",
+            "authors": [
+              "Alexander Soifer"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-52861-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0152.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319528595.jpg",
+        "isbn13": "9783319528595",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.65895,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0153": {
@@ -4524,10 +5083,47 @@
       "publisher": "Springer",
       "details": "Volume I",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783662494370",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elementary Mathematics from a Higher Standpoint",
+            "authors": [
+              "Felix Klein"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-662-49439-4"
+          }
+        },
+        {
+          "value": "9783662494394",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elementary Mathematics from a Higher Standpoint",
+            "authors": [
+              "Felix Klein"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-662-49439-4"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0155.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783662494370.jpg",
+        "isbn13": "9783662494370",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.65895,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0156": {
@@ -4591,10 +5187,47 @@
       "publisher": "Springer",
       "details": "Volume III",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783662494370",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elementary Mathematics from a Higher Standpoint",
+            "authors": [
+              "Felix Klein"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-662-49439-4"
+          }
+        },
+        {
+          "value": "9783662494394",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elementary Mathematics from a Higher Standpoint",
+            "authors": [
+              "Felix Klein"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-662-49439-4"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0157.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783662494370.jpg",
+        "isbn13": "9783662494370",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.65895,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0158": {
@@ -4629,10 +5262,47 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783031500619",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "From Rings and Modules to Hopf Algebras",
+            "authors": [
+              "Michel Broué"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-031-50062-6"
+          }
+        },
+        {
+          "value": "9783031500626",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "From Rings and Modules to Hopf Algebras",
+            "authors": [
+              "Michel Broué"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-031-50062-6"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0159.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783031500619.jpg",
+        "isbn13": "9783031500619",
+        "width": 430,
+        "height": 648,
+        "aspectRatio": 0.66358,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0160": {
@@ -4644,10 +5314,47 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783319008875",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Markov's Theorem and 100 Years of the Uniqueness Conjecture",
+            "authors": [
+              "Martin Aigner"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-00888-2"
+          }
+        },
+        {
+          "value": "9783319008882",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Markov's Theorem and 100 Years of the Uniqueness Conjecture",
+            "authors": [
+              "Martin Aigner"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-00888-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0160.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319008875.jpg",
+        "isbn13": "9783319008875",
+        "width": 431,
+        "height": 648,
+        "aspectRatio": 0.66512,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0161": {
@@ -4709,7 +5416,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-not-found-crossref"
+        "cover-not-available-springerlink"
       ]
     },
     "B0165": {
@@ -4907,10 +5614,47 @@
       "publisher": "Springer",
       "details": "Sources and Studies in the History of Mathematics and Physical Sciences",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461463320",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Mathematics of Frobenius in Context",
+            "authors": [
+              "Thomas Hawkins"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4614-6333-7"
+          }
+        },
+        {
+          "value": "9781461463337",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Mathematics of Frobenius in Context",
+            "authors": [
+              "Thomas Hawkins"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4614-6333-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0168.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461463320.jpg",
+        "isbn13": "9781461463320",
+        "width": 430,
+        "height": 648,
+        "aspectRatio": 0.66358,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0169": {
@@ -5229,10 +5973,49 @@
       "publisher": "Springer",
       "details": "Springer Monographs in Mathematics — 1re éd.",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783319126692",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Continuous Nowhere Differentiable Functions",
+            "authors": [
+              "Marek Jarnicki",
+              "Peter Pflug"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-12670-8"
+          }
+        },
+        {
+          "value": "9783319126708",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Continuous Nowhere Differentiable Functions",
+            "authors": [
+              "Marek Jarnicki",
+              "Peter Pflug"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-319-12670-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0176.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319126692.jpg",
+        "isbn13": "9783319126692",
+        "width": 468,
+        "height": 648,
+        "aspectRatio": 0.72222,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0177": {
@@ -5549,10 +6332,55 @@
       "publisher": "Springer",
       "details": "CMS Books in Mathematics",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781441975140",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Banach Space Theory",
+            "authors": [
+              "Marián Fabian",
+              "Petr Habala",
+              "Petr Hájek",
+              "Vicente Montesinos",
+              "Václav Zizler"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4419-7515-7"
+          }
+        },
+        {
+          "value": "9781441975157",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Banach Space Theory",
+            "authors": [
+              "Marián Fabian",
+              "Petr Habala",
+              "Petr Hájek",
+              "Vicente Montesinos",
+              "Václav Zizler"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4419-7515-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0185.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781441975140.jpg",
+        "isbn13": "9781441975140",
+        "width": 408,
+        "height": 648,
+        "aspectRatio": 0.62963,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0186": {
@@ -5965,10 +6793,47 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461277521",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Augustin-Louis Cauchy",
+            "authors": [
+              "Bruno Belhoste"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-2996-4"
+          }
+        },
+        {
+          "value": "9781461229964",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Augustin-Louis Cauchy",
+            "authors": [
+              "Bruno Belhoste"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-2996-4"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0194.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461277521.jpg",
+        "isbn13": "9781461277521",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0195": {
@@ -5980,10 +6845,14 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{
+        "value": "9783540106623",
+        "type": "ISBN-13",
+        "evidence": {"provider": "SpringerLink", "title": "Gauss", "authors": ["W. K. Bühler"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/978-3-642-49207-5"}
+      }],
+      "cover": {"webPath": "covers/web/B0195.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-49207-5", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540106623.jpg", "isbn13": "9783540106623", "width": 430, "height": 648, "aspectRatio": 0.66358, "format": "image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0196": {
@@ -5995,10 +6864,35 @@
       "publisher": "Springer",
       "details": "Graduate Texts in Mathematics 212",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780387953731",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Lectures on Discrete Geometry",
+            "authors": [
+              "Jiří Matoušek"
+            ],
+            "publisher": "Springer New York, NY",
+            "url": "https://link.springer.com/book/10.1007/978-1-4613-0039-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0196.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-1-4613-0039-7",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461300397.jpg",
+        "isbn13": "9780387953731",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0197": {
@@ -6010,10 +6904,47 @@
       "publisher": "Springer",
       "details": "Graduate Texts in Mathematics 188 — 1re éd.",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461268413",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Lectures on the Hyperreals",
+            "authors": [
+              "Robert Goldblatt"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-0615-6"
+          }
+        },
+        {
+          "value": "9781461206156",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Lectures on the Hyperreals",
+            "authors": [
+              "Robert Goldblatt"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4612-0615-6"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0197.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461268413.jpg",
+        "isbn13": "9781461268413",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.65895,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0198": {
@@ -6165,10 +7096,33 @@
       "publisher": "Springer",
       "details": "Lecture Notes in Mathematics 1912 — 2e éd.",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783540722335",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Iterative Approximation of Fixed Points",
+            "authors": ["Vasile Berinde"],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/978-3-540-72234-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0201.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-540-72234-2",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540722342.jpg",
+        "isbn13": "9783540722335",
+        "width": 426,
+        "height": 648,
+        "aspectRatio": 0.65741,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0202": {
@@ -6610,10 +7564,47 @@
       "publisher": "Springer",
       "details": "1re éd.",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783642172854",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Perspectives on Projective Geometry",
+            "authors": [
+              "Jürgen Richter-Gebert"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-17286-1"
+          }
+        },
+        {
+          "value": "9783642172861",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Perspectives on Projective Geometry",
+            "authors": [
+              "Jürgen Richter-Gebert"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-17286-1"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0218.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642172854.jpg",
+        "isbn13": "9783642172854",
+        "width": 431,
+        "height": 648,
+        "aspectRatio": 0.66512,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0219": {
@@ -6762,10 +7753,47 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783642646119",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Algebraic Theory of Spinors and Clifford Algebras",
+            "authors": [
+              "Claude Chevalley"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-60934-3"
+          }
+        },
+        {
+          "value": "9783642609343",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Algebraic Theory of Spinors and Clifford Algebras",
+            "authors": [
+              "Claude Chevalley"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-60934-3"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0223.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642646119.jpg",
+        "isbn13": "9783642646119",
+        "width": 429,
+        "height": 648,
+        "aspectRatio": 0.66204,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0224": {
@@ -8327,10 +9355,47 @@
       "publisher": "Springer",
       "details": "3e éd.",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783642379550",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Basic Algebraic Geometry 1",
+            "authors": [
+              "Igor R. Shafarevich"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-37956-7"
+          }
+        },
+        {
+          "value": "9783642379567",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Basic Algebraic Geometry 1",
+            "authors": [
+              "Igor R. Shafarevich"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-37956-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0263.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642379550.jpg",
+        "isbn13": "9783642379550",
+        "width": 432,
+        "height": 648,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0264": {
@@ -8342,10 +9407,47 @@
       "publisher": "Springer",
       "details": "3e éd.",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783642380099",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Basic Algebraic Geometry 2",
+            "authors": [
+              "Igor R. Shafarevich"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-38010-5"
+          }
+        },
+        {
+          "value": "9783642380105",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Basic Algebraic Geometry 2",
+            "authors": [
+              "Igor R. Shafarevich"
+            ],
+            "publisher": "Springer Berlin Heidelberg",
+            "doi": "10.1007/978-3-642-38010-5"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0264.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642380099.jpg",
+        "isbn13": "9783642380099",
+        "width": 432,
+        "height": 648,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0265": {
@@ -8441,10 +9543,33 @@
       "publisher": "Springer",
       "details": "Lecture Notes in Mathematics 1794",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783540441410",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Substitutions in Dynamics, Arithmetics and Combinatorics",
+            "authors": ["N. Pytheas Fogg"],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/b13861"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0268.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/b13861",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540457145.jpg",
+        "isbn13": "9783540441410",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0269": {
@@ -8530,10 +9655,15 @@
       "publisher": "Springer",
       "details": "Springer Undergraduate Mathematics Series",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{
+        "value": "9783319421858",
+        "type": "ISBN-13",
+        "evidence": {"provider": "SpringerLink", "title": "Mathematical Tapas", "authors": ["Jean-Baptiste Hiriart-Urruty"], "publisher": "Springer Cham", "url": "https://link.springer.com/book/10.1007/978-3-319-42186-5"}
+      }],
+      "cover": {"webPath": "covers/web/B0272.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-42186-5", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319421865.jpg", "isbn13": "9783319421858", "width": 427, "height": 648, "aspectRatio": 0.6591, "format": "image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0273": {
@@ -8545,10 +9675,15 @@
       "publisher": "Springer",
       "details": "Springer Undergraduate Mathematics Series",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{
+        "value": "9783319686301",
+        "type": "ISBN-13",
+        "evidence": {"provider": "SpringerLink", "title": "Mathematical Tapas", "authors": ["Jean-Baptiste Hiriart-Urruty"], "publisher": "Springer Cham", "url": "https://link.springer.com/book/10.1007/978-3-319-68631-8"}
+      }],
+      "cover": {"webPath": "covers/web/B0273.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-68631-8", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319686318.jpg", "isbn13": "9783319686301", "width": 427, "height": 648, "aspectRatio": 0.6591, "format": "image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0274": {
@@ -8709,10 +9844,53 @@
       "publisher": "Springer",
       "details": "Problem Books in Mathematics — 2e éd.",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781441998538",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The IMO Compendium",
+            "authors": [
+              "Dušan Djukić",
+              "Vladimir Janković",
+              "Ivan Matić",
+              "Nikola Petrović"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4419-9854-5"
+          }
+        },
+        {
+          "value": "9781441998545",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The IMO Compendium",
+            "authors": [
+              "Dušan Djukić",
+              "Vladimir Janković",
+              "Ivan Matić",
+              "Nikola Petrović"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4419-9854-5"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0278.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781441998538.jpg",
+        "isbn13": "9781441998538",
+        "width": 443,
+        "height": 648,
+        "aspectRatio": 0.68364,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0279": {
@@ -8795,10 +9973,47 @@
       "publisher": "Springer",
       "details": "Problem Books in Mathematics",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461467618",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Limits, Series, and Fractional Part Integrals",
+            "authors": [
+              "Ovidiu Furdui"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4614-6762-5"
+          }
+        },
+        {
+          "value": "9781461467625",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Limits, Series, and Fractional Part Integrals",
+            "authors": [
+              "Ovidiu Furdui"
+            ],
+            "publisher": "Springer New York",
+            "doi": "10.1007/978-1-4614-6762-5"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0281.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461467618.jpg",
+        "isbn13": "9781461467618",
+        "width": 431,
+        "height": 648,
+        "aspectRatio": 0.66512,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0282": {
@@ -8920,10 +10135,47 @@
       "publisher": "Springer",
       "details": "Problem Books in Mathematics",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783031212611",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "More (Almost) Impossible Integrals, Sums, and Series",
+            "authors": [
+              "Cornel Ioan Vălean"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-031-21262-8"
+          }
+        },
+        {
+          "value": "9783031212628",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "More (Almost) Impossible Integrals, Sums, and Series",
+            "authors": [
+              "Cornel Ioan Vălean"
+            ],
+            "publisher": "Springer International Publishing",
+            "doi": "10.1007/978-3-031-21262-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0284.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783031212611.jpg",
+        "isbn13": "9783031212611",
+        "width": 417,
+        "height": 648,
+        "aspectRatio": 0.64352,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0285": {
@@ -8937,10 +10189,51 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9789400759510",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Analysis and Algebra on Differentiable Manifolds",
+            "authors": [
+              "Pedro M. Gadea",
+              "Jaime Muñoz Masqué",
+              "Ihor V. Mykytyuk"
+            ],
+            "publisher": "Springer Netherlands",
+            "doi": "10.1007/978-94-007-5952-7"
+          }
+        },
+        {
+          "value": "9789400759527",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Analysis and Algebra on Differentiable Manifolds",
+            "authors": [
+              "Pedro M. Gadea",
+              "Jaime Muñoz Masqué",
+              "Ihor V. Mykytyuk"
+            ],
+            "publisher": "Springer Netherlands",
+            "doi": "10.1007/978-94-007-5952-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0285.jpg",
+        "provider": "Springer Nature Cover Search",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9789400759510.jpg",
+        "isbn13": "9789400759510",
+        "width": 432,
+        "height": 648,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0286": {
@@ -8953,10 +10246,15 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{
+        "value": "9783540636403",
+        "type": "ISBN-13",
+        "evidence": {"provider": "SpringerLink", "title": "Problems and Theorems in Analysis I", "authors": ["George Pólya", "Gabor Szegö"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/978-3-642-61983-0"}
+      }],
+      "cover": {"webPath": "covers/web/B0286.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61983-0", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642619830.jpg", "isbn13": "9783540636403", "width": 429, "height": 648, "aspectRatio": 0.66204, "format": "image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0287": {
@@ -8969,10 +10267,15 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{
+        "value": "9783540636861",
+        "type": "ISBN-13",
+        "evidence": {"provider": "SpringerLink", "title": "Problems and Theorems in Analysis II", "authors": ["George Pólya", "Gabor Szegö"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/978-3-642-61905-2"}
+      }],
+      "cover": {"webPath": "covers/web/B0287.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61905-2", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642619052.jpg", "isbn13": "9783540636861", "width": 424, "height": 648, "aspectRatio": 0.65432, "format": "image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0288": {
@@ -9765,10 +11068,10 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{"value":"9783540006626","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"The Analysis of Linear Partial Differential Operators I","authors":["Lars Hörmander"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/10.1007/978-3-642-61497-2"}}],
+      "cover":{"webPath":"covers/web/B0315.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/10.1007/978-3-642-61497-2","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783642614972.jpg","isbn13":"9783540006626","width":428,"height":648,"aspectRatio":0.66049,"format":"image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0316": {
@@ -9780,10 +11083,10 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{"value":"9783540225164","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"The Analysis of Linear Partial Differential Operators II","authors":["Lars Hörmander"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/10.1007/b138375"}}],
+      "cover":{"webPath":"covers/web/B0316.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/10.1007/b138375","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540269649.jpg","isbn13":"9783540225164","width":429,"height":648,"aspectRatio":0.66204,"format":"image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0317": {
@@ -9795,10 +11098,10 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{"value":"9783540420576","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique I","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540420576"}}],
+      "cover":{"webPath":"covers/web/B0317.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540420576","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540420576.jpg","isbn13":"9783540420576","width":428,"height":648,"aspectRatio":0.66049,"format":"image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0318": {
@@ -9810,10 +11113,10 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{"value":"9783540006558","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique II","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540006558"}}],
+      "cover":{"webPath":"covers/web/B0318.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540006558","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540006558.jpg","isbn13":"9783540006558","width":428,"height":648,"aspectRatio":0.66049,"format":"image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0319": {
@@ -9825,10 +11128,10 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{"value":"9783540661429","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique III","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540661429"}}],
+      "cover":{"webPath":"covers/web/B0319.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540661429","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540661429.jpg","isbn13":"9783540661429","width":426,"height":648,"aspectRatio":0.65741,"format":"image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0320": {
@@ -9840,10 +11143,10 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{"value":"9783540438410","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique IV","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540438410"}}],
+      "cover":{"webPath":"covers/web/B0320.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540438410","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540438410.jpg","isbn13":"9783540438410","width":427,"height":648,"aspectRatio":0.6591,"format":"image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded", "edition-linked-by-springerlink"
       ]
     },
     "B0321": {
@@ -10041,10 +11344,33 @@
       "publisher": "Springer",
       "details": "Universitext",
       "sourceFile": "catalogue/323-368.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783319722535",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Geometric Group Theory",
+            "authors": ["Clara Löh"],
+            "publisher": "Springer Cham",
+            "url": "https://link.springer.com/book/10.1007/978-3-319-72254-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0326.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-72254-2",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319722542.jpg",
+        "isbn13": "9783319722535",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0327": {
@@ -10212,10 +11538,33 @@
       "publisher": "Springer",
       "details": "Universitext",
       "sourceFile": "catalogue/323-368.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783540003625",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Using the Borsuk-Ulam Theorem",
+            "authors": ["Jiří Matoušek"],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/978-3-540-76649-0"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0330.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-540-76649-0",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540766490.jpg",
+        "isbn13": "9783540003625",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0331": {
@@ -14123,10 +15472,15 @@
       "publisher": "Springer",
       "details": "Lecture Notes in Computer Science 606",
       "sourceFile": "catalogue/461-506.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [{
+        "value": "9783540556114",
+        "type": "ISBN-13",
+        "evidence": {"provider": "SpringerLink", "title": "Axioms and Hulls", "authors": ["Donald E. Knuth"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/3-540-55611-7"}
+      }],
+      "cover": {"webPath": "covers/web/B0491.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/3-540-55611-7", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540472599.jpg", "isbn13": "9783540556114", "width": 427, "height": 648, "aspectRatio": 0.6591, "format": "image/jpeg"},
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0492": {
