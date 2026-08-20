@@ -1,0 +1,392 @@
+{
+  "B0030": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691185422",
+    "sourcePage": "https://press.princeton.edu/books/ebook/9780691185422/99-variations-on-a-proof-pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691185422.jpg?fill=solid&fill-color=ffffff&fit=fill&h=630&w=1200"
+  },
+  "B0242": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9780821802687",
+    "sourcePage": "https://bookstore.ams.org/gsm-5/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-5-e-cov-1.jpg"
+  },
+  "B0072": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9780821838129",
+    "sourcePage": "https://bookstore.ams.org/gsm-81/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-81-e-cov-1.jpg"
+  },
+  "B0167": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9780821889862",
+    "sourcePage": "https://bookstore.ams.org/gsm-142/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-142-e-cov-1.jpg"
+  },
+  "B0411": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9781470456948",
+    "sourcePage": "https://bookstore.ams.org/mbk-130/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/mbk-130-e-cov-1.jpg"
+  },
+  "B0056": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691219899",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691219899.jpg"
+  },
+  "B0057": {
+    "provider": "Princeton University Press",
+    "isbn13": "9781400889921",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400889921.jpg"
+  },
+  "B0059": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691119151",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691119151.jpg"
+  },
+  "B0060": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691149059",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691149059.jpg"
+  },
+  "B0137": {
+    "provider": "Princeton University Press",
+    "isbn13": "9781400865321",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400865321.jpg"
+  },
+  "B0175": {
+    "provider": "Princeton University Press",
+    "isbn13": "9781400883950",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400883950.jpg"
+  },
+  "B0250": {
+    "provider": "Princeton University Press",
+    "isbn13": "9781400832347",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400832347.jpg"
+  },
+  "B0027": {
+    "provider": "Cambridge University Press",
+    "isbn13": "9780521358804",
+    "isbnEvidence": {
+      "provider": "Cambridge University Press",
+      "title": "Inequalities, Second Edition",
+      "authors": [
+        "G. H. Hardy",
+        "J. E. Littlewood",
+        "G. Pólya"
+      ],
+      "publisher": "Cambridge University Press"
+    },
+    "sourcePage": "https://www.cambridge.org/9780521358804",
+    "sourceUrl": "https://assets.cambridge.org/97805213/58804/large_cover/9780521358804i.jpg",
+    "enabled": false,
+    "note": "Asset Cambridge temporairement inaccessible depuis l’environnement de récupération."
+  },
+  "B0069": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691149042",
+    "isbnEvidence": {
+      "provider": "Princeton University Press catalogue",
+      "title": "Circles Disturbed: The Interplay of Mathematics and Narrative",
+      "authors": [
+        "Apostolos Doxiadis",
+        "Barry Mazur"
+      ],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/catalogs/S12Featured.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691149042.jpg"
+  },
+  "B0186": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691158228",
+    "isbnEvidence": {
+      "provider": "Princeton University Press catalogue",
+      "title": "Four Colors Suffice: How the Map Problem Was Solved",
+      "authors": [
+        "Robin Wilson"
+      ],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/catalogs/F13Paper.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691158228.jpg"
+  },
+  "B0114": {
+    "provider": "Princeton University Press",
+    "isbn13": "9781400835539",
+    "isbnEvidence": {
+      "provider": "De Gruyter Brill bibliographic record",
+      "title": "Dynamics in One Complex Variable: Third Edition",
+      "authors": ["John Milnor"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://www.degruyterbrill.com/document/doi/10.1515/9781400835539/html",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400835539.jpg"
+  },
+  "B0191": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691130613",
+    "isbnEvidence": {
+      "provider": "Princeton University Press archival record",
+      "title": "Theory of Games and Economic Behavior",
+      "authors": ["John von Neumann", "Oskar Morgenstern"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/about_pup/PUP100/book/2cNeumann.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691130613.jpg"
+  },
+  "B0205": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691127453",
+    "isbnEvidence": {
+      "provider": "Open British National Bibliography",
+      "title": "Sacred Mathematics: Japanese Temple Geometry",
+      "authors": ["Hidetoshi Fukagawa", "Tony Rothman"],
+      "publisher": "Princeton University Press"
+    },
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691127453.jpg"
+  },
+  "B0214": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691206073",
+    "isbnEvidence": {
+      "provider": "Mathematical Association of America review",
+      "title": "In Pursuit of Zeta-3: The World's Most Mysterious Unsolved Math Problem",
+      "authors": ["Paul J. Nahin"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://old.maa.org/press/maa-reviews/in-pursuit-of-zeta-3",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691206073.jpg"
+  },
+  "B0288": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691178097",
+    "isbnEvidence": {
+      "provider": "Princeton University Press catalogue",
+      "title": "Gamma: Exploring Euler’s Constant",
+      "authors": ["Julian Havil"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/catalogs/hps17.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691178097.jpg"
+  },
+  "B0381": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691125756",
+    "isbnEvidence": {
+      "provider": "Princeton University Press catalogue",
+      "title": "The Calculus Gallery: Masterpieces from Newton to Lebesgue",
+      "authors": ["William Dunham"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/catalogs/math10.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691125756.jpg"
+  },
+  "B0416": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691081007",
+    "isbnEvidence": {
+      "provider": "Google Books bibliographic record",
+      "title": "Normal Two-Dimensional Singularities",
+      "authors": ["Henry B. Laufer"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://books.google.com/books/about/Normal_Two_dimensional_Singularities.html?id=uUQyvsNIrtAC",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691081007.jpg"
+  },
+  "B0417": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691154565",
+    "isbnEvidence": {
+      "provider": "Princeton University Press catalogue",
+      "title": "The Mathematical Mechanic: Using Physical Reasoning to Solve Problems",
+      "authors": ["Mark Levi"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/catalogs/F12Seasonal.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691154565.jpg"
+  },
+  "B0425": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691080086",
+    "isbnEvidence": {
+      "provider": "nLab bibliography",
+      "title": "Morse Theory",
+      "authors": ["John Milnor"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://ncatlab.org/nlab/show/John%2BMilnor",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691080086.jpg"
+  },
+  "B0426": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691048338",
+    "isbnEvidence": {
+      "provider": "university course bibliography",
+      "title": "Topology from the Differentiable Viewpoint",
+      "authors": ["John Milnor"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://upcommons.upc.edu/server/api/core/bitstreams/50bd4a74-e5d0-47ef-b69a-6cfad97c85dc/content",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691048338.jpg"
+  },
+  "B0427": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691081229",
+    "isbnEvidence": {
+      "provider": "CIRM mathematics library catalogue",
+      "title": "Characteristic Classes",
+      "authors": ["John Milnor", "James D. Stasheff"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://bibli.cirm-math.fr/Record.htm?idlist=61&record=19202090124910202729",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691081229.jpg"
+  },
+  "B0431": {
+    "provider": "Princeton University Press",
+    "isbn13": "9780691177793",
+    "isbnEvidence": {
+      "provider": "Princeton University Press catalogue",
+      "title": "Gravitation",
+      "authors": ["Charles W. Misner", "Kip S. Thorne", "John Archibald Wheeler"],
+      "publisher": "Princeton University Press"
+    },
+    "sourcePage": "https://assets.press.princeton.edu/catalogs/physics19.pdf",
+    "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691177793.jpg"
+  },
+  "B0052": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9780821814895",
+    "isbnEvidence": {
+      "provider": "American Mathematical Society product page",
+      "title": "Several Complex Variables and Complex Geometry, Part I",
+      "authors": ["Steven G. Krantz", "Eric D. Bedford", "John P. D’Angelo"],
+      "publisher": "American Mathematical Society"
+    },
+    "sourcePage": "https://bookstore.ams.org/pspum-52-1/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/pspum-52-1-e-cov-1.jpg"
+  },
+  "B0053": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9780821814901",
+    "isbnEvidence": {
+      "provider": "American Mathematical Society product page",
+      "title": "Several Complex Variables and Complex Geometry, Part II",
+      "authors": ["Steven G. Krantz", "Eric D. Bedford", "John P. D’Angelo"],
+      "publisher": "American Mathematical Society"
+    },
+    "sourcePage": "https://bookstore.ams.org/pspum-52-2/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/pspum-52-2-e-cov-1.jpg"
+  },
+  "B0054": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9780821814918",
+    "isbnEvidence": {
+      "provider": "American Mathematical Society product page",
+      "title": "Several Complex Variables and Complex Geometry, Part III",
+      "authors": ["Steven G. Krantz", "Eric D. Bedford", "John P. D’Angelo"],
+      "publisher": "American Mathematical Society"
+    },
+    "sourcePage": "https://bookstore.ams.org/pspum-52-3/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/pspum-52-3-e-cov-1.jpg"
+  },
+  "B0182": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9781470469429",
+    "isbnEvidence": {
+      "provider": "American Mathematical Society product page",
+      "title": "Partial Differential Equations: Second Edition",
+      "authors": ["Lawrence C. Evans"],
+      "publisher": "American Mathematical Society"
+    },
+    "sourcePage": "https://bookstore.ams.org/gsm-19-r/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-19-r-e-cov-1.jpg"
+  },
+  "B0407": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9781470417017",
+    "isbnEvidence": {
+      "provider": "American Mathematical Society product page",
+      "title": "Mathematical Understanding of Nature: Essays on Amazing Physical Phenomena and Their Understanding by Mathematicians",
+      "authors": ["Vladimir I. Arnold"],
+      "publisher": "American Mathematical Society"
+    },
+    "sourcePage": "https://bookstore.ams.org/mbk-85/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/mbk-85-e-cov-1.jpg"
+  },
+  "B0424": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9781470422592",
+    "isbnEvidence": {
+      "provider": "American Mathematical Society product page",
+      "title": "Lectures and Problems: A Gift to Young Mathematicians",
+      "authors": ["Vladimir I. Arnold"],
+      "publisher": "American Mathematical Society"
+    },
+    "sourcePage": "https://bookstore.ams.org/mcl-17/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/mcl-17-e-cov-1.jpg"
+  },
+  "B0409": {
+    "provider": "American Mathematical Society",
+    "isbn13": "9781470472900",
+    "sourcePage": "https://bookstore.ams.org/mbk-146/",
+    "sourceUrl": "https://ebus.ams.org/ProductImages/1323964759.Def.L.png"
+  },
+  "B0106": {
+    "provider": "Springer Nature / Birkhäuser",
+    "isbn13": "9780817644406",
+    "isbnEvidence": {
+      "provider": "Google Books bibliographic record",
+      "title": "Geometric Function Theory: Explorations in Complex Analysis",
+      "authors": ["Steven G. Krantz"],
+      "publisher": "Birkhäuser"
+    },
+    "sourcePage": "https://books.google.com/books/about/Geometric_Function_Theory.html?id=6z3C05r3_SsC",
+    "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817644406.jpg"
+  },
+  "B0108": {
+    "provider": "Springer Nature / Birkhäuser",
+    "isbn13": "9781461485254",
+    "isbnEvidence": {
+      "provider": "University of Illinois research record",
+      "title": "Hermitian Analysis: From Fourier Series to Cauchy–Riemann Geometry",
+      "authors": ["John P. D’Angelo"],
+      "publisher": "Birkhäuser"
+    },
+    "sourcePage": "https://experts.illinois.edu/en/publications/hermitian-analysis-from-fourier-series-to-cauchy-riemann-geometry",
+    "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461485254.jpg"
+  },
+  "B0184": {
+    "provider": "Springer Nature / Birkhäuser",
+    "isbn13": "9780817646752",
+    "isbnEvidence": {
+      "provider": "WorldCat bibliographic record",
+      "title": "Distributions: Theory and Applications",
+      "authors": ["J. J. Duistermaat", "J. A. C. Kolk"],
+      "publisher": "Birkhäuser"
+    },
+    "sourcePage": "https://search.worldcat.org/title/Distributions-Theory-and-Applications/oclc/939063567",
+    "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817646752.jpg"
+  },
+  "B0271": {
+    "provider": "Springer Nature / Birkhäuser",
+    "isbn13": "9783030038663",
+    "isbnEvidence": {"provider": "Springer Nature", "title": "Bodies of Constant Width: An Introduction to Convex Geometry with Applications", "authors": ["Horst Martini", "Luis Montejano", "Déborah Oliveros"], "publisher": "Birkhäuser"},
+    "sourcePage": "https://link.springer.com/book/10.1007/978-3-030-03868-7",
+    "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783030038663.jpg"
+  },
+  "B0293": {
+    "provider": "Springer Nature / Birkhäuser",
+    "isbn13": "9780817643348",
+    "isbnEvidence": {"provider": "VitalSource bibliographic record", "title": "103 Trigonometry Problems: From the Training of the USA IMO Team", "authors": ["Titu Andreescu", "Zuming Feng"], "publisher": "Birkhäuser"},
+    "sourcePage": "https://www.vitalsource.com/de/products/103-trigonometry-problems-titu-andreescu-zuming-feng-v9780817644321",
+    "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817643348.jpg"
+  },
+  "B0414": {
+    "provider": "Springer Nature / Birkhäuser",
+    "isbn13": "9780817645274",
+    "isbnEvidence": {"provider": "Springer Nature", "title": "104 Number Theory Problems: From the Training of the USA IMO Team", "authors": ["Titu Andreescu", "Dorin Andrica", "Zuming Feng"], "publisher": "Birkhäuser"},
+    "sourcePage": "https://link.springer.com/book/10.1007/978-0-8176-4561-8",
+    "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817645274.jpg"
+  }
+}

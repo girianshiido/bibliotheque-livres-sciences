@@ -11,6 +11,7 @@ const limit = Math.max(1, Number(args[args.indexOf('--limit') + 1]) || Infinity)
 const onlyId = args.includes('--id') ? args[args.indexOf('--id') + 1] : null;
 const retryAll = args.includes('--retry-all');
 const concurrency = Math.min(3, Math.max(1, Number(args[args.indexOf('--concurrency') + 1]) || 1));
+const publisherFilter = args.includes('--publisher') ? args[args.indexOf('--publisher') + 1] : null;
 
 function normalize(value = '') {
   return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
@@ -39,12 +40,27 @@ function isbn13(value) {
 
 function authorMatches(book, candidate) {
   const expected = new Set(book.authors.flatMap(author => [...words(author)]));
-  return (candidate.author || []).some(author => [...words(`${author.given || ''} ${author.family || ''}`)].some(word => expected.has(word)));
+  return (candidate.author || []).some(author => {
+    const name = typeof author === 'string' ? author : `${author.given || ''} ${author.family || ''}`;
+    return [...words(name)].some(word => expected.has(word));
+  });
+}
+
+function publisherMatches(book, candidatePublisher = '') {
+  const expected = normalize(book.publisher);
+  const actual = normalize(candidatePublisher);
+  const aliases = {
+    'birkhauser': ['birkhauser', 'springer'],
+    'american mathematical society': ['american mathematical society', 'maa press'],
+    'ams chelsea': ['american mathematical society', 'ams chelsea']
+  };
+  const accepted = aliases[expected] || [expected];
+  return accepted.some(value => actual.includes(value));
 }
 
 function chooseRecord(book, items) {
   return items
-    .filter(item => item.title?.[0] && item.ISBN?.length && /springer|birkh/i.test(item.publisher || ''))
+    .filter(item => item.title?.[0] && item.ISBN?.length && publisherMatches(book, item.publisher))
     .map(item => ({ item, titleScore: similarity(book.title, item.title[0]), authorMatch: authorMatches(book, item) }))
     .filter(candidate => candidate.authorMatch && candidate.titleScore >= .88)
     .sort((left, right) => right.titleScore - left.titleScore)[0];
@@ -79,7 +95,7 @@ async function main() {
   await withManifestLock(async () => {
   const manifest = JSON.parse(await readFile(MANIFEST_FILE, 'utf8'));
   const candidates = Object.values(manifest.books)
-    .filter(book => /springer|birkh/i.test(book.publisher))
+    .filter(book => publisherFilter ? book.publisher === publisherFilter : /springer|birkh/i.test(book.publisher))
     .filter(book => !onlyId || book.id === onlyId)
     .filter(book => !book.identifiers?.some(identifier => identifier.type === 'ISBN-13' && identifier.evidence?.provider === 'Crossref'))
     .filter(book => retryAll || !book.review?.includes('isbn-not-found-crossref'))
@@ -102,7 +118,7 @@ async function main() {
             value,
             type: 'ISBN-13',
             evidence: {
-              provider: 'Crossref',
+              provider: match.item._source || 'Crossref',
               title: match.item.title[0],
               authors: (match.item.author || []).map(author => `${author.given || ''} ${author.family || ''}`.trim()).filter(Boolean),
               publisher: match.item.publisher || null,

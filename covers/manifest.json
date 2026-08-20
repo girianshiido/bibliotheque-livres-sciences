@@ -450,7 +450,7 @@
         "Philippe Caldero",
         "Jérôme Germoni"
       ],
-      "publisher": "Calvage et Mounet.",
+      "publisher": "Calvage et Mounet",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
       "identifiers": [],
@@ -881,7 +881,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0028": {
@@ -913,7 +913,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0030": {
@@ -925,10 +925,35 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691185422",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "99 Variations on a Proof",
+            "authors": [
+              "Philip Ording"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.1515/9780691185422"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0030.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://press.princeton.edu/books/ebook/9780691185422/99-variations-on-a-proof-pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691185422.jpg?fill=solid&fill-color=ffffff&fit=fill&h=630&w=1200",
+        "isbn13": "9780691185422",
+        "width": 1200,
+        "height": 630,
+        "aspectRatio": 1.90476,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0031": {
@@ -943,7 +968,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0032": {
@@ -1302,10 +1327,36 @@
       "publisher": "American Mathematical Society",
       "details": "Proceedings of Symposia in Pure Mathematics 52 — Part 1",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780821814895",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "American Mathematical Society product page",
+            "title": "Several Complex Variables and Complex Geometry, Part I",
+            "authors": [
+              "Steven G. Krantz",
+              "Eric D. Bedford",
+              "John P. D’Angelo"
+            ],
+            "publisher": "American Mathematical Society"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0052.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/pspum-52-1/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/pspum-52-1-e-cov-1.jpg",
+        "isbn13": "9780821814895",
+        "width": 1051,
+        "height": 1500,
+        "aspectRatio": 0.70067,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0053": {
@@ -1317,10 +1368,36 @@
       "publisher": "American Mathematical Society",
       "details": "Proceedings of Symposia in Pure Mathematics 52 — Part 2",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780821814901",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "American Mathematical Society product page",
+            "title": "Several Complex Variables and Complex Geometry, Part II",
+            "authors": [
+              "Steven G. Krantz",
+              "Eric D. Bedford",
+              "John P. D’Angelo"
+            ],
+            "publisher": "American Mathematical Society"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0053.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/pspum-52-2/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/pspum-52-2-e-cov-1.jpg",
+        "isbn13": "9780821814901",
+        "width": 1051,
+        "height": 1501,
+        "aspectRatio": 0.7002,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0054": {
@@ -1332,10 +1409,36 @@
       "publisher": "American Mathematical Society",
       "details": "Proceedings of Symposia in Pure Mathematics 52 — Part 3",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780821814918",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "American Mathematical Society product page",
+            "title": "Several Complex Variables and Complex Geometry, Part III",
+            "authors": [
+              "Steven G. Krantz",
+              "Eric D. Bedford",
+              "John P. D’Angelo"
+            ],
+            "publisher": "American Mathematical Society"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0054.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/pspum-52-3/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/pspum-52-3-e-cov-1.jpg",
+        "isbn13": "9780821814918",
+        "width": 1051,
+        "height": 1501,
+        "aspectRatio": 0.7002,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0055": {
@@ -1363,10 +1466,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691219899",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Visual Differential Geometry and Forms",
+            "authors": [
+              "Tristan Needham"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.1515/9780691219899"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0056.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691219899.jpg",
+        "isbn13": "9780691219899",
+        "width": 2450,
+        "height": 3500,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0057": {
@@ -1378,10 +1505,34 @@
       "publisher": "Princeton University Press",
       "details": "New Edition — Note : Édition dirigée par Nicholas A. Wheeler.",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781400889921",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Mathematical Foundations of Quantum Mechanics",
+            "authors": [
+              "John von Neumann"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.1515/9781400889921"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0057.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400889921.jpg",
+        "isbn13": "9781400889921",
+        "width": 2100,
+        "height": 3000,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0058": {
@@ -1408,10 +1559,47 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781400841059",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Nonlinear Optimization",
+            "authors": [
+              "Andrzej Ruszczyński"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.2307/j.ctvcm4hcj"
+          }
+        },
+        {
+          "value": "9780691119151",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Nonlinear Optimization",
+            "authors": [
+              "Andrzej Ruszczyński"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.2307/j.ctvcm4hcj"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0059.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691119151.jpg",
+        "isbn13": "9780691119151",
+        "width": 1896,
+        "height": 3021,
+        "aspectRatio": 0.62761,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0060": {
@@ -1424,10 +1612,49 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691149059",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Taming the Unknown",
+            "authors": [
+              "Victor J. Katz",
+              "Karen Hunger Parshall"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.23943/princeton/9780691149059.001.0001"
+          }
+        },
+        {
+          "value": "9781400850525",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Taming the Unknown",
+            "authors": [
+              "Victor J. Katz",
+              "Karen Hunger Parshall"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.23943/princeton/9780691149059.001.0001"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0060.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691149059.jpg",
+        "isbn13": "9780691149059",
+        "width": 1878,
+        "height": 2840,
+        "aspectRatio": 0.66127,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0061": {
@@ -1457,7 +1684,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0063": {
@@ -1673,10 +1900,35 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691149042",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press catalogue",
+            "title": "Circles Disturbed: The Interplay of Mathematics and Narrative",
+            "authors": [
+              "Apostolos Doxiadis",
+              "Barry Mazur"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0069.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/catalogs/S12Featured.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691149042.jpg",
+        "isbn13": "9780691149042",
+        "width": 1875,
+        "height": 2850,
+        "aspectRatio": 0.65789,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0070": {
@@ -1718,10 +1970,61 @@
       "publisher": "American Mathematical Society",
       "details": "Graduate Studies in Mathematics 81",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780821838129",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elements of Homology Theory",
+            "authors": [
+              "V. Prasolov"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/081"
+          }
+        },
+        {
+          "value": "9780821884027",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elements of Homology Theory",
+            "authors": [
+              "V. Prasolov"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/081"
+          }
+        },
+        {
+          "value": "9781470411589",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Elements of Homology Theory",
+            "authors": [
+              "V. Prasolov"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/081"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0072.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/gsm-81/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-81-e-cov-1.jpg",
+        "isbn13": "9780821838129",
+        "width": 939,
+        "height": 1495,
+        "aspectRatio": 0.62809,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0073": {
@@ -2276,10 +2579,34 @@
       "publisher": "Birkhäuser",
       "details": "Cornerstones",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817644406",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Google Books bibliographic record",
+            "title": "Geometric Function Theory: Explorations in Complex Analysis",
+            "authors": [
+              "Steven G. Krantz"
+            ],
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0106.jpg",
+        "provider": "Springer Nature / Birkhäuser",
+        "sourcePage": "https://books.google.com/books/about/Geometric_Function_Theory.html?id=6z3C05r3_SsC",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817644406.jpg",
+        "isbn13": "9780817644406",
+        "width": 426,
+        "height": 648,
+        "aspectRatio": 0.65741,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0107": {
@@ -2343,10 +2670,34 @@
       "publisher": "Birkhäuser",
       "details": "Cornerstones — 2e éd.",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781461485254",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "University of Illinois research record",
+            "title": "Hermitian Analysis: From Fourier Series to Cauchy–Riemann Geometry",
+            "authors": [
+              "John P. D’Angelo"
+            ],
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0108.jpg",
+        "provider": "Springer Nature / Birkhäuser",
+        "sourcePage": "https://experts.illinois.edu/en/publications/hermitian-analysis-from-fourier-series-to-cauchy-riemann-geometry",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9781461485254.jpg",
+        "isbn13": "9781461485254",
+        "width": 431,
+        "height": 648,
+        "aspectRatio": 0.66512,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0109": {
@@ -2551,10 +2902,34 @@
       "publisher": "Princeton University Press",
       "details": "Annals of Mathematics Studies — 3e éd.",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781400835539",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "De Gruyter Brill bibliographic record",
+            "title": "Dynamics in One Complex Variable: Third Edition",
+            "authors": [
+              "John Milnor"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0114.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://www.degruyterbrill.com/document/doi/10.1515/9781400835539/html",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400835539.jpg",
+        "isbn13": "9781400835539",
+        "width": 2064,
+        "height": 3076,
+        "aspectRatio": 0.671,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0115": {
@@ -2669,9 +3044,19 @@
       "details": "Nouvelle Bibliothèque Mathématique",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0119.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/81-series-et-integrales-de-fourier.html",
+        "sourceUrl": "https://store.cassini.fr/169-large_default/series-et-integrales-de-fourier.jpg",
+        "width": 331,
+        "height": 500,
+        "aspectRatio": 0.662,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0120": {
@@ -2685,9 +3070,19 @@
       "details": "Nouvelle Bibliothèque Mathématique",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0120.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/15-algebre-et-theories-galoisiennes.html",
+        "sourceUrl": "https://store.cassini.fr/160-large_default/algebre-et-theories-galoisiennes.jpg",
+        "width": 331,
+        "height": 500,
+        "aspectRatio": 0.662,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0121": {
@@ -2716,9 +3111,19 @@
       "details": "Nouvelle Bibliothèque Mathématique",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0122.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/17-matrices-geometrie-algebre-lineaire.html",
+        "sourceUrl": "https://store.cassini.fr/162-large_default/matrices-geometrie-algebre-lineaire.jpg",
+        "width": 331,
+        "height": 500,
+        "aspectRatio": 0.662,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0123": {
@@ -3020,10 +3425,34 @@
       "publisher": "Princeton University Press",
       "details": "Volume 1",
       "sourceFile": "catalogue/093-138.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781400865321",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Three-Dimensional Geometry and Topology, Volume 1",
+            "authors": [
+              "William P.HG Thurston"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.1515/9781400865321"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0137.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400865321.jpg",
+        "isbn13": "9781400865321",
+        "width": 1808,
+        "height": 2864,
+        "aspectRatio": 0.63128,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0138": {
@@ -3880,7 +4309,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0162": {
@@ -4046,10 +4475,74 @@
       "publisher": "American Mathematical Society",
       "details": "Graduate Studies in Mathematics 142",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780821889862",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Higher Order Fourier Analysis",
+            "authors": [
+              "Terence Tao"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/142"
+          }
+        },
+        {
+          "value": "9780821891940",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Higher Order Fourier Analysis",
+            "authors": [
+              "Terence Tao"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/142"
+          }
+        },
+        {
+          "value": "9780821891957",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Higher Order Fourier Analysis",
+            "authors": [
+              "Terence Tao"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/142"
+          }
+        },
+        {
+          "value": "9781470425883",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Higher Order Fourier Analysis",
+            "authors": [
+              "Terence Tao"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/142"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0167.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/gsm-142/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-142-e-cov-1.jpg",
+        "isbn13": "9780821889862",
+        "width": 1050,
+        "height": 1500,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0168": {
@@ -4076,10 +4569,29 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783319725635",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "fichier de couverture fourni",
+            "title": "The History of the Priority Dispute between Newton and Leibniz",
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0169.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-319-72563-5.webp",
+        "isbn13": "9783319725635",
+        "width": 827,
+        "height": 1245,
+        "aspectRatio": 0.66426,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0170": {
@@ -4324,10 +4836,34 @@
       "publisher": "Princeton University Press",
       "details": "1re éd.",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781400883950",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Continuous Geometry",
+            "authors": [
+              "John von Neumann"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.1515/9781400883950"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0175.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400883950.jpg",
+        "isbn13": "9781400883950",
+        "width": 907,
+        "height": 1360,
+        "aspectRatio": 0.66691,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0176": {
@@ -4511,10 +5047,34 @@
       "publisher": "American Mathematical Society",
       "details": "Graduate Studies in Mathematics 19 — 2e éd.",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781470469429",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "American Mathematical Society product page",
+            "title": "Partial Differential Equations: Second Edition",
+            "authors": [
+              "Lawrence C. Evans"
+            ],
+            "publisher": "American Mathematical Society"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0182.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/gsm-19-r/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-19-r-e-cov-1.jpg",
+        "isbn13": "9781470469429",
+        "width": 1050,
+        "height": 1500,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0183": {
@@ -4582,10 +5142,35 @@
       "publisher": "Birkhäuser",
       "details": "Cornerstones",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817646752",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "WorldCat bibliographic record",
+            "title": "Distributions: Theory and Applications",
+            "authors": [
+              "J. J. Duistermaat",
+              "J. A. C. Kolk"
+            ],
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0184.jpg",
+        "provider": "Springer Nature / Birkhäuser",
+        "sourcePage": "https://search.worldcat.org/title/Distributions-Theory-and-Applications/oclc/939063567",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817646752.jpg",
+        "isbn13": "9780817646752",
+        "width": 429,
+        "height": 648,
+        "aspectRatio": 0.66204,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0185": {
@@ -4616,10 +5201,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691158228",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press catalogue",
+            "title": "Four Colors Suffice: How the Map Problem Was Solved",
+            "authors": [
+              "Robin Wilson"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0186.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/catalogs/F13Paper.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691158228.jpg",
+        "isbn13": "9780691158228",
+        "width": 1871,
+        "height": 2838,
+        "aspectRatio": 0.65927,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0187": {
@@ -4849,10 +5458,35 @@
       "publisher": "Princeton University Press",
       "details": "60th Anniversary Edition",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691130613",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press archival record",
+            "title": "Theory of Games and Economic Behavior",
+            "authors": [
+              "John von Neumann",
+              "Oskar Morgenstern"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0191.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/about_pup/PUP100/book/2cNeumann.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691130613.jpg",
+        "isbn13": "9780691130613",
+        "width": 1838,
+        "height": 2775,
+        "aspectRatio": 0.66234,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0192": {
@@ -5229,10 +5863,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691127453",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Open British National Bibliography",
+            "title": "Sacred Mathematics: Japanese Temple Geometry",
+            "authors": [
+              "Hidetoshi Fukagawa",
+              "Tony Rothman"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0205.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691127453.jpg",
+        "isbn13": "9780691127453",
+        "width": 2445,
+        "height": 3081,
+        "aspectRatio": 0.79357,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0206": {
@@ -5329,9 +5987,19 @@
       "details": "",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0209.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/nouvelle-bibliotheque-mathematique/18-geometrie-vivante-ou-l-echelle-de-jacob.html",
+        "sourceUrl": "https://store.cassini.fr/157-large_default/geometrie-vivante-ou-l-echelle-de-jacob.jpg",
+        "width": 330,
+        "height": 500,
+        "aspectRatio": 0.66,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0210": {
@@ -5440,10 +6108,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691206073",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Mathematical Association of America review",
+            "title": "In Pursuit of Zeta-3: The World's Most Mysterious Unsolved Math Problem",
+            "authors": [
+              "Paul J. Nahin"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0214.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://old.maa.org/press/maa-reviews/in-pursuit-of-zeta-3",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691206073.jpg",
+        "isbn13": "9780691206073",
+        "width": 2144,
+        "height": 3237,
+        "aspectRatio": 0.66234,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0215": {
@@ -6409,10 +7101,74 @@
       "publisher": "American Mathematical Society",
       "details": "Graduate Studies in Mathematics 5",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780821802687",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Algebraic Curves and Riemann Surfaces",
+            "authors": [
+              "Rick Miranda"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/005"
+          }
+        },
+        {
+          "value": "9780821852187",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Algebraic Curves and Riemann Surfaces",
+            "authors": [
+              "Rick Miranda"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/005"
+          }
+        },
+        {
+          "value": "9781470411404",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Algebraic Curves and Riemann Surfaces",
+            "authors": [
+              "Rick Miranda"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/005"
+          }
+        },
+        {
+          "value": "9781470420604",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Algebraic Curves and Riemann Surfaces",
+            "authors": [
+              "Rick Miranda"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/gsm/005"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0242.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/gsm-5/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/gsm-5-e-cov-1.jpg",
+        "isbn13": "9780821802687",
+        "width": 1050,
+        "height": 1500,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0243": {
@@ -6491,10 +7247,29 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817634902",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "fichier de couverture fourni",
+            "title": "Riemannian Geometry",
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0245.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-8176-3490-2.webp",
+        "isbn13": "9780817634902",
+        "width": 827,
+        "height": 1247,
+        "aspectRatio": 0.66319,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0246": {
@@ -6689,10 +7464,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781400832347",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "\"e\": The Story of a Number",
+            "authors": [
+              "Eli Maor"
+            ],
+            "publisher": "Princeton University Press",
+            "doi": "10.1515/9781400832347"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0250.jpg",
+        "provider": "Princeton University Press",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9781400832347.jpg",
+        "isbn13": "9781400832347",
+        "width": 1650,
+        "height": 2550,
+        "aspectRatio": 0.64706,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0251": {
@@ -6775,7 +7574,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0254": {
@@ -7237,10 +8036,36 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9783030038663",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Springer Nature",
+            "title": "Bodies of Constant Width: An Introduction to Convex Geometry with Applications",
+            "authors": [
+              "Horst Martini",
+              "Luis Montejano",
+              "Déborah Oliveros"
+            ],
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0271.jpg",
+        "provider": "Springer Nature / Birkhäuser",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-030-03868-7",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783030038663.jpg",
+        "isbn13": "9783030038663",
+        "width": 456,
+        "height": 648,
+        "aspectRatio": 0.7037,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0272": {
@@ -7706,10 +8531,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691178097",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press catalogue",
+            "title": "Gamma: Exploring Euler’s Constant",
+            "authors": [
+              "Julian Havil"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0288.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/catalogs/hps17.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691178097.jpg",
+        "isbn13": "9780691178097",
+        "width": 1650,
+        "height": 2549,
+        "aspectRatio": 0.64731,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0289": {
@@ -7864,10 +8713,35 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817643348",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "VitalSource bibliographic record",
+            "title": "103 Trigonometry Problems: From the Training of the USA IMO Team",
+            "authors": [
+              "Titu Andreescu",
+              "Zuming Feng"
+            ],
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0293.jpg",
+        "provider": "Springer Nature / Birkhäuser",
+        "sourcePage": "https://www.vitalsource.com/de/products/103-trigonometry-problems-titu-andreescu-zuming-feng-v9780817644321",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817643348.jpg",
+        "isbn13": "9780817643348",
+        "width": 429,
+        "height": 648,
+        "aspectRatio": 0.66204,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0294": {
@@ -7934,9 +8808,19 @@
       "details": "Nouvelle série — Volume 1",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0295.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/98-oraux-x-ens-mathematiques-nouvelle-serie-vol-1.html",
+        "sourceUrl": "https://store.cassini.fr/219-large_default/oraux-x-ens-mathematiques-nouvelle-serie-vol-1.jpg",
+        "width": 334,
+        "height": 500,
+        "aspectRatio": 0.668,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0296": {
@@ -8070,10 +8954,8 @@
       "details": "5e éd.",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
-      "review": [
-        "isbn-required"
-      ]
+      "cover": {"webPath": "covers/web/B0303.jpg", "provider": "Couverture fournie", "sourceFilename": "exercices-de-probabilites.jpg.png", "width": 449, "height": 675, "aspectRatio": 0.66519, "format": "image/jpeg"},
+      "review": ["cover-imported-from-user"]
     },
     "B0304": {
       "id": "B0304",
@@ -8085,9 +8967,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0304.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/41-problemes-et-theoremes-d-algebre-lineaire.html",
+        "sourceUrl": "https://store.cassini.fr/123-large_default/problemes-et-theoremes-d-algebre-lineaire.jpg",
+        "width": 330,
+        "height": 500,
+        "aspectRatio": 0.66,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0305": {
@@ -8130,9 +9022,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0307.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/48-lecons-sur-les-equations-aux-derivees-partielles.html",
+        "sourceUrl": "https://store.cassini.fr/85-large_default/lecons-sur-les-equations-aux-derivees-partielles.jpg",
+        "width": 334,
+        "height": 500,
+        "aspectRatio": 0.668,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0308": {
@@ -8145,9 +9047,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0308.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/85-equations-differentielles.html",
+        "sourceUrl": "https://store.cassini.fr/199-large_default/equations-differentielles.jpg",
+        "width": 333,
+        "height": 500,
+        "aspectRatio": 0.666,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0309": {
@@ -8190,9 +9102,19 @@
       "details": "Volume 1",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0311.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/hors-collection/50-solutions-d-expert.html",
+        "sourceUrl": "https://store.cassini.fr/134-large_default/solutions-d-expert.jpg",
+        "width": 300,
+        "height": 500,
+        "aspectRatio": 0.6,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0312": {
@@ -8205,9 +9127,19 @@
       "details": "Volume 2",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0312.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/hors-collection/51-solutions-d-expert.html",
+        "sourceUrl": "https://store.cassini.fr/133-large_default/solutions-d-expert.jpg",
+        "width": 327,
+        "height": 500,
+        "aspectRatio": 0.654,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0313": {
@@ -8220,9 +9152,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0313.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/documents-essais-culture-scientifique/2-la-formule-de-stokes-roman.html",
+        "sourceUrl": "https://store.cassini.fr/86-large_default/la-formule-de-stokes-roman.jpg",
+        "width": 326,
+        "height": 500,
+        "aspectRatio": 0.652,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0314": {
@@ -8341,9 +9283,19 @@
       "details": "",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0321.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/enseignement-des-mathematiques/46-problemes-de-distributions-et-d-equations-aux-derivees-partielles.html",
+        "sourceUrl": "https://store.cassini.fr/129-large_default/problemes-de-distributions-et-d-equations-aux-derivees-partielles.jpg",
+        "width": 330,
+        "height": 500,
+        "aspectRatio": 0.66,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0322": {
@@ -9156,10 +10108,29 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/323-368.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817645717",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "fichier de couverture fourni",
+            "title": "Number Theory: An Approach Through History from Hammurapi to Legendre",
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0344.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-8176-4571-7.webp",
+        "isbn13": "9780817645717",
+        "width": 827,
+        "height": 1252,
+        "aspectRatio": 0.66054,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0345": {
@@ -9465,7 +10436,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0355": {
@@ -9907,10 +10878,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691125756",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press catalogue",
+            "title": "The Calculus Gallery: Masterpieces from Newton to Lebesgue",
+            "authors": [
+              "William Dunham"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0381.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/catalogs/math10.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691125756.jpg",
+        "isbn13": "9780691125756",
+        "width": 1659,
+        "height": 2519,
+        "aspectRatio": 0.65859,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0382": {
@@ -10121,9 +11116,19 @@
       "details": "",
       "sourceFile": "catalogue/369-414.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0395.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/66-le-dilemme-du-prisonnier.html",
+        "sourceUrl": "https://store.cassini.fr/180-large_default/le-dilemme-du-prisonnier.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0396": {
@@ -10263,10 +11268,51 @@
       "publisher": "Cambridge University Press",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
+      "identifiers": [
+        {
+          "value": "9780521692908",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Dynamics, Statistics and Projective Geometry of Galois Fields",
+            "authors": [
+              "V. I. Arnold"
+            ],
+            "publisher": "Cambridge University Press",
+            "doi": "10.1017/cbo9780511975783"
+          }
+        },
+        {
+          "value": "9780521872003",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Dynamics, Statistics and Projective Geometry of Galois Fields",
+            "authors": [
+              "V. I. Arnold"
+            ],
+            "publisher": "Cambridge University Press",
+            "doi": "10.1017/cbo9780511975783"
+          }
+        },
+        {
+          "value": "9780511975783",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Dynamics, Statistics and Projective Geometry of Galois Fields",
+            "authors": [
+              "V. I. Arnold"
+            ],
+            "publisher": "Cambridge University Press",
+            "doi": "10.1017/cbo9780511975783"
+          }
+        }
+      ],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-resolved",
+        "cover-required"
       ]
     },
     "B0403": {
@@ -10295,9 +11341,17 @@
       "details": "",
       "sourceFile": "catalogue/369-414.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0404.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "71oEv9nmBoL._SL1260_.jpg",
+        "width": 827,
+        "height": 1260,
+        "aspectRatio": 0.65635,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0405": {
@@ -10376,10 +11430,34 @@
       "publisher": "American Mathematical Society",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781470417017",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "American Mathematical Society product page",
+            "title": "Mathematical Understanding of Nature: Essays on Amazing Physical Phenomena and Their Understanding by Mathematicians",
+            "authors": [
+              "Vladimir I. Arnold"
+            ],
+            "publisher": "American Mathematical Society"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0407.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/mbk-85/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/mbk-85-e-cov-1.jpg",
+        "isbn13": "9781470417017",
+        "width": 1275,
+        "height": 1651,
+        "aspectRatio": 0.77226,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0408": {
@@ -10407,10 +11485,50 @@
       "publisher": "American Mathematical Society",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781470472900",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Mathematics of Shuffling Cards",
+            "authors": [
+              "Persi Diaconis",
+              "Jason Fulman"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/mbk/146"
+          }
+        },
+        {
+          "value": "9781470463038",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "The Mathematics of Shuffling Cards",
+            "authors": [
+              "Persi Diaconis",
+              "Jason Fulman"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/mbk/146"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0409.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/mbk-146/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/1323964759.Def.L.png",
+        "isbn13": "9781470472900",
+        "width": 1200,
+        "height": 1714,
+        "aspectRatio": 0.70012,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0410": {
@@ -10425,7 +11543,7 @@
       "identifiers": [],
       "cover": null,
       "review": [
-        "isbn-required"
+        "isbn-not-found-crossref"
       ]
     },
     "B0411": {
@@ -10437,10 +11555,48 @@
       "publisher": "American Mathematical Society",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781470456948",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Conversational Problem Solving",
+            "authors": [
+              "Richard Stanley"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/mbk/130"
+          }
+        },
+        {
+          "value": "9781470456351",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Crossref",
+            "title": "Conversational Problem Solving",
+            "authors": [
+              "Richard Stanley"
+            ],
+            "publisher": "American Mathematical Society",
+            "doi": "10.1090/mbk/130"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0411.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/mbk-130/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/mbk-130-e-cov-1.jpg",
+        "isbn13": "9781470456948",
+        "width": 1050,
+        "height": 1500,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0412": {
@@ -10527,10 +11683,36 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817645274",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Springer Nature",
+            "title": "104 Number Theory Problems: From the Training of the USA IMO Team",
+            "authors": [
+              "Titu Andreescu",
+              "Dorin Andrica",
+              "Zuming Feng"
+            ],
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0414.jpg",
+        "provider": "Springer Nature / Birkhäuser",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-0-8176-4561-8",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817645274.jpg",
+        "isbn13": "9780817645274",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0415": {
@@ -10543,10 +11725,29 @@
       "publisher": "Birkhäuser",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780817682224",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "fichier de couverture fourni",
+            "title": "102 Combinatorial Problems: From the Training of the USA IMO Team",
+            "publisher": "Birkhäuser"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0415.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-8176-8222-4.webp",
+        "isbn13": "9780817682224",
+        "width": 827,
+        "height": 1254,
+        "aspectRatio": 0.65949,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0416": {
@@ -10558,10 +11759,34 @@
       "publisher": "Princeton University Press",
       "details": "Annals of Mathematics Studies 71",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691081007",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Google Books bibliographic record",
+            "title": "Normal Two-Dimensional Singularities",
+            "authors": [
+              "Henry B. Laufer"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0416.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://books.google.com/books/about/Normal_Two_dimensional_Singularities.html?id=uUQyvsNIrtAC",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691081007.jpg",
+        "isbn13": "9780691081007",
+        "width": 907,
+        "height": 1360,
+        "aspectRatio": 0.66691,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0417": {
@@ -10573,10 +11798,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691154565",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press catalogue",
+            "title": "The Mathematical Mechanic: Using Physical Reasoning to Solve Problems",
+            "authors": [
+              "Mark Levi"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0417.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/catalogs/F12Seasonal.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691154565.jpg",
+        "isbn13": "9780691154565",
+        "width": 1956,
+        "height": 2880,
+        "aspectRatio": 0.67917,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0418": {
@@ -10671,9 +11920,17 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0421.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "f277ed6f8f6b706d9903c568cd4daeea.jpg",
+        "width": 736,
+        "height": 1115,
+        "aspectRatio": 0.66009,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0422": {
@@ -10717,10 +11974,34 @@
       "publisher": "American Mathematical Society",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9781470422592",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "American Mathematical Society product page",
+            "title": "Lectures and Problems: A Gift to Young Mathematicians",
+            "authors": [
+              "Vladimir I. Arnold"
+            ],
+            "publisher": "American Mathematical Society"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0424.jpg",
+        "provider": "American Mathematical Society",
+        "sourcePage": "https://bookstore.ams.org/mcl-17/",
+        "sourceUrl": "https://ebus.ams.org/ProductImages/mcl-17-e-cov-1.jpg",
+        "isbn13": "9781470422592",
+        "width": 1050,
+        "height": 1500,
+        "aspectRatio": 0.7,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0425": {
@@ -10732,10 +12013,34 @@
       "publisher": "Princeton University Press",
       "details": "Annals of Mathematics Studies 51",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691080086",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "nLab bibliography",
+            "title": "Morse Theory",
+            "authors": [
+              "John Milnor"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0425.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://ncatlab.org/nlab/show/John%2BMilnor",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691080086.jpg",
+        "isbn13": "9780691080086",
+        "width": 1839,
+        "height": 2776,
+        "aspectRatio": 0.66246,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0426": {
@@ -10747,10 +12052,34 @@
       "publisher": "Princeton University Press",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691048338",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "university course bibliography",
+            "title": "Topology from the Differentiable Viewpoint",
+            "authors": [
+              "John Milnor"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0426.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://upcommons.upc.edu/server/api/core/bitstreams/50bd4a74-e5d0-47ef-b69a-6cfad97c85dc/content",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691048338.jpg",
+        "isbn13": "9780691048338",
+        "width": 1800,
+        "height": 2700,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0427": {
@@ -10763,10 +12092,35 @@
       "publisher": "Princeton University Press",
       "details": "Annals of Mathematics Studies 76",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691081229",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "CIRM mathematics library catalogue",
+            "title": "Characteristic Classes",
+            "authors": [
+              "John Milnor",
+              "James D. Stasheff"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0427.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://bibli.cirm-math.fr/Record.htm?idlist=61&record=19202090124910202729",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691081229.jpg",
+        "isbn13": "9780691081229",
+        "width": 1842,
+        "height": 2775,
+        "aspectRatio": 0.66378,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0428": {
@@ -10825,10 +12179,36 @@
       "publisher": "Princeton University Press",
       "details": "édition 2017",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780691177793",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Princeton University Press catalogue",
+            "title": "Gravitation",
+            "authors": [
+              "Charles W. Misner",
+              "Kip S. Thorne",
+              "John Archibald Wheeler"
+            ],
+            "publisher": "Princeton University Press"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0431.jpg",
+        "provider": "Princeton University Press",
+        "sourcePage": "https://assets.press.princeton.edu/catalogs/physics19.pdf",
+        "sourceUrl": "https://pup-assets.imgix.net/onix/images/9780691177793.jpg",
+        "isbn13": "9780691177793",
+        "width": 2462,
+        "height": 3078,
+        "aspectRatio": 0.79987,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0432": {
@@ -10978,9 +12358,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0441.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/54-histoires-de-mathematiciens-et-de-physiciens.html",
+        "sourceUrl": "https://store.cassini.fr/187-large_default/histoires-de-mathematiciens-et-de-physiciens.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0442": {
@@ -11023,9 +12413,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0444.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/74-un-deux-trois-l-infini.html",
+        "sourceUrl": "https://store.cassini.fr/206-large_default/un-deux-trois-l-infini.jpg",
+        "width": 316,
+        "height": 500,
+        "aspectRatio": 0.632,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0445": {
@@ -11040,9 +12440,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0445.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/53-les-plus-belles-formules-mathematiques.html",
+        "sourceUrl": "https://store.cassini.fr/173-large_default/les-plus-belles-formules-mathematiques.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0446": {
@@ -11055,9 +12465,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0446.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/69-histoires-de-mathematiques-et-de-populations.html",
+        "sourceUrl": "https://store.cassini.fr/182-large_default/histoires-de-mathematiques-et-de-populations.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0447": {
@@ -11070,9 +12490,19 @@
       "details": "Volume 1",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0447.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/56-lecons-de-mathematiques-d-aujourd-hui-vol-1.html",
+        "sourceUrl": "https://store.cassini.fr/176-large_default/lecons-de-mathematiques-d-aujourd-hui-vol-1.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0448": {
@@ -11085,9 +12515,19 @@
       "details": "Volume 2",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0448.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/64-lecons-de-mathematiques-d-aujourd-hui-vol-2.html",
+        "sourceUrl": "https://store.cassini.fr/178-large_default/lecons-de-mathematiques-d-aujourd-hui-vol-2.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0449": {
@@ -11100,9 +12540,19 @@
       "details": "Volume 3",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0449.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/67-lecons-de-mathematiques-d-aujourd-hui-vol-3.html",
+        "sourceUrl": "https://store.cassini.fr/181-large_default/lecons-de-mathematiques-d-aujourd-hui-vol-3.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0450": {
@@ -11115,9 +12565,19 @@
       "details": "Volume 4",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0450.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/70-lecons-de-mathematiques-d-aujourd-hui-vol-4.html",
+        "sourceUrl": "https://store.cassini.fr/183-large_default/lecons-de-mathematiques-d-aujourd-hui-vol-4.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0451": {
@@ -11145,9 +12605,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0452.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/collection-l/11-processus-aleatoires-pour-les-debutants.html",
+        "sourceUrl": "https://store.cassini.fr/99-large_default/processus-aleatoires-pour-les-debutants.jpg",
+        "width": 300,
+        "height": 500,
+        "aspectRatio": 0.6,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0453": {
@@ -11160,9 +12630,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0453.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/collection-l/10-l-algebre-lineaire-en-problemes.html",
+        "sourceUrl": "https://store.cassini.fr/98-large_default/l-algebre-lineaire-en-problemes.jpg",
+        "width": 300,
+        "height": 500,
+        "aspectRatio": 0.6,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0454": {
@@ -11175,9 +12655,19 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0454.jpg",
+        "provider": "Éditions Cassini",
+        "sourcePage": "https://store.cassini.fr/fr/le-sel-et-le-fer/55-problemes-pour-mathematiciens-petits-et-grands.html",
+        "sourceUrl": "https://store.cassini.fr/175-large_default/problemes-pour-mathematiciens-petits-et-grands.jpg",
+        "width": 329,
+        "height": 500,
+        "aspectRatio": 0.658,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "publisher-title-matched"
       ]
     },
     "B0455": {

@@ -168,7 +168,7 @@ const PUBLISHER_ALIASES = {
   'Addison-Wesley Professional': 'Addison-Wesley',
   'AMS Chelsea': 'American Mathematical Society',
   'AMS / London Mathematical Society': 'American Mathematical Society / London Mathematical Society',
-  'Calvage et Mounet.': 'Calvage & Mounet',
+  'Calvage et Mounet': 'Calvage & Mounet',
   'Copernicus / Springer': 'Copernicus',
   'CRC Press / Chapman & Hall': 'CRC Press',
   'North-Holland / Elsevier': 'North-Holland',
@@ -199,7 +199,7 @@ const elements = {
   dialog: document.querySelector('#bookDialog'), dialogContent: document.querySelector('#dialogContent'),
   cardTemplate: document.querySelector('#bookCardTemplate'), bookCount: document.querySelector('#bookCount'),
   authorCount: document.querySelector('#authorCount'), publisherCount: document.querySelector('#publisherCount'),
-  domainCount: document.querySelector('#domainCount'), domainQuickNav: document.querySelector('#domainQuickNav'),
+  domainCount: document.querySelector('#domainCount'),
   heroStack: document.querySelector('#heroStack'), filterPanel: document.querySelector('#filterPanel'),
   activeFilterCount: document.querySelector('#activeFilterCount')
 };
@@ -362,7 +362,6 @@ async function loadCatalogue() {
     populateFilters();
     renderAlphabet();
     updateStats();
-    renderDomainBrowse();
     renderHeroStack();
     applyFilters();
     showResults();
@@ -438,33 +437,6 @@ function updateStats() {
   elements.authorCount.textContent = uniqueSorted(state.books.flatMap(book => book.authorList).filter(a => normalize(a) !== 'collectif')).length.toLocaleString('fr-FR');
   elements.publisherCount.textContent = uniqueSorted(state.books.map(book => book.publisher)).length.toLocaleString('fr-FR');
   elements.domainCount.textContent = uniqueSorted(state.books.flatMap(book => book.domains)).length.toLocaleString('fr-FR');
-}
-
-function renderDomainBrowse() {
-  const counts = new Map();
-  for (const book of state.books) {
-    for (const domain of book.domains) counts.set(domain, (counts.get(domain) || 0) + 1);
-  }
-  const featured = [...counts.entries()]
-    .filter(([domain]) => !domain.startsWith('00'))
-    .sort((a, b) => b[1] - a[1] || collator.compare(a[0], b[0]))
-    .slice(0, 8);
-
-  elements.domainQuickNav.replaceChildren(...featured.map(([domain, count]) => {
-    const [code, label] = domain.split(' — ');
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.dataset.domain = domain;
-    button.innerHTML = `<span>${escapeHtml(code)}</span><strong>${escapeHtml(label || domain)}</strong><small>${count.toLocaleString('fr-FR')} ouvrage${count > 1 ? 's' : ''}</small>`;
-    button.addEventListener('click', () => {
-      state.domain = state.domain === domain ? '' : domain;
-      elements.domain.value = state.domain;
-      state.page = 1;
-      applyFilters();
-      scrollToResults();
-    });
-    return button;
-  }));
 }
 
 function renderHeroStack() {
@@ -544,9 +516,6 @@ function applyFilters(updateUrl = true) {
 function updateFilterBadge() {
   const activeCount = [state.query, state.publisher, state.author, state.domain, state.status, state.initial].filter(Boolean).length;
   elements.activeFilterCount.textContent = activeCount ? `${activeCount} filtre${activeCount > 1 ? 's' : ''} actif${activeCount > 1 ? 's' : ''}` : 'Aucun filtre';
-  for (const button of elements.domainQuickNav.querySelectorAll('button')) {
-    button.classList.toggle('is-active', button.dataset.domain === state.domain);
-  }
 }
 
 function updateAlphabetButtons() {
