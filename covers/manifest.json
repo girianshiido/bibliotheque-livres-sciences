@@ -1962,18 +1962,16 @@
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
       "cover": {
-        "webPath": "covers/web/B0070.png",
-        "provider": "Calvage & Mounet",
-        "sourcePage": "https://www.calvage-et-mounet.fr/et-l-atmosphere-ne-brula-pas-damien-gayet",
-        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754494007/6400635/600/capture_d_ecran_2025-08-06_a_17-26-32.png",
-        "width": 410,
-        "height": 596,
-        "aspectRatio": 0.68792,
-        "format": "image/png"
+        "webPath": "covers/web/B0070.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "44_9782493230331_1_75-2696453232.jpg",
+        "width": 600,
+        "height": 868,
+        "aspectRatio": 0.69124,
+        "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-and-author-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0071": {
@@ -2535,18 +2533,17 @@
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
       "cover": {
-        "webPath": "covers/web/B0091.png",
-        "provider": "Calvage & Mounet",
-        "sourcePage": "https://www.calvage-et-mounet.fr/groupes-finis-et-treillis-de-leurs-sous-groupes-alain-debreil",
-        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754492916/6400601/600/capture_d_ecran_2025-08-06_a_17-08-21.png",
-        "width": 364,
-        "height": 576,
-        "aspectRatio": 0.63194,
-        "format": "image/png"
+        "webPath": "covers/web/B0091.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "9782916352343_large.jpg",
+        "isbn13": "9782916352343",
+        "width": 400,
+        "height": 595,
+        "aspectRatio": 0.67227,
+        "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-and-author-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0092": {
@@ -2663,18 +2660,16 @@
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
       "cover": {
-        "webPath": "covers/web/B0096.png",
-        "provider": "Calvage & Mounet",
-        "sourcePage": "https://www.calvage-et-mounet.fr/ouvrages/articles/calcul-differentiel-topologique-elementaire-wolgang-bertram",
-        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1740585327/5702469/600/capture_d_ecran_2025-02-19_a_16-00-21.png",
-        "width": 320,
-        "height": 476,
-        "aspectRatio": 0.67227,
-        "format": "image/png"
+        "webPath": "covers/web/B0096.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "Calcul-differentiel-topologique-elementaire.jpg",
+        "width": 400,
+        "height": 597,
+        "aspectRatio": 0.67002,
+        "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-and-author-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0097": {
@@ -4613,18 +4608,16 @@
       "sourceFile": "catalogue/139-184.md",
       "identifiers": [],
       "cover": {
-        "webPath": "covers/web/B0158.png",
-        "provider": "Calvage & Mounet",
-        "sourcePage": "https://www.calvage-et-mounet.fr/la-geometrie-elementaire-d-euclide-a-aujourd-hui",
-        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1754495003/6400701/600/capture_d_ecran_2025-08-06_a_17-43-07.png",
-        "width": 600,
-        "height": 423,
-        "aspectRatio": 1.41844,
-        "format": "image/png"
+        "webPath": "covers/web/B0158.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "61xtWJJCkML._SL1400_-1555757693.jpg",
+        "width": 929,
+        "height": 1400,
+        "aspectRatio": 0.66357,
+        "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-and-author-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0159": {
@@ -13025,18 +13018,17 @@
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
       "cover": {
-        "webPath": "covers/web/B0439.png",
-        "provider": "Calvage & Mounet",
-        "sourcePage": "https://www.calvage-et-mounet.fr/les-groupes-de-frise-alain-debreil-rached-mneimne-avec-un-cours-intensif-de-geometrie-superieure",
-        "sourceUrl": "https://files.sbcdnsb.com/images/oTg3I00Yuq3o8ygfADKyzw/content/1761034539/6645142/600/capture_d_ecran_2025-10-21_a_10-15-12.png",
-        "width": 600,
-        "height": 731,
-        "aspectRatio": 0.82079,
-        "format": "image/png"
+        "webPath": "covers/web/B0439.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "9782493230355-475x500-1-698458c5aee85339855783.jpg",
+        "isbn13": "9782493230355",
+        "width": 395,
+        "height": 500,
+        "aspectRatio": 0.79,
+        "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "publisher-title-and-author-matched"
+        "cover-imported-from-user"
       ]
     },
     "B0440": {
