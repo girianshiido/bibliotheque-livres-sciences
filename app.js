@@ -199,7 +199,9 @@ const elements = {
   dialog: document.querySelector('#bookDialog'), dialogContent: document.querySelector('#dialogContent'),
   cardTemplate: document.querySelector('#bookCardTemplate'), bookCount: document.querySelector('#bookCount'),
   authorCount: document.querySelector('#authorCount'), publisherCount: document.querySelector('#publisherCount'),
-  uncertainCount: document.querySelector('#uncertainCount')
+  domainCount: document.querySelector('#domainCount'), domainQuickNav: document.querySelector('#domainQuickNav'),
+  heroStack: document.querySelector('#heroStack'), filterPanel: document.querySelector('#filterPanel'),
+  activeFilterCount: document.querySelector('#activeFilterCount')
 };
 
 const collator = new Intl.Collator('fr', { sensitivity: 'base', numeric: true });
@@ -349,6 +351,8 @@ async function loadCatalogue() {
     populateFilters();
     renderAlphabet();
     updateStats();
+    renderDomainBrowse();
+    renderHeroStack();
     applyFilters();
     showResults();
   } catch (error) {
@@ -413,13 +417,62 @@ function populateFilters() {
   elements.sort.value = state.sort;
   elements.search.value = state.query;
   setView(state.view);
+  if ([state.query, state.publisher, state.author, state.domain, state.status, state.initial].filter(Boolean).length) {
+    elements.filterPanel.open = true;
+  }
 }
 
 function updateStats() {
   elements.bookCount.textContent = state.books.length.toLocaleString('fr-FR');
   elements.authorCount.textContent = uniqueSorted(state.books.flatMap(book => book.authorList).filter(a => normalize(a) !== 'collectif')).length.toLocaleString('fr-FR');
   elements.publisherCount.textContent = uniqueSorted(state.books.map(book => book.publisher)).length.toLocaleString('fr-FR');
-  elements.uncertainCount.textContent = state.books.filter(book => book.status === 'uncertain').length.toLocaleString('fr-FR');
+  elements.domainCount.textContent = uniqueSorted(state.books.flatMap(book => book.domains)).length.toLocaleString('fr-FR');
+}
+
+function renderDomainBrowse() {
+  const counts = new Map();
+  for (const book of state.books) {
+    for (const domain of book.domains) counts.set(domain, (counts.get(domain) || 0) + 1);
+  }
+  const featured = [...counts.entries()]
+    .filter(([domain]) => !domain.startsWith('00'))
+    .sort((a, b) => b[1] - a[1] || collator.compare(a[0], b[0]))
+    .slice(0, 8);
+
+  elements.domainQuickNav.replaceChildren(...featured.map(([domain, count]) => {
+    const [code, label] = domain.split(' — ');
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.dataset.domain = domain;
+    button.innerHTML = `<span>${escapeHtml(code)}</span><strong>${escapeHtml(label || domain)}</strong><small>${count.toLocaleString('fr-FR')} ouvrage${count > 1 ? 's' : ''}</small>`;
+    button.addEventListener('click', () => {
+      state.domain = state.domain === domain ? '' : domain;
+      elements.domain.value = state.domain;
+      state.page = 1;
+      applyFilters();
+      scrollToResults();
+    });
+    return button;
+  }));
+}
+
+function renderHeroStack() {
+  const books = state.books.filter(book => state.covers[book.id]?.coverId).slice(0, 3);
+  if (!books.length) return;
+  const fragment = document.createDocumentFragment();
+  books.forEach(book => {
+    const item = document.createElement('div');
+    item.className = 'hero-stack__book';
+    item.style.setProperty('--book-hue', String((Number(book.mscCode) * 7 + book.number) % 360));
+    item.innerHTML = `<div class="book-cover"><img class="book-cover__image" alt="" decoding="async" hidden><div class="book-cover__placeholder" aria-hidden="true"><span class="book-cover__code"></span><strong class="book-cover__placeholder-title"></strong><span class="book-cover__monogram">BS</span></div></div>`;
+    setupBookCover(item, book, 'M');
+    fragment.append(item);
+  });
+  const caption = document.createElement('span');
+  caption.className = 'hero-stack__caption';
+  caption.textContent = 'Une collection en mouvement';
+  fragment.append(caption);
+  elements.heroStack.replaceChildren(fragment);
 }
 
 function renderAlphabet() {
@@ -471,9 +524,18 @@ function applyFilters(updateUrl = true) {
   const maxPage = Math.max(1, Math.ceil(state.filtered.length / PAGE_SIZE));
   state.page = Math.min(state.page, maxPage);
   updateAlphabetButtons();
+  updateFilterBadge();
   renderBooks();
   updateSummary();
   if (updateUrl) updateUrlState();
+}
+
+function updateFilterBadge() {
+  const activeCount = [state.query, state.publisher, state.author, state.domain, state.status, state.initial].filter(Boolean).length;
+  elements.activeFilterCount.textContent = activeCount ? `${activeCount} filtre${activeCount > 1 ? 's' : ''} actif${activeCount > 1 ? 's' : ''}` : 'Aucun filtre';
+  for (const button of elements.domainQuickNav.querySelectorAll('button')) {
+    button.classList.toggle('is-active', button.dataset.domain === state.domain);
+  }
 }
 
 function updateAlphabetButtons() {
@@ -557,6 +619,9 @@ function setupBookCover(root, book, size = 'M') {
     image.hidden = true;
     placeholder.hidden = false;
   }, { once: true });
+  // L’image doit participer au rendu pour que le chargement différé démarre ;
+  // le visuel typographique la masque jusqu’à l’événement load.
+  image.hidden = false;
   image.src = coverUrl(cover, size);
   if (image.complete && image.naturalWidth) showImage();
 }

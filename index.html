@@ -3,117 +3,146 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explorateur interactif de la bibliothèque scientifique de Philippe.">
+  <meta name="description" content="Catalogue de la bibliothèque scientifique de Philippe.">
   <meta name="color-scheme" content="light dark">
   <title>Bibliothèque scientifique</title>
-  <link rel="stylesheet" href="styles.css?v=20260820-4">
+  <link rel="stylesheet" href="styles.css?v=20260820-6">
 </head>
 <body>
   <a class="skip-link" href="#results">Aller aux résultats</a>
 
-  <header class="hero">
-    <div class="hero__inner">
+  <header class="site-header">
+    <nav class="topbar" aria-label="Navigation principale">
+      <a class="brand" href="./" aria-label="Accueil de la Bibliothèque scientifique">
+        <span class="brand__mark" aria-hidden="true">BS</span>
+        <span class="brand__name">Bibliothèque scientifique</span>
+      </a>
+      <div class="topbar__actions">
+        <button id="refreshButton" class="text-button" type="button" title="Relire les fichiers du catalogue">Actualiser</button>
+        <button id="themeButton" class="round-button" type="button" aria-label="Changer de thème" title="Changer de thème">◐</button>
+      </div>
+    </nav>
+
+    <section class="hero" aria-labelledby="pageTitle">
       <div class="hero__copy">
-        <p class="eyebrow">Catalogue personnel</p>
-        <h1>Bibliothèque scientifique</h1>
-        <p class="hero__subtitle">Une collection de mathématiques et de sciences, classée avec précision et conçue pour être explorée.</p>
+        <p class="eyebrow">Collection personnelle · Mathématiques & sciences</p>
+        <h1 id="pageTitle">Des livres pour<br><em>penser le monde.</em></h1>
+        <p class="hero__subtitle">Une bibliothèque vivante, classée selon la MSC 2020 et ouverte à l’exploration.</p>
+        <a class="hero__link" href="#catalogue">Parcourir la collection <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="hero__actions">
-        <button id="refreshButton" class="button button--ghost" type="button" title="Relire les fichiers du catalogue">↻ Actualiser</button>
-        <button id="themeButton" class="button button--ghost" type="button" aria-label="Changer de thème" title="Changer de thème">◐</button>
+      <div id="heroStack" class="hero-stack" aria-hidden="true">
+        <div class="hero-stack__fallback hero-stack__fallback--one"></div>
+        <div class="hero-stack__fallback hero-stack__fallback--two"></div>
+        <div class="hero-stack__fallback hero-stack__fallback--three"></div>
+        <span class="hero-stack__caption">Une collection en mouvement</span>
       </div>
-    </div>
+    </section>
   </header>
 
-  <main class="page-shell">
-    <section class="stats" aria-label="Statistiques du catalogue">
-      <article class="stat-card"><span id="bookCount" class="stat-card__value">—</span><span class="stat-card__label">ouvrages ou volumes</span></article>
-      <article class="stat-card"><span id="authorCount" class="stat-card__value">—</span><span class="stat-card__label">auteurs et directeurs</span></article>
-      <article class="stat-card"><span id="publisherCount" class="stat-card__value">—</span><span class="stat-card__label">éditeurs</span></article>
-      <article class="stat-card"><span id="uncertainCount" class="stat-card__value">—</span><span class="stat-card__label">références à vérifier</span></article>
+  <main id="catalogue" class="page-shell">
+    <section class="collection-facts" aria-label="La collection en chiffres">
+      <p><strong id="bookCount">—</strong><span>ouvrages</span></p>
+      <p><strong id="authorCount">—</strong><span>auteurs et directeurs</span></p>
+      <p><strong id="publisherCount">—</strong><span>maisons d’édition</span></p>
+      <p><strong id="domainCount">—</strong><span>domaines MSC représentés</span></p>
     </section>
 
-    <section class="controls" aria-label="Recherche et filtres">
+    <section class="library-tools" aria-label="Recherche et filtres">
       <div class="search-box">
-        <label for="searchInput">Recherche</label>
-        <div class="search-box__field">
-          <span aria-hidden="true">⌕</span>
-          <input id="searchInput" type="search" autocomplete="off" placeholder="Titre, auteur, éditeur, collection…">
-          <kbd>/</kbd>
+        <span class="search-box__icon" aria-hidden="true">⌕</span>
+        <label class="visually-hidden" for="searchInput">Rechercher dans la bibliothèque</label>
+        <input id="searchInput" type="search" autocomplete="off" placeholder="Rechercher un titre, un auteur, un éditeur…">
+        <kbd>/</kbd>
+      </div>
+
+      <details id="filterPanel" class="filters-panel">
+        <summary>
+          <span><span aria-hidden="true">☷</span> Affiner la sélection</span>
+          <span id="activeFilterCount" class="filter-count">Aucun filtre</span>
+        </summary>
+        <div class="filters-panel__body">
+          <div class="filter-grid">
+            <label>Éditeur
+              <select id="publisherFilter"><option value="">Tous les éditeurs</option></select>
+            </label>
+            <label>Auteur
+              <select id="authorFilter"><option value="">Tous les auteurs</option></select>
+            </label>
+            <label>Domaine MSC 2020
+              <select id="domainFilter"><option value="">Tous les domaines</option></select>
+            </label>
+            <label>État
+              <select id="statusFilter">
+                <option value="">Toutes les références</option>
+                <option value="confirmed">Références confirmées</option>
+                <option value="uncertain">À vérifier</option>
+                <option value="favorite">Favoris</option>
+              </select>
+            </label>
+            <label>Trier par
+              <select id="sortSelect">
+                <option value="id-asc">Identifiant croissant</option>
+                <option value="id-desc">Ajouts les plus récents</option>
+                <option value="title">Titre</option>
+                <option value="author">Auteur</option>
+                <option value="publisher">Éditeur</option>
+              </select>
+            </label>
+          </div>
+          <button id="resetButton" class="text-button text-button--dark" type="button">Effacer les filtres</button>
         </div>
-      </div>
+      </details>
 
-      <div class="filter-grid">
-        <label>Éditeur
-          <select id="publisherFilter"><option value="">Tous les éditeurs</option></select>
-        </label>
-        <label>Auteur
-          <select id="authorFilter"><option value="">Tous les auteurs</option></select>
-        </label>
-        <label>Domaine MSC 2020
-          <select id="domainFilter"><option value="">Tous les domaines</option></select>
-        </label>
-        <label>État
-          <select id="statusFilter">
-            <option value="">Toutes les références</option>
-            <option value="confirmed">Références confirmées</option>
-            <option value="uncertain">À vérifier</option>
-            <option value="favorite">Favoris</option>
-          </select>
-        </label>
-        <label>Trier par
-          <select id="sortSelect">
-            <option value="id-asc">Identifiant croissant</option>
-            <option value="id-desc">Ajouts les plus récents</option>
-            <option value="title">Titre</option>
-            <option value="author">Auteur</option>
-            <option value="publisher">Éditeur</option>
-          </select>
-        </label>
-      </div>
-
-      <div class="control-row">
+      <div class="display-bar">
         <div class="segmented" aria-label="Mode d’affichage">
-          <button id="gridViewButton" class="segmented__button is-active" type="button" aria-pressed="true">Cartes</button>
-          <button id="tableViewButton" class="segmented__button" type="button" aria-pressed="false">Tableau</button>
+          <button id="gridViewButton" class="segmented__button is-active" type="button" aria-pressed="true">Rayonnage</button>
+          <button id="tableViewButton" class="segmented__button" type="button" aria-pressed="false">Liste</button>
         </div>
-        <div class="control-row__actions">
-          <button id="resetButton" class="button button--quiet" type="button">Effacer les filtres</button>
-          <button id="exportButton" class="button button--quiet" type="button">Exporter la sélection</button>
-        </div>
+        <button id="exportButton" class="text-button text-button--dark" type="button">Exporter la sélection</button>
       </div>
     </section>
 
-    <section class="results-heading">
-      <div>
-        <h2 id="resultTitle">Catalogue</h2>
-        <p id="resultSummary" aria-live="polite">Chargement du catalogue…</p>
+    <section class="domain-browse" aria-labelledby="domainBrowseTitle">
+      <div class="section-intro">
+        <p class="section-kicker">Explorer</p>
+        <h2 id="domainBrowseTitle">Les rayons de la bibliothèque</h2>
       </div>
-      <nav id="alphabetNav" class="alphabet" aria-label="Filtrer par initiale du titre"></nav>
+      <div id="domainQuickNav" class="domain-quick-nav"></div>
     </section>
 
-    <section id="loadingState" class="state-panel" aria-live="polite">
-      <span class="spinner" aria-hidden="true"></span>
-      <p>Lecture des fichiers du catalogue…</p>
+    <section class="results-section" aria-labelledby="resultTitle">
+      <div class="results-heading">
+        <div>
+          <p class="section-kicker">Inventaire</p>
+          <h2 id="resultTitle">Catalogue</h2>
+          <p id="resultSummary" aria-live="polite">Chargement du catalogue…</p>
+        </div>
+        <nav id="alphabetNav" class="alphabet" aria-label="Filtrer par initiale du titre"></nav>
+      </div>
+
+      <section id="loadingState" class="state-panel" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
+        <p>Lecture des fichiers du catalogue…</p>
+      </section>
+
+      <section id="errorState" class="state-panel state-panel--error" hidden>
+        <h2>Le catalogue n’a pas pu être chargé</h2>
+        <p id="errorMessage"></p>
+        <button id="retryButton" class="button" type="button">Réessayer</button>
+      </section>
+
+      <section id="results" class="book-grid" aria-label="Livres du catalogue" hidden></section>
+
+      <nav class="pagination" aria-label="Pagination" hidden>
+        <button id="previousPageButton" class="page-button" type="button">← Précédent</button>
+        <span id="pageIndicator"></span>
+        <button id="nextPageButton" class="page-button" type="button">Suivant →</button>
+      </nav>
     </section>
-
-    <section id="errorState" class="state-panel state-panel--error" hidden>
-      <h2>Le catalogue n’a pas pu être chargé</h2>
-      <p id="errorMessage"></p>
-      <button id="retryButton" class="button" type="button">Réessayer</button>
-    </section>
-
-    <section id="results" class="book-grid" aria-label="Livres du catalogue" hidden></section>
-
-    <nav class="pagination" aria-label="Pagination" hidden>
-      <button id="previousPageButton" class="button button--quiet" type="button">← Précédent</button>
-      <span id="pageIndicator"></span>
-      <button id="nextPageButton" class="button button--quiet" type="button">Suivant →</button>
-    </nav>
   </main>
 
   <dialog id="bookDialog" class="book-dialog">
-    <form method="dialog" class="book-dialog__close-form"><button class="icon-button" aria-label="Fermer">×</button></form>
+    <form method="dialog" class="book-dialog__close-form"><button class="round-button round-button--light" aria-label="Fermer">×</button></form>
     <div id="dialogContent"></div>
   </dialog>
 
@@ -138,17 +167,18 @@
         <h3 class="book-card__title"></h3>
         <p class="book-card__authors"></p>
         <div class="book-card__meta"></div>
-        <button class="book-card__open" type="button">Ouvrir la notice <span aria-hidden="true">→</span></button>
+        <button class="book-card__open" type="button">Voir la notice <span aria-hidden="true">↗</span></button>
       </div>
     </article>
   </template>
 
   <footer class="footer">
-    <p>Les données sont relues depuis les fichiers Markdown à chaque ouverture. Les fichiers liés dans le README sont découverts automatiquement, avec une liste de secours intégrée.</p>
-    <p>Couvertures bibliographiques fournies avec l’aimable concours d’<a href="https://openlibrary.org/" target="_blank" rel="noopener">Open Library</a>.</p>
+    <div class="footer__brand"><span class="brand__mark" aria-hidden="true">BS</span><strong>Bibliothèque scientifique</strong></div>
+    <p>Catalogue personnel relu directement depuis les fichiers Markdown.</p>
+    <p>Couvertures bibliographiques : <a href="https://openlibrary.org/" target="_blank" rel="noopener">Open Library</a>.</p>
   </footer>
 
   <noscript>Cette interface nécessite JavaScript pour lire et filtrer le catalogue.</noscript>
-  <script src="app.js?v=20260820-4" data-app defer></script>
+  <script src="app.js?v=20260820-6" data-app defer></script>
 </body>
 </html>
