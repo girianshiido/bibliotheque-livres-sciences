@@ -388,5 +388,313 @@
     "isbnEvidence": {"provider": "Springer Nature", "title": "104 Number Theory Problems: From the Training of the USA IMO Team", "authors": ["Titu Andreescu", "Dorin Andrica", "Zuming Feng"], "publisher": "Birkhäuser"},
     "sourcePage": "https://link.springer.com/book/10.1007/978-0-8176-4561-8",
     "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780817645274.jpg"
+  },
+  "B0010": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729810658",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Cours de mathématiques de Gustave Choquet", "authors": ["Gustave Choquet"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/2718-cours-de-mathematiques-de-gustave-choquet-9782729810658.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/25352-large_modale_produit/cours-de-mathematiques-de-gustave-choquet.jpg"
+  },
+  "B0011": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729843083",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Groupes, algèbres et géométrie - Tome 1", "authors": ["Jean-Marie Arnaudiès", "José Bertin"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/10994-groupes-algebres-et-geometrie-tome-1-9782729843083.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/43791-large_modale_produit/groupes-algebres-et-geometrie-tome-1.jpg"
+  },
+  "B0012": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729845940",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Groupes, algèbres et géométrie - Tome 2", "authors": ["Jean-Marie Arnaudiès", "José Bertin"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/10995-groupes-algebres-et-geometrie-tome-2-9782729845940.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/43793-large_modale_produit/groupes-algebres-et-geometrie-tome-2.jpg"
+  },
+  "B0013": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729805180",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Surfaces de Riemann - Equation de Halphen et groupes polyédraux - Tome 3", "authors": ["Jean-Marie Arnaudiès", "José Bertin"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/accueil/736-surfaces-de-riemann-equation-de-halphen-et-groupes-polyedraux-tome-3-groupes-algebre-et-geometrie-9782729805180.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/48956-large_modale_produit/surfaces-de-riemann-equation-de-halphen-et-groupes-polyedraux-tome-3-groupes-algebre-et-geometrie.jpg"
+  },
+  "B0043": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729867515",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Calcul différentiel - Cours et exercices corrigés", "authors": ["Gilles Christol", "Anne Cot", "Charles-Michel Marle"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/2728-calcul-differentiel-cours-et-exercices-corriges-9782729867515.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/25362-large_modale_produit/calcul-differentiel-cours-et-exercices-corriges.jpg"
+  },
+  "B0275": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729849672",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Mathématiques Polytechnique et ENS - Algèbre - Géométrie - Exercices corrigés", "authors": ["Éric Leichtnam"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6388-mathematiques-polytechnique-et-ens-algebre-geometrie-exercices-corriges-9782729849672.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/29130-large_modale_produit/mathematiques-polytechnique-et-ens-algebre-geometrie-exercices-corriges.jpg"
+  },
+  "B0276": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729879815",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Mathématiques Polytechnique et ENS - Analyse - Exercices corrigés", "authors": ["Éric Leichtnam"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/12223-mathematiques-polytechnique-et-ens-analyse-exercices-corriges-9782729879815.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/46732-large_modale_produit/mathematiques-polytechnique-et-ens-analyse-exercices-corriges.jpg"
+  },
+  "B0377": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729827144",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Thèmes d'Arithmétiques avec plus de 85 exercices corrigés", "authors": ["Olivier Bordellès"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/1731-themes-d-arithmetiques-avec-plus-de-85-exercices-corriges-9782729827144.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/24337-large_modale_produit/themes-d-arithmetiques-avec-plus-de-85-exercices-corriges.jpg"
+  },
+  "B0389": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729859312",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Modélisation à l'oral de l'Agrégation - Calcul scientifique", "authors": ["Laurent Dumas"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/11627-modelisation-a-l-oral-de-l-agregation-calcul-scientifique-9782729859312.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/46215-large_modale_produit/modelisation-a-l-oral-de-l-agregation-calcul-scientifique.jpg"
+  },
+  "B0391": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729834180",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Les contre-exemples en mathématiques", "authors": ["Bertrand Hauchecorne"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/5328-les-contre-exemples-en-mathematiques-9782729834180.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/40451-large_modale_produit/les-contre-exemples-en-mathematiques.jpg"
+  },
+  "B0455": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729873608",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Equations différentielles ordinaires", "authors": ["Vladimir Arnold"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/744-equations-differentielles-ordinaires-9782729873608.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/23319-large_modale_produit/equations-differentielles-ordinaires.jpg"
+  },
+  "B0456": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729894634",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Cours de Physique théorique - Physique statistique", "authors": ["Lev Landau", "Evguéni Lifchitz"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6072-cours-de-physique-theorique-physique-statistique-9782729894634.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/36743-large_modale_produit/cours-de-physique-theorique-physique-statistique.jpg"
+  },
+  "B0457": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729894030",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Cours de Physique théorique - Théorie des champs", "authors": ["Lev Landau", "Evguéni Lifchitz"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6071-cours-de-physique-theorique-theorie-des-champs-9782729894030.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/39581-large_modale_produit/cours-de-physique-theorique-theorie-des-champs.jpg"
+  },
+  "B0458": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729894238",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Cours de Physique théorique - Mécanique des fluides", "authors": ["Lev Landau", "Evguéni Lifchitz"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6073-cours-de-physique-theorique-mecanique-des-fluides-9782729894238.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/43206-large_modale_produit/cours-de-physique-theorique-mecanique-des-fluides.jpg"
+  },
+  "B0459": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729894023",
+    "isbnEvidence": {"provider": "Éditions Ellipses", "title": "Physique théorique - Mécanique", "authors": ["Lev Landau", "Evguéni Lifchitz"], "publisher": "Ellipses"},
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6070-physique-theorique-mecanique-9782729894023.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/49064-large_modale_produit/physique-theorique-mecanique.jpg"
+  },
+  "B0179": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486816883",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Rings of Continuous Functions", "authors": ["Leonard Gillman", "Meyer Jerison"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486816883",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486816883.jpg?v=1710192195"
+  },
+  "B0267": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486277097",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "The USSR Olympiad Problem Book", "authors": ["D. O. Shklarsky", "N. N. Chentzov", "I. M. Yaglom"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486277097",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486277097.jpg?v=1710176687"
+  },
+  "B0370": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486614809",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Regular Polytopes", "authors": ["H. S. M. Coxeter"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486614809",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486614809_15e8ae09-4bf8-4dbe-914c-04611ce7965c.jpg?v=1710178317"
+  },
+  "B0371": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486462448",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Differential Manifolds", "authors": ["Antoni A. Kosinski"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486462448",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486462448.jpg?v=1710176135"
+  },
+  "B0372": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486450261",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Topoi: The Categorial Analysis of Logic", "authors": ["Robert Goldblatt"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486450261",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486450261_1539bf3a-9b69-4cb8-a70c-ac86b0b8aa8e.jpg?v=1710207012"
+  },
+  "B0380": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486414485",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Calculus of Variations", "authors": ["I. M. Gelfand", "S. V. Fomin"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486414485",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486414485.jpg?v=1743530139"
+  },
+  "B0387": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486656090",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Lectures on Classical Differential Geometry", "authors": ["Dirk J. Struik"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486656090",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486656090_e61fcf82-f5bb-4d74-ba2f-a3a3f04c03f0.jpg?v=1710194453"
+  },
+  "B0392": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486488417",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Zermelo's Axiom of Choice", "authors": ["Gregory H. Moore"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486488417",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486488417.jpg?v=1710204078"
+  },
+  "B0397": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486417400",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Riemann's Zeta Function", "authors": ["H. M. Edwards"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486417400",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486417400.jpg?v=1739294932"
+  },
+  "B0398": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486469249",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "The Stanford Mathematics Problem Book", "authors": ["G. Polya", "J. Kilpatrick"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486469249",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486469249_cc818921-01c8-4743-bceb-c6c17c14127a.jpg?v=1743535658"
+  },
+  "B0399": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486633176",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Fourier Series", "authors": ["Georgi P. Tolstov"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486633176",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486633176.jpg?v=1710192224"
+  },
+  "B0401": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486670478",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "A Guide to Feynman Diagrams in the Many-Body Problem", "authors": ["Richard D. Mattuck"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486670478",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486670478.jpg?v=1710207705"
+  },
+  "B0403": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486824536",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Theory of Lie Groups", "authors": ["Claude Chevalley"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486824536",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486824536.jpg?v=1710192042"
+  },
+  "B0420": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486638300",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Geometry of Complex Numbers", "authors": ["Hans Schwerdtfeger"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486638300",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486638300.jpg?v=1710207075"
+  },
+  "B0423": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486477220",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Quantum Mechanics and Path Integrals", "authors": ["Richard P. Feynman", "Albert R. Hibbs", "Daniel F. Styer"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486477220",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486477220_918f61f7-6848-426d-a711-c22316000929.jpg?v=1742325612"
+  },
+  "B0463": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486687353",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Counterexamples in Topology", "authors": ["Lynn Arthur Steen", "J. Arthur Seebach"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486687353",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486687353.jpg?v=1710208547"
+  },
+  "B0470": {
+    "provider": "Dover Publications",
+    "isbn13": "9780486632285",
+    "isbnEvidence": {"provider": "Dover Publications", "title": "Methods of Quantum Field Theory in Statistical Physics", "authors": ["A. A. Abrikosov", "L. P. Gorkov", "I. E. Dzyaloshinski"], "publisher": "Dover Publications"},
+    "sourcePage": "https://store.doverpublications.com/products/9780486632285",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486632285_fe4f4dcc-489a-422e-9eaa-c2742dac99ff.jpg?v=1710178320"
+  },
+  "B0032": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705657031",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Éléments de topologie algébrique", "authors": ["Claude Godbillon"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/elements-de-topologie-algebrique-claude-godbillon",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705657031-001-T.jpeg"
+  },
+  "B0033": {
+    "provider": "La Librairie (édition Hermann)",
+    "isbn13": "9782705659073",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Calcul infinitésimal", "authors": ["Jean Dieudonné"], "publisher": "Hermann"},
+    "sourcePage": "https://www.lalibrairie.com/livres/calcul-infinitesimal_0-766310_9782705659073.html",
+    "sourceUrl": "https://www.lalibrairie.com/cache/img/livres/073/9782705659073.jpg"
+  },
+  "B0034": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705660406",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Introduction à la théorie des groupes de Lie classique", "authors": ["Rached Mneimné", "Frédéric Testard"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/introduction-a-la-theorie-des-groupes-de-lie-classique-rached-mneimne",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705660406-001-T.jpeg"
+  },
+  "B0035": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705652418",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Cours d’algèbre", "authors": ["Roger Godement"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/cours-d-algebre-roger-godement",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705652418-001-T.jpeg"
+  },
+  "B0036": {
+    "provider": "Lavoisier (édition Hermann)",
+    "isbn13": "9782705663834",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Algèbre commutative", "authors": ["Jean-Pierre Lafon"], "publisher": "Hermann"},
+    "sourcePage": "https://e.lavoisier.fr/produit/72964/9782705663834/algebre-commutative",
+    "sourceUrl": "https://e.lavoisier.fr/system/product_pictures/data/009/539/552/large/9782705663834_W300.webp?1719987162"
+  },
+  "B0037": {
+    "provider": "Ammareal (édition Hermann)",
+    "isbn13": "9782705657598",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Les formalismes fondamentaux de l’algèbre commutative", "authors": ["Jean-Pierre Lafon"], "publisher": "Hermann"},
+    "sourcePage": "https://www.ammareal.fr/livre/1891837-les-formalismes-fondamentaux-de-l-algebre-commutative-deuxieme-et-troisieme-cycles",
+    "sourceUrl": "https://static.ammareal.fr/covers/book/MjcwNTY1NzU5Mg/les-formalismes-fondamentaux-de-l-algebre-commutative-deuxieme-et-troisieme-cycles.webp"
+  },
+  "B0038": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705655518",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Théorie des distributions", "authors": ["Laurent Schwartz"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/theorie-des-distributions-laurent-schwartz",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705655518-001-T.jpeg"
+  },
+  "B0039": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705652159",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Théorie élémentaire des fonctions analytiques d’une ou plusieurs variables complexes", "authors": ["Henri Cartan"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/theorie-elementaire-des-fonctions-analytiques-d-une-ou-plusieurs-variables-complexes-henri-cartan",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705652159-001-T.jpeg"
+  },
+  "B0040": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705695453",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Géométrie plane et algèbre", "authors": ["Laurent Lafforgue"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/geometrie-plane-et-algebre-laurent-lafforgue",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2018/9782705695453-001-T.jpeg"
+  },
+  "B0042": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705612528",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "Topologie algébrique et théorie des faisceaux", "authors": ["Roger Godement"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705612528-001-T.jpeg"
+  },
+  "B0047": {
+    "provider": "Éditions Hermann",
+    "isbn13": "9782705614294",
+    "isbnEvidence": {"provider": "Éditions Hermann", "title": "La géométrie du triangle: exercices résolus", "authors": ["Yvonne Sortais", "René Sortais"], "publisher": "Hermann"},
+    "sourcePage": "https://www.editions-hermann.fr/livre/la-geometrie-du-triangle-rene-sortais",
+    "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705614294-001-T.jpeg"
+  },
+  "B0378": {
+    "provider": "Goodreads (édition Dover)",
+    "isbn13": "9780486262421",
+    "isbnEvidence": {"provider": "Open British National Bibliography", "title": "The Enjoyment of Mathematics: Selections from Mathematics for the Amateur", "authors": ["Hans Rademacher", "Otto Toeplitz"], "publisher": "Dover"},
+    "sourcePage": "https://www.goodreads.com/book/show/682073.The_Enjoyment_of_Mathematics",
+    "sourceUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328867884i/682073.jpg"
   }
 }

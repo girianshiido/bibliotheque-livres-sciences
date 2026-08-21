@@ -410,10 +410,34 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729810658",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Cours de mathématiques de Gustave Choquet",
+            "authors": [
+              "Gustave Choquet"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0010.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/2718-cours-de-mathematiques-de-gustave-choquet-9782729810658.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/25352-large_modale_produit/cours-de-mathematiques-de-gustave-choquet.jpg",
+        "isbn13": "9782729810658",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0011": {
@@ -426,10 +450,35 @@
       "publisher": "Ellipses",
       "details": "Tome 1",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729843083",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Groupes, algèbres et géométrie - Tome 1",
+            "authors": [
+              "Jean-Marie Arnaudiès",
+              "José Bertin"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0011.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/10994-groupes-algebres-et-geometrie-tome-1-9782729843083.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/43791-large_modale_produit/groupes-algebres-et-geometrie-tome-1.jpg",
+        "isbn13": "9782729843083",
+        "width": 800,
+        "height": 1189,
+        "aspectRatio": 0.67283,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0012": {
@@ -442,10 +491,35 @@
       "publisher": "Ellipses",
       "details": "Tome 2",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729845940",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Groupes, algèbres et géométrie - Tome 2",
+            "authors": [
+              "Jean-Marie Arnaudiès",
+              "José Bertin"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0012.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/10995-groupes-algebres-et-geometrie-tome-2-9782729845940.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/43793-large_modale_produit/groupes-algebres-et-geometrie-tome-2.jpg",
+        "isbn13": "9782729845940",
+        "width": 800,
+        "height": 1189,
+        "aspectRatio": 0.67283,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0013": {
@@ -458,10 +532,35 @@
       "publisher": "Ellipses",
       "details": "Tome 3",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729805180",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Surfaces de Riemann - Equation de Halphen et groupes polyédraux - Tome 3",
+            "authors": [
+              "Jean-Marie Arnaudiès",
+              "José Bertin"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0013.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/accueil/736-surfaces-de-riemann-equation-de-halphen-et-groupes-polyedraux-tome-3-groupes-algebre-et-geometrie-9782729805180.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/48956-large_modale_produit/surfaces-de-riemann-equation-de-halphen-et-groupes-polyedraux-tome-3-groupes-algebre-et-geometrie.jpg",
+        "isbn13": "9782729805180",
+        "width": 800,
+        "height": 1189,
+        "aspectRatio": 0.67283,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0014": {
@@ -1170,10 +1269,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705657031",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Éléments de topologie algébrique",
+            "authors": [
+              "Claude Godbillon"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0032.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/elements-de-topologie-algebrique-claude-godbillon",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705657031-001-T.jpeg",
+        "isbn13": "9782705657031",
+        "width": 600,
+        "height": 837,
+        "aspectRatio": 0.71685,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0033": {
@@ -1185,10 +1308,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705659073",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Calcul infinitésimal",
+            "authors": [
+              "Jean Dieudonné"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0033.jpg",
+        "provider": "La Librairie (édition Hermann)",
+        "sourcePage": "https://www.lalibrairie.com/livres/calcul-infinitesimal_0-766310_9782705659073.html",
+        "sourceUrl": "https://www.lalibrairie.com/cache/img/livres/073/9782705659073.jpg",
+        "isbn13": "9782705659073",
+        "width": 400,
+        "height": 586,
+        "aspectRatio": 0.68259,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0034": {
@@ -1201,10 +1348,35 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705660406",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Introduction à la théorie des groupes de Lie classique",
+            "authors": [
+              "Rached Mneimné",
+              "Frédéric Testard"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0034.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/introduction-a-la-theorie-des-groupes-de-lie-classique-rached-mneimne",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705660406-001-T.jpeg",
+        "isbn13": "9782705660406",
+        "width": 600,
+        "height": 839,
+        "aspectRatio": 0.71514,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0035": {
@@ -1216,10 +1388,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705652418",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Cours d’algèbre",
+            "authors": [
+              "Roger Godement"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0035.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/cours-d-algebre-roger-godement",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705652418-001-T.jpeg",
+        "isbn13": "9782705652418",
+        "width": 600,
+        "height": 902,
+        "aspectRatio": 0.66519,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0036": {
@@ -1231,10 +1427,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705663834",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Algèbre commutative",
+            "authors": [
+              "Jean-Pierre Lafon"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0036.webp",
+        "provider": "Lavoisier (édition Hermann)",
+        "sourcePage": "https://e.lavoisier.fr/produit/72964/9782705663834/algebre-commutative",
+        "sourceUrl": "https://e.lavoisier.fr/system/product_pictures/data/009/539/552/large/9782705663834_W300.webp?1719987162",
+        "isbn13": "9782705663834",
+        "width": 300,
+        "height": 453,
+        "aspectRatio": 0.66225,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0037": {
@@ -1246,10 +1466,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705657598",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Les formalismes fondamentaux de l’algèbre commutative",
+            "authors": [
+              "Jean-Pierre Lafon"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0037.webp",
+        "provider": "Ammareal (édition Hermann)",
+        "sourcePage": "https://www.ammareal.fr/livre/1891837-les-formalismes-fondamentaux-de-l-algebre-commutative-deuxieme-et-troisieme-cycles",
+        "sourceUrl": "https://static.ammareal.fr/covers/book/MjcwNTY1NzU5Mg/les-formalismes-fondamentaux-de-l-algebre-commutative-deuxieme-et-troisieme-cycles.webp",
+        "isbn13": "9782705657598",
+        "width": 280,
+        "height": 418,
+        "aspectRatio": 0.66986,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0038": {
@@ -1261,10 +1505,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705655518",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Théorie des distributions",
+            "authors": [
+              "Laurent Schwartz"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0038.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/theorie-des-distributions-laurent-schwartz",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705655518-001-T.jpeg",
+        "isbn13": "9782705655518",
+        "width": 600,
+        "height": 915,
+        "aspectRatio": 0.65574,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0039": {
@@ -1276,10 +1544,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705652159",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Théorie élémentaire des fonctions analytiques d’une ou plusieurs variables complexes",
+            "authors": [
+              "Henri Cartan"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0039.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/theorie-elementaire-des-fonctions-analytiques-d-une-ou-plusieurs-variables-complexes-henri-cartan",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705652159-001-T.jpeg",
+        "isbn13": "9782705652159",
+        "width": 600,
+        "height": 841,
+        "aspectRatio": 0.71344,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0040": {
@@ -1291,10 +1583,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705695453",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Géométrie plane et algèbre",
+            "authors": [
+              "Laurent Lafforgue"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0040.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/geometrie-plane-et-algebre-laurent-lafforgue",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2018/9782705695453-001-T.jpeg",
+        "isbn13": "9782705695453",
+        "width": 600,
+        "height": 861,
+        "aspectRatio": 0.69686,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0041": {
@@ -1321,10 +1637,34 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705612528",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "Topologie algébrique et théorie des faisceaux",
+            "authors": [
+              "Roger Godement"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0042.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705612528-001-T.jpeg",
+        "isbn13": "9782705612528",
+        "width": 600,
+        "height": 858,
+        "aspectRatio": 0.6993,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0043": {
@@ -1338,10 +1678,36 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/001-046.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729867515",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Calcul différentiel - Cours et exercices corrigés",
+            "authors": [
+              "Gilles Christol",
+              "Anne Cot",
+              "Charles-Michel Marle"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0043.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/2728-calcul-differentiel-cours-et-exercices-corriges-9782729867515.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/25362-large_modale_produit/calcul-differentiel-cours-et-exercices-corriges.jpg",
+        "isbn13": "9782729867515",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0044": {
@@ -1440,10 +1806,35 @@
       "publisher": "Hermann",
       "details": "",
       "sourceFile": "catalogue/047-092.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782705614294",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Hermann",
+            "title": "La géométrie du triangle: exercices résolus",
+            "authors": [
+              "Yvonne Sortais",
+              "René Sortais"
+            ],
+            "publisher": "Hermann"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0047.jpg",
+        "provider": "Éditions Hermann",
+        "sourcePage": "https://www.editions-hermann.fr/livre/la-geometrie-du-triangle-rene-sortais",
+        "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705614294-001-T.jpeg",
+        "isbn13": "9782705614294",
+        "width": 600,
+        "height": 848,
+        "aspectRatio": 0.70755,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0048": {
@@ -6176,10 +6567,35 @@
       "publisher": "Dover Publications",
       "details": "Reproduction de l’édition Princeton University Press de 1960",
       "sourceFile": "catalogue/139-184.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486816883",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Rings of Continuous Functions",
+            "authors": [
+              "Leonard Gillman",
+              "Meyer Jerison"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0179.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486816883",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486816883.jpg?v=1710192195",
+        "isbn13": "9780486816883",
+        "width": 298,
+        "height": 447,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0180": {
@@ -6883,14 +7299,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/185-230.md",
-      "identifiers": [{
-        "value": "9783540106623",
-        "type": "ISBN-13",
-        "evidence": {"provider": "SpringerLink", "title": "Gauss", "authors": ["W. K. Bühler"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/978-3-642-49207-5"}
-      }],
-      "cover": {"webPath": "covers/web/B0195.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-49207-5", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540106623.jpg", "isbn13": "9783540106623", "width": 430, "height": 648, "aspectRatio": 0.66358, "format": "image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540106623",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Gauss",
+            "authors": [
+              "W. K. Bühler"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/978-3-642-49207-5"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0195.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-49207-5",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540106623.jpg",
+        "isbn13": "9783540106623",
+        "width": 430,
+        "height": 648,
+        "aspectRatio": 0.66358,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0196": {
@@ -7141,7 +7578,9 @@
           "evidence": {
             "provider": "SpringerLink",
             "title": "Iterative Approximation of Fixed Points",
-            "authors": ["Vasile Berinde"],
+            "authors": [
+              "Vasile Berinde"
+            ],
             "publisher": "Springer Berlin, Heidelberg",
             "url": "https://link.springer.com/book/10.1007/978-3-540-72234-2"
           }
@@ -7696,7 +8135,7 @@
         "sourceFilename": "D_NQ_NP_671598-MLU78664821973_082024-O.webp",
         "width": 333,
         "height": 500,
-        "aspectRatio": 0.66600,
+        "aspectRatio": 0.666,
         "format": "image/webp"
       },
       "review": [
@@ -9590,10 +10029,36 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486277097",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "The USSR Olympiad Problem Book",
+            "authors": [
+              "D. O. Shklarsky",
+              "N. N. Chentzov",
+              "I. M. Yaglom"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0267.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486277097",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486277097.jpg?v=1710176687",
+        "isbn13": "9780486277097",
+        "width": 298,
+        "height": 461,
+        "aspectRatio": 0.64642,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0268": {
@@ -9612,7 +10077,9 @@
           "evidence": {
             "provider": "SpringerLink",
             "title": "Substitutions in Dynamics, Arithmetics and Combinatorics",
-            "authors": ["N. Pytheas Fogg"],
+            "authors": [
+              "N. Pytheas Fogg"
+            ],
             "publisher": "Springer Berlin, Heidelberg",
             "url": "https://link.springer.com/book/10.1007/b13861"
           }
@@ -9717,12 +10184,32 @@
       "publisher": "Springer",
       "details": "Springer Undergraduate Mathematics Series",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [{
-        "value": "9783319421858",
-        "type": "ISBN-13",
-        "evidence": {"provider": "SpringerLink", "title": "Mathematical Tapas", "authors": ["Jean-Baptiste Hiriart-Urruty"], "publisher": "Springer Cham", "url": "https://link.springer.com/book/10.1007/978-3-319-42186-5"}
-      }],
-      "cover": {"webPath": "covers/web/B0272.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-42186-5", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319421865.jpg", "isbn13": "9783319421858", "width": 427, "height": 648, "aspectRatio": 0.6591, "format": "image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783319421858",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Mathematical Tapas",
+            "authors": [
+              "Jean-Baptiste Hiriart-Urruty"
+            ],
+            "publisher": "Springer Cham",
+            "url": "https://link.springer.com/book/10.1007/978-3-319-42186-5"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0272.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-42186-5",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319421865.jpg",
+        "isbn13": "9783319421858",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
         "cover-downloaded",
         "edition-linked-by-springerlink"
@@ -9737,12 +10224,32 @@
       "publisher": "Springer",
       "details": "Springer Undergraduate Mathematics Series",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [{
-        "value": "9783319686301",
-        "type": "ISBN-13",
-        "evidence": {"provider": "SpringerLink", "title": "Mathematical Tapas", "authors": ["Jean-Baptiste Hiriart-Urruty"], "publisher": "Springer Cham", "url": "https://link.springer.com/book/10.1007/978-3-319-68631-8"}
-      }],
-      "cover": {"webPath": "covers/web/B0273.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-68631-8", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319686318.jpg", "isbn13": "9783319686301", "width": 427, "height": 648, "aspectRatio": 0.6591, "format": "image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783319686301",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Mathematical Tapas",
+            "authors": [
+              "Jean-Baptiste Hiriart-Urruty"
+            ],
+            "publisher": "Springer Cham",
+            "url": "https://link.springer.com/book/10.1007/978-3-319-68631-8"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0273.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-319-68631-8",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783319686318.jpg",
+        "isbn13": "9783319686301",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
         "cover-downloaded",
         "edition-linked-by-springerlink"
@@ -9815,10 +10322,34 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729849672",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Mathématiques Polytechnique et ENS - Algèbre - Géométrie - Exercices corrigés",
+            "authors": [
+              "Éric Leichtnam"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0275.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6388-mathematiques-polytechnique-et-ens-algebre-geometrie-exercices-corriges-9782729849672.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/29130-large_modale_produit/mathematiques-polytechnique-et-ens-algebre-geometrie-exercices-corriges.jpg",
+        "isbn13": "9782729849672",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0276": {
@@ -9830,10 +10361,34 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/231-276.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729879815",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Mathématiques Polytechnique et ENS - Analyse - Exercices corrigés",
+            "authors": [
+              "Éric Leichtnam"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0276.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/12223-mathematiques-polytechnique-et-ens-analyse-exercices-corriges-9782729879815.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/46732-large_modale_produit/mathematiques-polytechnique-et-ens-analyse-exercices-corriges.jpg",
+        "isbn13": "9782729879815",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0277": {
@@ -10316,12 +10871,33 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{
-        "value": "9783540636403",
-        "type": "ISBN-13",
-        "evidence": {"provider": "SpringerLink", "title": "Problems and Theorems in Analysis I", "authors": ["George Pólya", "Gabor Szegö"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/978-3-642-61983-0"}
-      }],
-      "cover": {"webPath": "covers/web/B0286.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61983-0", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642619830.jpg", "isbn13": "9783540636403", "width": 429, "height": 648, "aspectRatio": 0.66204, "format": "image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540636403",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Problems and Theorems in Analysis I",
+            "authors": [
+              "George Pólya",
+              "Gabor Szegö"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/978-3-642-61983-0"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0286.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61983-0",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642619830.jpg",
+        "isbn13": "9783540636403",
+        "width": 429,
+        "height": 648,
+        "aspectRatio": 0.66204,
+        "format": "image/jpeg"
+      },
       "review": [
         "cover-downloaded",
         "edition-linked-by-springerlink"
@@ -10337,12 +10913,33 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{
-        "value": "9783540636861",
-        "type": "ISBN-13",
-        "evidence": {"provider": "SpringerLink", "title": "Problems and Theorems in Analysis II", "authors": ["George Pólya", "Gabor Szegö"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/978-3-642-61905-2"}
-      }],
-      "cover": {"webPath": "covers/web/B0287.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61905-2", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642619052.jpg", "isbn13": "9783540636861", "width": 424, "height": 648, "aspectRatio": 0.65432, "format": "image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540636861",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Problems and Theorems in Analysis II",
+            "authors": [
+              "George Pólya",
+              "Gabor Szegö"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/978-3-642-61905-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0287.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61905-2",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642619052.jpg",
+        "isbn13": "9783540636861",
+        "width": 424,
+        "height": 648,
+        "aspectRatio": 0.65432,
+        "format": "image/jpeg"
+      },
       "review": [
         "cover-downloaded",
         "edition-linked-by-springerlink"
@@ -11140,10 +11737,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{"value":"9783540006626","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"The Analysis of Linear Partial Differential Operators I","authors":["Lars Hörmander"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/10.1007/978-3-642-61497-2"}}],
-      "cover":{"webPath":"covers/web/B0315.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/10.1007/978-3-642-61497-2","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783642614972.jpg","isbn13":"9783540006626","width":428,"height":648,"aspectRatio":0.66049,"format":"image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540006626",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "The Analysis of Linear Partial Differential Operators I",
+            "authors": [
+              "Lars Hörmander"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/978-3-642-61497-2"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0315.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/978-3-642-61497-2",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783642614972.jpg",
+        "isbn13": "9783540006626",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0316": {
@@ -11155,10 +11777,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{"value":"9783540225164","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"The Analysis of Linear Partial Differential Operators II","authors":["Lars Hörmander"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/10.1007/b138375"}}],
-      "cover":{"webPath":"covers/web/B0316.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/10.1007/b138375","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540269649.jpg","isbn13":"9783540225164","width":429,"height":648,"aspectRatio":0.66204,"format":"image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540225164",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "The Analysis of Linear Partial Differential Operators II",
+            "authors": [
+              "Lars Hörmander"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/b138375"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0316.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/b138375",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540269649.jpg",
+        "isbn13": "9783540225164",
+        "width": 429,
+        "height": 648,
+        "aspectRatio": 0.66204,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0317": {
@@ -11170,10 +11817,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{"value":"9783540420576","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique I","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540420576"}}],
-      "cover":{"webPath":"covers/web/B0317.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540420576","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540420576.jpg","isbn13":"9783540420576","width":428,"height":648,"aspectRatio":0.66049,"format":"image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540420576",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Analyse mathématique I",
+            "authors": [
+              "Roger Godement"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/9783540420576"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0317.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/9783540420576",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540420576.jpg",
+        "isbn13": "9783540420576",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0318": {
@@ -11185,10 +11857,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{"value":"9783540006558","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique II","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540006558"}}],
-      "cover":{"webPath":"covers/web/B0318.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540006558","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540006558.jpg","isbn13":"9783540006558","width":428,"height":648,"aspectRatio":0.66049,"format":"image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540006558",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Analyse mathématique II",
+            "authors": [
+              "Roger Godement"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/9783540006558"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0318.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/9783540006558",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540006558.jpg",
+        "isbn13": "9783540006558",
+        "width": 428,
+        "height": 648,
+        "aspectRatio": 0.66049,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0319": {
@@ -11200,10 +11897,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{"value":"9783540661429","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique III","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540661429"}}],
-      "cover":{"webPath":"covers/web/B0319.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540661429","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540661429.jpg","isbn13":"9783540661429","width":426,"height":648,"aspectRatio":0.65741,"format":"image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540661429",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Analyse mathématique III",
+            "authors": [
+              "Roger Godement"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/9783540661429"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0319.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/9783540661429",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540661429.jpg",
+        "isbn13": "9783540661429",
+        "width": 426,
+        "height": 648,
+        "aspectRatio": 0.65741,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0320": {
@@ -11215,10 +11937,35 @@
       "publisher": "Springer",
       "details": "",
       "sourceFile": "catalogue/277-322.md",
-      "identifiers": [{"value":"9783540438410","type":"ISBN-13","evidence":{"provider":"SpringerLink","title":"Analyse mathématique IV","authors":["Roger Godement"],"publisher":"Springer Berlin, Heidelberg","url":"https://link.springer.com/book/9783540438410"}}],
-      "cover":{"webPath":"covers/web/B0320.jpg","provider":"Springer Nature / SpringerLink","sourcePage":"https://link.springer.com/book/9783540438410","sourceUrl":"https://covers.springernature.com/books/jpg_height_648_pixels/9783540438410.jpg","isbn13":"9783540438410","width":427,"height":648,"aspectRatio":0.6591,"format":"image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540438410",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Analyse mathématique IV",
+            "authors": [
+              "Roger Godement"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/9783540438410"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0320.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/9783540438410",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540438410.jpg",
+        "isbn13": "9783540438410",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-downloaded", "edition-linked-by-springerlink"
+        "cover-downloaded",
+        "edition-linked-by-springerlink"
       ]
     },
     "B0321": {
@@ -11423,7 +12170,9 @@
           "evidence": {
             "provider": "SpringerLink",
             "title": "Geometric Group Theory",
-            "authors": ["Clara Löh"],
+            "authors": [
+              "Clara Löh"
+            ],
             "publisher": "Springer Cham",
             "url": "https://link.springer.com/book/10.1007/978-3-319-72254-2"
           }
@@ -11617,7 +12366,9 @@
           "evidence": {
             "provider": "SpringerLink",
             "title": "Using the Borsuk-Ulam Theorem",
-            "authors": ["Jiří Matoušek"],
+            "authors": [
+              "Jiří Matoušek"
+            ],
             "publisher": "Springer Berlin, Heidelberg",
             "url": "https://link.springer.com/book/10.1007/978-3-540-76649-0"
           }
@@ -11656,7 +12407,7 @@
         "sourceFilename": "978-0-85729-021-2.webp",
         "width": 827,
         "height": 1208,
-        "aspectRatio": 0.68460,
+        "aspectRatio": 0.6846,
         "format": "image/webp"
       },
       "review": [
@@ -11786,7 +12537,7 @@
         "sourceFilename": "978-3-540-39035-0.webp",
         "width": 827,
         "height": 1315,
-        "aspectRatio": 0.62890,
+        "aspectRatio": 0.6289,
         "format": "image/webp"
       },
       "review": [
@@ -11903,7 +12654,7 @@
         "sourceFilename": "978-0-387-21850-2.webp",
         "width": 827,
         "height": 1250,
-        "aspectRatio": 0.66160,
+        "aspectRatio": 0.6616,
         "format": "image/webp"
       },
       "review": [
@@ -12809,10 +13560,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486614809",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Regular Polytopes",
+            "authors": [
+              "H. S. M. Coxeter"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0370.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486614809",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486614809_15e8ae09-4bf8-4dbe-914c-04611ce7965c.jpg?v=1710178317",
+        "isbn13": "9780486614809",
+        "width": 298,
+        "height": 461,
+        "aspectRatio": 0.64642,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0371": {
@@ -12824,10 +13599,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486462448",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Differential Manifolds",
+            "authors": [
+              "Antoni A. Kosinski"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0371.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486462448",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486462448.jpg?v=1710176135",
+        "isbn13": "9780486462448",
+        "width": 298,
+        "height": 471,
+        "aspectRatio": 0.6327,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0372": {
@@ -12839,10 +13638,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486450261",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Topoi: The Categorial Analysis of Logic",
+            "authors": [
+              "Robert Goldblatt"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0372.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486450261",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486450261_1539bf3a-9b69-4cb8-a70c-ac86b0b8aa8e.jpg?v=1710207012",
+        "isbn13": "9780486450261",
+        "width": 298,
+        "height": 469,
+        "aspectRatio": 0.63539,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0373": {
@@ -12914,10 +13737,34 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729827144",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Thèmes d'Arithmétiques avec plus de 85 exercices corrigés",
+            "authors": [
+              "Olivier Bordellès"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0377.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/1731-themes-d-arithmetiques-avec-plus-de-85-exercices-corriges-9782729827144.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/24337-large_modale_produit/themes-d-arithmetiques-avec-plus-de-85-exercices-corriges.jpg",
+        "isbn13": "9782729827144",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0378": {
@@ -12930,10 +13777,35 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486262421",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Open British National Bibliography",
+            "title": "The Enjoyment of Mathematics: Selections from Mathematics for the Amateur",
+            "authors": [
+              "Hans Rademacher",
+              "Otto Toeplitz"
+            ],
+            "publisher": "Dover"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0378.jpg",
+        "provider": "Goodreads (édition Dover)",
+        "sourcePage": "https://www.goodreads.com/book/show/682073.The_Enjoyment_of_Mathematics",
+        "sourceUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328867884i/682073.jpg",
+        "isbn13": "9780486262421",
+        "width": 306,
+        "height": 475,
+        "aspectRatio": 0.64421,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0379": {
@@ -12961,10 +13833,35 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486414485",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Calculus of Variations",
+            "authors": [
+              "I. M. Gelfand",
+              "S. V. Fomin"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0380.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486414485",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486414485.jpg?v=1743530139",
+        "isbn13": "9780486414485",
+        "width": 298,
+        "height": 286,
+        "aspectRatio": 1.04196,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0381": {
@@ -13091,10 +13988,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486656090",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Lectures on Classical Differential Geometry",
+            "authors": [
+              "Dirk J. Struik"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0387.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486656090",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486656090_e61fcf82-f5bb-4d74-ba2f-a3a3f04c03f0.jpg?v=1710194453",
+        "isbn13": "9780486656090",
+        "width": 298,
+        "height": 472,
+        "aspectRatio": 0.63136,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0388": {
@@ -13121,10 +14042,34 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729859312",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Modélisation à l'oral de l'Agrégation - Calcul scientifique",
+            "authors": [
+              "Laurent Dumas"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0389.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/11627-modelisation-a-l-oral-de-l-agregation-calcul-scientifique-9782729859312.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/46215-large_modale_produit/modelisation-a-l-oral-de-l-agregation-calcul-scientifique.jpg",
+        "isbn13": "9782729859312",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0390": {
@@ -13153,10 +14098,34 @@
       "publisher": "Ellipses",
       "details": "2e éd.",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729834180",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Les contre-exemples en mathématiques",
+            "authors": [
+              "Bertrand Hauchecorne"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0391.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/5328-les-contre-exemples-en-mathematiques-9782729834180.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/40451-large_modale_produit/les-contre-exemples-en-mathematiques.jpg",
+        "isbn13": "9782729834180",
+        "width": 800,
+        "height": 1164,
+        "aspectRatio": 0.68729,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0392": {
@@ -13168,10 +14137,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486488417",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Zermelo's Axiom of Choice",
+            "authors": [
+              "Gregory H. Moore"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0392.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486488417",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486488417.jpg?v=1710204078",
+        "isbn13": "9780486488417",
+        "width": 298,
+        "height": 447,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0393": {
@@ -13298,10 +14291,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486417400",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Riemann's Zeta Function",
+            "authors": [
+              "H. M. Edwards"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0397.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486417400",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486417400.jpg?v=1739294932",
+        "isbn13": "9780486417400",
+        "width": 298,
+        "height": 471,
+        "aspectRatio": 0.6327,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0398": {
@@ -13314,10 +14331,35 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486469249",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "The Stanford Mathematics Problem Book",
+            "authors": [
+              "G. Polya",
+              "J. Kilpatrick"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0398.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486469249",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486469249_cc818921-01c8-4743-bceb-c6c17c14127a.jpg?v=1743535658",
+        "isbn13": "9780486469249",
+        "width": 298,
+        "height": 471,
+        "aspectRatio": 0.6327,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0399": {
@@ -13329,10 +14371,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486633176",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Fourier Series",
+            "authors": [
+              "Georgi P. Tolstov"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0399.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486633176",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486633176.jpg?v=1710192224",
+        "isbn13": "9780486633176",
+        "width": 298,
+        "height": 437,
+        "aspectRatio": 0.68192,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0400": {
@@ -13359,10 +14425,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486670478",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "A Guide to Feynman Diagrams in the Many-Body Problem",
+            "authors": [
+              "Richard D. Mattuck"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0401.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486670478",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486670478.jpg?v=1710207705",
+        "isbn13": "9780486670478",
+        "width": 298,
+        "height": 458,
+        "aspectRatio": 0.65066,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0402": {
@@ -13430,10 +14520,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/369-414.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486824536",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Theory of Lie Groups",
+            "authors": [
+              "Claude Chevalley"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0403.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486824536",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486824536.jpg?v=1710192042",
+        "isbn13": "9780486824536",
+        "width": 298,
+        "height": 447,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0404": {
@@ -13952,9 +15066,17 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0418.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "61xeDzv3bML._SL1455_.jpg",
+        "width": 1000,
+        "height": 1455,
+        "aspectRatio": 0.68729,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0419": {
@@ -14018,10 +15140,34 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486638300",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Geometry of Complex Numbers",
+            "authors": [
+              "Hans Schwerdtfeger"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0420.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486638300",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486638300.jpg?v=1710207075",
+        "isbn13": "9780486638300",
+        "width": 298,
+        "height": 467,
+        "aspectRatio": 0.63812,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0421": {
@@ -14058,9 +15204,17 @@
       "details": "2e éd.",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0422.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "61iMDleB0jL._SL1263_.jpg",
+        "width": 1000,
+        "height": 1263,
+        "aspectRatio": 0.79177,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0423": {
@@ -14073,10 +15227,36 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486477220",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Quantum Mechanics and Path Integrals",
+            "authors": [
+              "Richard P. Feynman",
+              "Albert R. Hibbs",
+              "Daniel F. Styer"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0423.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486477220",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/files/9780486477220_918f61f7-6848-426d-a711-c22316000929.jpg?v=1742325612",
+        "isbn13": "9780486477220",
+        "width": 298,
+        "height": 447,
+        "aspectRatio": 0.66667,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0424": {
@@ -14253,7 +15433,7 @@
         "sourceFilename": "978-0-8176-4648-6.webp",
         "width": 827,
         "height": 1348,
-        "aspectRatio": 0.61350,
+        "aspectRatio": 0.6135,
         "format": "image/webp"
       },
       "review": [
@@ -14521,9 +15701,9 @@
         "provider": "Couverture fournie",
         "sourceFilename": "9782493230355-475x500-1-698458c5aee85339855783.jpg",
         "isbn13": "9782493230355",
-    "width": 352,
-    "height": 497,
-    "aspectRatio": 0.70825,
+        "width": 352,
+        "height": 497,
+        "aspectRatio": 0.70825,
         "format": "image/jpeg"
       },
       "review": [
@@ -14910,10 +16090,34 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729873608",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Equations différentielles ordinaires",
+            "authors": [
+              "Vladimir Arnold"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0455.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/744-equations-differentielles-ordinaires-9782729873608.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/23319-large_modale_produit/equations-differentielles-ordinaires.jpg",
+        "isbn13": "9782729873608",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0456": {
@@ -14926,10 +16130,35 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729894634",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Cours de Physique théorique - Physique statistique",
+            "authors": [
+              "Lev Landau",
+              "Evguéni Lifchitz"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0456.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6072-cours-de-physique-theorique-physique-statistique-9782729894634.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/36743-large_modale_produit/cours-de-physique-theorique-physique-statistique.jpg",
+        "isbn13": "9782729894634",
+        "width": 800,
+        "height": 1048,
+        "aspectRatio": 0.76336,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0457": {
@@ -14942,10 +16171,35 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729894030",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Cours de Physique théorique - Théorie des champs",
+            "authors": [
+              "Lev Landau",
+              "Evguéni Lifchitz"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0457.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6071-cours-de-physique-theorique-theorie-des-champs-9782729894030.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/39581-large_modale_produit/cours-de-physique-theorique-theorie-des-champs.jpg",
+        "isbn13": "9782729894030",
+        "width": 800,
+        "height": 1048,
+        "aspectRatio": 0.76336,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0458": {
@@ -14958,10 +16212,35 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729894238",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Cours de Physique théorique - Mécanique des fluides",
+            "authors": [
+              "Lev Landau",
+              "Evguéni Lifchitz"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0458.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6073-cours-de-physique-theorique-mecanique-des-fluides-9782729894238.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/43206-large_modale_produit/cours-de-physique-theorique-mecanique-des-fluides.jpg",
+        "isbn13": "9782729894238",
+        "width": 800,
+        "height": 1048,
+        "aspectRatio": 0.76336,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0459": {
@@ -14974,10 +16253,35 @@
       "publisher": "Ellipses",
       "details": "",
       "sourceFile": "catalogue/415-460.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9782729894023",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "Physique théorique - Mécanique",
+            "authors": [
+              "Lev Landau",
+              "Evguéni Lifchitz"
+            ],
+            "publisher": "Ellipses"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0459.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/6070-physique-theorique-mecanique-9782729894023.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/49064-large_modale_produit/physique-theorique-mecanique.jpg",
+        "isbn13": "9782729894023",
+        "width": 800,
+        "height": 1048,
+        "aspectRatio": 0.76336,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0460": {
@@ -14990,9 +16294,17 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0460.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "41fXZmz7GLL.jpg",
+        "width": 377,
+        "height": 500,
+        "aspectRatio": 0.754,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-imported-from-user"
       ]
     },
     "B0461": {
@@ -15035,10 +16347,35 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/461-506.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486687353",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Counterexamples in Topology",
+            "authors": [
+              "Lynn Arthur Steen",
+              "J. Arthur Seebach"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0463.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486687353",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486687353.jpg?v=1710208547",
+        "isbn13": "9780486687353",
+        "width": 298,
+        "height": 461,
+        "aspectRatio": 0.64642,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0464": {
@@ -15171,7 +16508,7 @@
         "sourceFilename": "978-3-540-35775-9.webp",
         "width": 827,
         "height": 1250,
-        "aspectRatio": 0.66160,
+        "aspectRatio": 0.6616,
         "format": "image/webp"
       },
       "review": [
@@ -15205,10 +16542,36 @@
       "publisher": "Dover Publications",
       "details": "",
       "sourceFile": "catalogue/461-506.md",
-      "identifiers": [],
-      "cover": null,
+      "identifiers": [
+        {
+          "value": "9780486632285",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Dover Publications",
+            "title": "Methods of Quantum Field Theory in Statistical Physics",
+            "authors": [
+              "A. A. Abrikosov",
+              "L. P. Gorkov",
+              "I. E. Dzyaloshinski"
+            ],
+            "publisher": "Dover Publications"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0470.jpg",
+        "provider": "Dover Publications",
+        "sourcePage": "https://store.doverpublications.com/products/9780486632285",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/3262/5985/products/9780486632285_fe4f4dcc-489a-422e-9eaa-c2742dac99ff.jpg?v=1710178320",
+        "isbn13": "9780486632285",
+        "width": 298,
+        "height": 461,
+        "aspectRatio": 0.64642,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-required"
+        "cover-downloaded",
+        "edition-linked-by-isbn"
       ]
     },
     "B0471": {
@@ -15650,12 +17013,32 @@
       "publisher": "Springer",
       "details": "Lecture Notes in Computer Science 606",
       "sourceFile": "catalogue/461-506.md",
-      "identifiers": [{
-        "value": "9783540556114",
-        "type": "ISBN-13",
-        "evidence": {"provider": "SpringerLink", "title": "Axioms and Hulls", "authors": ["Donald E. Knuth"], "publisher": "Springer Berlin, Heidelberg", "url": "https://link.springer.com/book/10.1007/3-540-55611-7"}
-      }],
-      "cover": {"webPath": "covers/web/B0491.jpg", "provider": "Springer Nature / SpringerLink", "sourcePage": "https://link.springer.com/book/10.1007/3-540-55611-7", "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540472599.jpg", "isbn13": "9783540556114", "width": 427, "height": 648, "aspectRatio": 0.6591, "format": "image/jpeg"},
+      "identifiers": [
+        {
+          "value": "9783540556114",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "SpringerLink",
+            "title": "Axioms and Hulls",
+            "authors": [
+              "Donald E. Knuth"
+            ],
+            "publisher": "Springer Berlin, Heidelberg",
+            "url": "https://link.springer.com/book/10.1007/3-540-55611-7"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0491.jpg",
+        "provider": "Springer Nature / SpringerLink",
+        "sourcePage": "https://link.springer.com/book/10.1007/3-540-55611-7",
+        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540472599.jpg",
+        "isbn13": "9783540556114",
+        "width": 427,
+        "height": 648,
+        "aspectRatio": 0.6591,
+        "format": "image/jpeg"
+      },
       "review": [
         "cover-downloaded",
         "edition-linked-by-springerlink"

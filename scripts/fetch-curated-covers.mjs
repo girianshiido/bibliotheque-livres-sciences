@@ -32,6 +32,28 @@ function pngDimensions(bytes) {
   };
 }
 
+function webpDimensions(bytes) {
+  if (bytes.length < 30 || String.fromCharCode(...bytes.slice(0, 4)) !== 'RIFF' || String.fromCharCode(...bytes.slice(8, 12)) !== 'WEBP') return null;
+  const kind = String.fromCharCode(...bytes.slice(12, 16));
+  if (kind === 'VP8X' && bytes.length >= 30) {
+    return {
+      width: 1 + bytes[24] + (bytes[25] << 8) + (bytes[26] << 16),
+      height: 1 + bytes[27] + (bytes[28] << 8) + (bytes[29] << 16)
+    };
+  }
+  if (kind === 'VP8 ' && bytes[23] === 0x9d && bytes[24] === 0x01 && bytes[25] === 0x2a) {
+    return {
+      width: (bytes[26] | (bytes[27] << 8)) & 0x3fff,
+      height: (bytes[28] | (bytes[29] << 8)) & 0x3fff
+    };
+  }
+  if (kind === 'VP8L' && bytes.length >= 25 && bytes[20] === 0x2f) {
+    const packed = bytes[21] | (bytes[22] << 8) | (bytes[23] << 16) | (bytes[24] << 24);
+    return { width: (packed & 0x3fff) + 1, height: ((packed >> 14) & 0x3fff) + 1 };
+  }
+  return null;
+}
+
 function inspectImage(_contentType, bytes) {
   // Quelques CDN conservent une extension ou un en-tête HTTP PNG pour un JPEG :
   // le contenu téléchargé, et non cette indication, fixe donc le format local.
@@ -39,6 +61,8 @@ function inspectImage(_contentType, bytes) {
   if (jpeg) return { dimensions: jpeg, extension: 'jpg', format: 'image/jpeg' };
   const png = pngDimensions(bytes);
   if (png) return { dimensions: png, extension: 'png', format: 'image/png' };
+  const webp = webpDimensions(bytes);
+  if (webp) return { dimensions: webp, extension: 'webp', format: 'image/webp' };
   return null;
 }
 
