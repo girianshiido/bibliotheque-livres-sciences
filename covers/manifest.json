@@ -1857,9 +1857,17 @@
       "details": "Mathematics and its Applications 16 — 1re éd.",
       "sourceFile": "catalogue/047-092.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0061.jpeg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "Mathematics-and-Its-Applications-Z-Transform-Theory-and-Applications-Hardcover-9789027719171_022b4b47-8f49-4a6a-b11b-34a9e02c3c04.72d5c1092e6c9a19a5adef512ae9fcea.jpeg",
+        "width": 408,
+        "height": 648,
+        "aspectRatio": 0.62963,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-not-available-springerlink"
+        "cover-imported-from-user"
       ]
     },
     "B0062": {
@@ -3284,9 +3292,17 @@
       "details": "Graduate Texts in Mathematics 236 — Revised First Edition",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0109.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "61QmhTpf-gL._SL1276_.jpg",
+        "width": 827,
+        "height": 1276,
+        "aspectRatio": 0.64812,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-not-available-springerlink"
+        "cover-imported-from-user"
       ]
     },
     "B0110": {
@@ -3300,9 +3316,17 @@
       "details": "Graduate Texts in Mathematics 125",
       "sourceFile": "catalogue/093-138.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0110.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-1-4612-3024-3.webp",
+        "width": 827,
+        "height": 1252,
+        "aspectRatio": 0.66054,
+        "format": "image/webp"
+      },
       "review": [
-        "cover-not-available-springerlink"
+        "cover-imported-from-user"
       ]
     },
     "B0111": {
@@ -4590,17 +4614,15 @@
       ],
       "cover": {
         "webPath": "covers/web/B0145.jpg",
-        "provider": "Springer Nature Cover Search",
-        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783662387535.jpg",
-        "isbn13": "9783662387535",
-        "width": 433,
-        "height": 648,
-        "aspectRatio": 0.66821,
+        "provider": "Couverture fournie",
+        "sourceFilename": "61SurIY5TKL._SL1252_.jpg",
+        "width": 827,
+        "height": 1252,
+        "aspectRatio": 0.66054,
         "format": "image/jpeg"
       },
       "review": [
-        "cover-downloaded",
-        "edition-linked-by-isbn"
+        "cover-imported-from-user"
       ]
     },
     "B0146": {
@@ -5414,9 +5436,17 @@
       "details": "2e éd.",
       "sourceFile": "catalogue/139-184.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0164.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "71dOVgfAsUL._SL1253_.jpg",
+        "width": 827,
+        "height": 1253,
+        "aspectRatio": 0.66002,
+        "format": "image/jpeg"
+      },
       "review": [
-        "cover-not-available-springerlink"
+        "cover-imported-from-user"
       ]
     },
     "B0165": {
@@ -5702,9 +5732,17 @@
       "details": "Springer Monographs in Mathematics — 1re éd.",
       "sourceFile": "catalogue/139-184.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0170.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "9781852336110_internet_h1400-3801255260.jpg",
+        "width": 535,
+        "height": 800,
+        "aspectRatio": 0.66875,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0171": {
@@ -7467,9 +7505,17 @@
       "details": "",
       "sourceFile": "catalogue/185-230.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0215.jpeg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "The-Universe-of-Conics-Paperback-9783662568811_71536ecd-4cf8-4f63-aabd-2a4c2cd9f462.77c9f039dc1a03cd4cfa161782f5cbfc.jpeg",
+        "width": 424,
+        "height": 639,
+        "aspectRatio": 0.66354,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0216": {
@@ -7644,9 +7690,17 @@
           }
         }
       ],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0219.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "D_NQ_NP_671598-MLU78664821973_082024-O.webp",
+        "width": 333,
+        "height": 500,
+        "aspectRatio": 0.66600,
+        "format": "image/webp"
+      },
       "review": [
-        "cover-not-available-springer"
+        "cover-imported-from-user"
       ]
     },
     "B0220": {
@@ -9157,9 +9211,17 @@
       "details": "Graduate Texts in Mathematics 20",
       "sourceFile": "catalogue/231-276.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0258.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-1-4757-2261-1.webp",
+        "width": 827,
+        "height": 1244,
+        "aspectRatio": 0.66479,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0259": {
@@ -9904,9 +9966,17 @@
       "details": "Problem Books in Mathematics",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0279.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-030-51502-7.webp",
+        "width": 827,
+        "height": 1245,
+        "aspectRatio": 0.66426,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0280": {
@@ -10399,9 +10469,17 @@
       "details": "Problem Books in Mathematics",
       "sourceFile": "catalogue/277-322.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0291.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-387-77379-7.webp",
+        "width": 827,
+        "height": 1263,
+        "aspectRatio": 0.65479,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0292": {
@@ -10445,18 +10523,16 @@
         }
       ],
       "cover": {
-        "webPath": "covers/web/B0292.jpg",
-        "provider": "Springer Nature Cover Search",
-        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9780387952079.jpg",
-        "isbn13": "9780387952079",
-        "width": 428,
-        "height": 648,
-        "aspectRatio": 0.66049,
-        "format": "image/jpeg"
+        "webPath": "covers/web/B0292.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-387-20429-1.webp",
+        "width": 827,
+        "height": 1248,
+        "aspectRatio": 0.66266,
+        "format": "image/webp"
       },
       "review": [
-        "cover-downloaded",
-        "edition-linked-by-isbn"
+        "cover-imported-from-user"
       ]
     },
     "B0293": {
@@ -11574,9 +11650,17 @@
       "details": "Graduate Texts in Mathematics 259",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0331.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-85729-021-2.webp",
+        "width": 827,
+        "height": 1208,
+        "aspectRatio": 0.68460,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0332": {
@@ -11696,9 +11780,17 @@
       "details": "Graduate Texts in Mathematics 238",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0334.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-540-39035-0.webp",
+        "width": 827,
+        "height": 1315,
+        "aspectRatio": 0.62890,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0335": {
@@ -11780,9 +11872,17 @@
       "details": "",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0337.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-1-4757-3925-1.webp",
+        "width": 827,
+        "height": 1252,
+        "aspectRatio": 0.66054,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0338": {
@@ -11797,9 +11897,17 @@
       "details": "CMS Books in Mathematics",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0338.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-387-21850-2.webp",
+        "width": 827,
+        "height": 1250,
+        "aspectRatio": 0.66160,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0339": {
@@ -12339,9 +12447,17 @@
       "details": "2e éd.",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0352.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-030-54946-6.webp",
+        "width": 827,
+        "height": 1254,
+        "aspectRatio": 0.65949,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0353": {
@@ -12355,9 +12471,17 @@
       "details": "",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0353.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-1-4757-4114-8.webp",
+        "width": 827,
+        "height": 1251,
+        "aspectRatio": 0.66107,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0354": {
@@ -12385,9 +12509,17 @@
       "details": "3e éd.",
       "sourceFile": "catalogue/323-368.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0355.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-030-47295-5.webp",
+        "width": 827,
+        "height": 1255,
+        "aspectRatio": 0.65896,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0356": {
@@ -13145,18 +13277,16 @@
         }
       ],
       "cover": {
-        "webPath": "covers/web/B0396.jpg",
-        "provider": "Springer Nature Cover Search",
-        "sourceUrl": "https://covers.springernature.com/books/jpg_height_648_pixels/9783540161998.jpg",
-        "isbn13": "9783540161998",
-        "width": 424,
-        "height": 648,
-        "aspectRatio": 0.65432,
-        "format": "image/jpeg"
+        "webPath": "covers/web/B0396.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-642-58124-3.webp",
+        "width": 827,
+        "height": 1275,
+        "aspectRatio": 0.64863,
+        "format": "image/webp"
       },
       "review": [
-        "cover-downloaded",
-        "edition-linked-by-isbn"
+        "cover-imported-from-user"
       ]
     },
     "B0397": {
@@ -13588,9 +13718,17 @@
       "details": "SCOPOS 14",
       "sourceFile": "catalogue/369-414.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0412.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-540-42335-5.webp",
+        "width": 827,
+        "height": 1252,
+        "aspectRatio": 0.66054,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0413": {
@@ -14109,9 +14247,17 @@
       "details": "",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0428.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-8176-4648-6.webp",
+        "width": 827,
+        "height": 1348,
+        "aspectRatio": 0.61350,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0429": {
@@ -14124,9 +14270,17 @@
       "details": "Interdisciplinary Applied Mathematics 17 — 3e éd.",
       "sourceFile": "catalogue/415-460.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0429.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-387-22437-4.webp",
+        "width": 827,
+        "height": 1283,
+        "aspectRatio": 0.64458,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0430": {
@@ -14897,9 +15051,17 @@
       "details": "",
       "sourceFile": "catalogue/461-506.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0464.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-85729-428-9.webp",
+        "width": 827,
+        "height": 1254,
+        "aspectRatio": 0.65949,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0465": {
@@ -14965,9 +15127,17 @@
       "details": "Problem Books in Mathematics",
       "sourceFile": "catalogue/461-506.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0466.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-0-387-36219-9.webp",
+        "width": 827,
+        "height": 1323,
+        "aspectRatio": 0.62509,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0467": {
@@ -14995,9 +15165,17 @@
       "details": "",
       "sourceFile": "catalogue/461-506.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0468.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-3-540-35775-9.webp",
+        "width": 827,
+        "height": 1250,
+        "aspectRatio": 0.66160,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0469": {
@@ -15450,9 +15628,17 @@
       "details": "",
       "sourceFile": "catalogue/461-506.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0490.jpg",
+        "provider": "Couverture fournie",
+        "sourceFilename": "41emVbafCiL.jpg",
+        "width": 269,
+        "height": 399,
+        "aspectRatio": 0.67419,
+        "format": "image/jpeg"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0491": {
@@ -15537,9 +15723,17 @@
       "details": "",
       "sourceFile": "catalogue/461-506.md",
       "identifiers": [],
-      "cover": null,
+      "cover": {
+        "webPath": "covers/web/B0493.webp",
+        "provider": "Couverture fournie",
+        "sourceFilename": "978-1-4612-0989-8.webp",
+        "width": 827,
+        "height": 1255,
+        "aspectRatio": 0.65896,
+        "format": "image/webp"
+      },
       "review": [
-        "isbn-not-found-crossref"
+        "cover-imported-from-user"
       ]
     },
     "B0494": {
