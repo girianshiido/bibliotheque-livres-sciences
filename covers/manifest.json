@@ -17225,6 +17225,86 @@
         "cover-downloaded",
         "edition-linked-by-isbn"
       ]
+    },
+    "B0496": {
+      "id": "B0496",
+      "title": "L’essentiel des exercices de MP, MP*",
+      "authors": [
+        "Michel Gonnord"
+      ],
+      "publisher": "Ellipses",
+      "details": "Prépas scientifiques — Parution : 15.09.2000 — ISBN 9782729803506",
+      "sourceFile": "catalogue/461-506.md",
+      "identifiers": [
+        {
+          "value": "9782729803506",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions Ellipses",
+            "title": "L’essentiel des exercices de MP, MP*",
+            "authors": [
+              "Michel Gonnord"
+            ],
+            "publisher": "Ellipses",
+            "publicationDate": "2000-09-15"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0496.jpg",
+        "provider": "Éditions Ellipses",
+        "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/4871-l-essentiel-des-exercices-de-mp-mp-9782729803506.html",
+        "sourceUrl": "https://www.editions-ellipses.fr/27577-large_modale_produit/l-essentiel-des-exercices-de-mp-mp.jpg",
+        "isbn13": "9782729803506",
+        "width": 800,
+        "height": 1008,
+        "aspectRatio": 0.79365,
+        "format": "image/jpeg"
+      },
+      "review": [
+        "cover-downloaded",
+        "edition-linked-by-isbn"
+      ]
+    },
+    "B0497": {
+      "id": "B0497",
+      "title": "Éléments d’analyse et d’algèbre",
+      "authors": [
+        "Pierre Colmez"
+      ],
+      "publisher": "Éditions de l’X",
+      "details": "Édition 2011 (nouvelle édition 2012) — ISBN 9782730215879",
+      "sourceFile": "catalogue/461-506.md",
+      "identifiers": [
+        {
+          "value": "9782730215879",
+          "type": "ISBN-13",
+          "evidence": {
+            "provider": "Éditions de l’X",
+            "title": "Éléments d’analyse et d’algèbre",
+            "authors": [
+              "Pierre Colmez"
+            ],
+            "publisher": "Éditions de l’X",
+            "edition": "2011 (nouvelle édition 2012)"
+          }
+        }
+      ],
+      "cover": {
+        "webPath": "covers/web/B0497.webp",
+        "provider": "Éditions de l’X",
+        "sourcePage": "https://portail.polytechnique.edu/editions/catalogue/sciences-fondamentales/mathematiques/elements-danalyse-et-dalgebre",
+        "sourceUrl": "https://portail.polytechnique.edu/editions/sites/editions/files/styles/detail/public/content/pages/images/2025-01/colmez-2019.jpg.webp?itok=6Aifh1QA",
+        "isbn13": "9782730215879",
+        "width": 365,
+        "height": 519,
+        "aspectRatio": 0.70328,
+        "format": "image/webp"
+      },
+      "review": [
+        "cover-downloaded",
+        "edition-linked-by-isbn"
+      ]
     }
   }
 }

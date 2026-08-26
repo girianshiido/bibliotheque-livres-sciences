@@ -690,6 +690,32 @@
     "sourcePage": "https://www.editions-hermann.fr/livre/la-geometrie-du-triangle-rene-sortais",
     "sourceUrl": "https://www.images.hachette-livre.fr/media/imgArticle/HERMANN/2016/9782705614294-001-T.jpeg"
   },
+  "B0496": {
+    "provider": "Éditions Ellipses",
+    "isbn13": "9782729803506",
+    "isbnEvidence": {
+      "provider": "Éditions Ellipses",
+      "title": "L’essentiel des exercices de MP, MP*",
+      "authors": ["Michel Gonnord"],
+      "publisher": "Ellipses",
+      "publicationDate": "2000-09-15"
+    },
+    "sourcePage": "https://www.editions-ellipses.fr/fr/accueil/4871-l-essentiel-des-exercices-de-mp-mp-9782729803506.html",
+    "sourceUrl": "https://www.editions-ellipses.fr/27577-large_modale_produit/l-essentiel-des-exercices-de-mp-mp.jpg"
+  },
+  "B0497": {
+    "provider": "Éditions de l’X",
+    "isbn13": "9782730215879",
+    "isbnEvidence": {
+      "provider": "Éditions de l’X",
+      "title": "Éléments d’analyse et d’algèbre",
+      "authors": ["Pierre Colmez"],
+      "publisher": "Éditions de l’X",
+      "edition": "2011 (nouvelle édition 2012)"
+    },
+    "sourcePage": "https://portail.polytechnique.edu/editions/catalogue/sciences-fondamentales/mathematiques/elements-danalyse-et-dalgebre",
+    "sourceUrl": "https://portail.polytechnique.edu/editions/sites/editions/files/styles/detail/public/content/pages/images/2025-01/colmez-2019.jpg.webp?itok=6Aifh1QA"
+  },
   "B0378": {
     "provider": "Goodreads (édition Dover)",
     "isbn13": "9780486262421",

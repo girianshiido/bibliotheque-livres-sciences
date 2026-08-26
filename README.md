@@ -4,7 +4,7 @@ Catalogue de ma bibliothèque de livres scientifiques (principalement des livres
 
 ## État actuel
 
-- **495 ouvrages ou volumes** enregistrés.
+- **497 ouvrages ou volumes** enregistrés.
 - Les informations incertaines sont explicitement signalées.
 
 ## Interface web
